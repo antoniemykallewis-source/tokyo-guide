@@ -6,7 +6,7 @@ Live destination: https://antoniemykallewis-source.github.io/tokyo-guide/
 
 ## Run
 
-Node24, then `npm ci`, `npm run dev`. `npm run qa` runs33 unit tests, strict TypeScript and production build. `npm run build` emits `dist`, a94-record no-JavaScript fallback,404fallback and a versioned offline service worker.
+Node24, then `npm ci`, `npm run dev`. `npm run qa` runs36 unit tests, strict TypeScript and production build. `npm run build` emits `dist`, a94-record no-JavaScript fallback,404fallback and a versioned offline service worker.
 
 GitHub Actions builds and publishes `main` to GitHub Pages. Base path is `/tokyo-guide/`. The public site has `noindex,nofollow`. This is not access control: the repository, built site and shared plan links are public.
 
@@ -69,3 +69,7 @@ Design references: [Apple tab bars](https://developer.apple.com/design/human-int
 - `home.json` records Japan GSI's exact-address geocode (an address point, not a surveyed doorway). `home-distances.json` has approximate straight-line distance for all94 original places plus actual-address transit/walking links. Never interpret these distances as road distance or travel time. New options have route links but no invented coordinates or distance.
 - Official/source-site screenshots are being captured independently and individually visually reviewed. `screenshots.json` records source, capture date and kind, distinct from venue photos. Empty/blocked captures are not represented as successful venue imagery.
 - A real iPhone screenshot exposed a fixed-bottom navigation overlay failure. Mobile navigation is now a compact in-flow sticky top row with no bottom safe-area expansion. Narrow desktop-browser QA is not a substitute for a fresh iPhone verification.
+
+## Final visual coverage
+
+The reviewed source-capture manifest contains103 entries: all94 original places plus nine new cycling/tourist options. There are101 genuine browser captures and two exact PDF-rendered excerpts,4,290,582bytes total. These are source captures, NOT103 venue photos.29 separately sourced official-site previews remain available, with real venue photographs preferred where present. Historical HUB listing, operator press releases and shared rental overview caveats are displayed in details. Every source-capture file is SHA-256 checked in CI. The original139.5MB supplied screenshot archive remains unavailable through the authorized transfer route.

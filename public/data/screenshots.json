@@ -1,4 +1,19 @@
 {
+  "2nd-street-harajuku": {
+    "src": "shots/2nd-street-harajuku-site.webp",
+    "kind": "Operator press-release screenshot",
+    "source": "https://prtimes.jp/main/html/rd/p/000000133.000141539.html",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:12:20.844Z",
+    "alt": "2nd STREET Harajuku source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Operator press-release coverage of a historical 2025 repair event, not a current event or venue photograph.",
+    "sha256": "34fcc9675c411b690d8beb379f12fac370b5d656ba045cfca4833a5ecf30b838",
+    "bytes": 50384
+  },
   "72tokyo-shibuya-golf-simulator-bar": {
     "src": "shots/72tokyo-shibuya-golf-simulator-bar-site.webp",
     "kind": "Official site screenshot",
@@ -7,7 +22,42 @@
     "capturedAt": "2026-10-27T04:59:53.236Z",
     "alt": "72TOKYO Shibuya (golf simulator + bar) source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "e830c2f52c313c3d9d90ee63ad07c06a796d31144d5145a12c08bd616bc44161",
+    "bytes": 8512
+  },
+  "abercrombie-fitch-ginza": {
+    "src": "shots/abercrombie-fitch-ginza-site.webp",
+    "kind": "Editorial/listing page screenshot",
+    "source": "https://ginza.kokosil.net/en/place/00001c0000000000000200000016cfc1",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:16:43.911Z",
+    "alt": "Abercrombie & Fitch Ginza source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "f5fc393f0d8f02ca2bda7df76b17e271da8f513e62ff7fe09ba9904c5a9f0296",
+    "bytes": 21820
+  },
+  "afuri-harajuku": {
+    "src": "shots/afuri-harajuku-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://afuri.com/findus/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:22:55.359Z",
+    "alt": "AFURI Harajuku source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "f16cf2033c5a0dc52f871ab7d48913f408ade9f1e42b46dec6649ed690e20a51",
+    "bytes": 53132
   },
   "alvark-tokyo-b-league-at-toyota-arena-tokyo": {
     "src": "shots/alvark-tokyo-b-league-at-toyota-arena-tokyo-site.webp",
@@ -17,7 +67,12 @@
     "capturedAt": "2026-10-27T05:00:04.214Z",
     "alt": "Alvark Tokyo (B.League) at TOYOTA ARENA TOKYO source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "a87efd868b83b614bd16c95787b46491f88a47e90d815b6e9bf9f8c10e78b757",
+    "bytes": 19302
   },
   "andaz-tokyo-rooftop-bar": {
     "src": "shots/andaz-tokyo-rooftop-bar-site.webp",
@@ -27,7 +82,12 @@
     "capturedAt": "2026-10-27T04:59:18.294Z",
     "alt": "Andaz Tokyo Rooftop Bar source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "7b4bdd722ca6bc6679b0539b59a38b2742bd93a1a7be86245d4aabb5efcb79fe",
+    "bytes": 37948
   },
   "asakusa-sumo-club": {
     "src": "shots/asakusa-sumo-club-site.webp",
@@ -37,7 +97,12 @@
     "capturedAt": "2026-10-27T05:00:12.549Z",
     "alt": "Asakusa Sumo Club source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "b62eb080ac3d74c286efdb2897aea5136c8566461799007037264f696d0944f0",
+    "bytes": 22684
   },
   "bar-benfiddich": {
     "src": "shots/bar-benfiddich-site.webp",
@@ -47,7 +112,12 @@
     "capturedAt": "2026-10-27T04:56:13.487Z",
     "alt": "Bar BenFiddich source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "7cc425d129b887322c646a1339567d814a7fa9ed410937804ab1323a1c182582",
+    "bytes": 45136
   },
   "bar-martha": {
     "src": "shots/bar-martha-site.webp",
@@ -57,7 +127,12 @@
     "capturedAt": "2026-10-27T04:55:24.261Z",
     "alt": "Bar Martha source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "c7d8b04f569767a76e1390f0fb718d642330ff53a4bab49add769f48872a5892",
+    "bytes": 22594
   },
   "bar-trench": {
     "src": "shots/bar-trench-site.webp",
@@ -67,7 +142,12 @@
     "capturedAt": "2026-10-27T05:07:03.004Z",
     "alt": "Bar TRENCH source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "530b66e9e606809edafb4c6fdbe2960d982b14ae055fbcaa9eefb70aca10e474",
+    "bytes": 45648
   },
   "berberjin": {
     "src": "shots/berberjin-site.webp",
@@ -77,7 +157,12 @@
     "capturedAt": "2026-10-27T04:53:58.897Z",
     "alt": "Berberjin source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "e194a2a87de7f33d0b4de3b003eb8b685bb1c47a1e14963c720ef4fe5570959a",
+    "bytes": 24984
   },
   "c-la-vi-tokyo": {
     "src": "shots/c-la-vi-tokyo-site.webp",
@@ -87,7 +172,12 @@
     "capturedAt": "2026-10-27T04:53:03.992Z",
     "alt": "CÉ LA VI Tokyo source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "527121f9783233b2a17690bc29e982955f9e6dd2b1ef80c4d8cab07f0c685e8f",
+    "bytes": 38460
   },
   "cafe-aaliya": {
     "src": "shots/cafe-aaliya-site.webp",
@@ -97,17 +187,27 @@
     "capturedAt": "2026-10-27T04:55:49.287Z",
     "alt": "Cafe AALIYA source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "a35ecddca50028ec5afccc9351445b86df109a2bdec22d4a7de88a457ec799de",
+    "bytes": 8232
   },
   "chermside-sandwich-harajuku": {
     "src": "shots/chermside-sandwich-harajuku-site.webp",
-    "kind": "Official site screenshot",
+    "kind": "Tourism guide screenshot",
     "source": "https://goharajuku.com/jp/shop/sandwich-and-cafe-chermside-sandwich-harajuku-takeshita-dori",
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T05:07:14.286Z",
     "alt": "CHERMSIDE SANDWICH Harajuku source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "3163b07d10a8023a2b74dca10d3e2bc02fb217a7cfc18fba2dc0eecf92d8e3ae",
+    "bytes": 14294
   },
   "chicago-shimokitazawa": {
     "src": "shots/chicago-shimokitazawa-site.webp",
@@ -117,7 +217,12 @@
     "capturedAt": "2026-10-27T04:54:48.205Z",
     "alt": "Chicago Shimokitazawa source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "e53b846513b1a7f242a9e70f3b0ded49c859d33b486f2ba27bb5ef55aa0ddbc5",
+    "bytes": 51744
   },
   "daikanyama-t-site": {
     "src": "shots/daikanyama-t-site-site.webp",
@@ -127,7 +232,57 @@
     "capturedAt": "2026-10-27T05:06:08.155Z",
     "alt": "Daikanyama T-SITE source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "fadaf5d8d42a01688efcb35036ea1e17e3740f3906efeb016ff298b81b024eb0",
+    "bytes": 48616
+  },
+  "dig-west-side": {
+    "src": "shots/dig-west-side-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.digtokyotours.com/tokyocyclingtours",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:24:23.008Z",
+    "alt": "DIG Tokyo West-Side Cycling & Food Tour source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "596ca5148822b272d11cec45313d501b75714f46e0bebdc362ffaad7c71c8e04",
+    "bytes": 73056
+  },
+  "docomo-share": {
+    "src": "shots/docomo-share-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.docomo-cycle.jp/tokyo/price?lang=en",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:23:32.653Z",
+    "alt": "Docomo Tokyo Bike Share source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "570d73fd6c9623e7f554a056dde8c501ff87099d51d61a5f22bf4973283ad0cb",
+    "bytes": 45076
+  },
+  "domicile-tokyo-pleasures-stockist": {
+    "src": "shots/domicile-tokyo-pleasures-stockist-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://domicile.tokyo/about/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:19:52.676Z",
+    "alt": "Domicile Tokyo (Pleasures stockist) source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "2052bb41c219e7189c58281801b5fd9505cc1f059d7ddd84b648604bb0e496d0",
+    "bytes": 25998
   },
   "dover-street-market-ginza": {
     "src": "shots/dover-street-market-ginza-site.webp",
@@ -137,17 +292,57 @@
     "capturedAt": "2026-10-27T04:56:44.561Z",
     "alt": "Dover Street Market Ginza source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "a302dae781b79f703d8ddb29b4c003b0dc2fef3dc066f7e951b35925db7c7409",
+    "bytes": 66424
+  },
+  "ebisu-yokocho": {
+    "src": "shots/ebisu-yokocho-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://ebisu-yokocho.com/top.html",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:12:45.898Z",
+    "alt": "Ebisu Yokocho source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "11dc60f9bd3ee4cfc17e328f7d15d7d8fd8cd93fc89ee10e266303fe5f827752",
+    "bytes": 21744
+  },
+  "flamingo-shimokitazawa": {
+    "src": "shots/flamingo-shimokitazawa-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.flamingo-online.jp/f/shoplist",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:14:27.407Z",
+    "alt": "Flamingo Shimokitazawa source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "b302ed4d6a8ce1e72ec4b5338294b468f1d81c552196ff5aaa935e233459cbdd",
+    "bytes": 42412
   },
   "fuunji": {
     "src": "shots/fuunji-site.webp",
-    "kind": "Source-page screenshot",
+    "kind": "Editorial/listing page screenshot",
     "source": "https://japanramenguide.com/shop/tokyo/fuunji-shinjuku-honten",
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T04:55:57.156Z",
     "alt": "Fuunji source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "9ac91f812b0414be7e035486c7238bf0e10a65ae41ab2ff895537f943d10aa23",
+    "bytes": 22672
   },
   "gigo-akihabara-arcades": {
     "src": "shots/gigo-akihabara-arcades-site.webp",
@@ -157,17 +352,42 @@
     "capturedAt": "2026-10-27T05:02:45.406Z",
     "alt": "GiGO Akihabara arcades source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "df466e5b63535b3a046ae27c26b1ab403ffea2e32ae7e6b106e2dea4a6fdf33a",
+    "bytes": 68020
   },
   "ginza-kagari-main": {
     "src": "shots/ginza-kagari-main-site.webp",
-    "kind": "Source-page screenshot",
+    "kind": "Editorial/listing page screenshot",
     "source": "https://tripmate.news/posts/ginza-kagari-chicken-paitan-ramen-guide/",
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T04:56:35.828Z",
     "alt": "Ginza Kagari (main) source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "c68a5a260d5941e9538e76416d7563182214862c648e984638192a31dd6bcc94",
+    "bytes": 24476
+  },
+  "godzilla-head-hotel-gracery": {
+    "src": "shots/godzilla-head-hotel-gracery-site.webp",
+    "kind": "Tourism guide screenshot",
+    "source": "https://www.gotokyo.org/en/spot/1864/index.html",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:22:27.664Z",
+    "alt": "Godzilla Head (Hotel Gracery) source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "e0eb42cb4bd44ad2de8d3dbc9e1dcfb94ce3a1f3d3bc5832179c2e60e809a837",
+    "bytes": 61338
   },
   "gold-s-gym-harajuku-tokyo": {
     "src": "shots/gold-s-gym-harajuku-tokyo-site.webp",
@@ -177,7 +397,12 @@
     "capturedAt": "2026-10-27T05:00:24.058Z",
     "alt": "Gold's Gym Harajuku Tokyo source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "b9130327ac1d8fd41b804b39c3d61f2140297bf14f4cff5c670ad4be6a5c2851",
+    "bytes": 50902
   },
   "golden-gai": {
     "src": "shots/golden-gai-site.webp",
@@ -187,37 +412,57 @@
     "capturedAt": "2026-10-27T04:56:02.152Z",
     "alt": "Golden Gai source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "e92fd6bc31e7e383a3363da20f5e453c49771cd90fb69e9bc26634dd0f088491",
+    "bytes": 16190
   },
   "good-wood-terrace": {
     "src": "shots/good-wood-terrace-site.webp",
     "kind": "Official site screenshot",
     "source": "https://tokyotokyo-delicious-museum.jp/en/store/wood-terrace/",
     "checked": "2026-10-27",
-    "capturedAt": "2026-10-27T05:01:23.750Z",
+    "capturedAt": "2026-10-27T05:12:26.316Z",
     "alt": "Good Wood Terrace source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "d83734d91f5b5e70db4b1b6168d6cb670a97d5075c3b56b60d565b0d700056f9",
+    "bytes": 50426
   },
   "grandfather-s": {
     "src": "shots/grandfather-s-site.webp",
-    "kind": "Official site screenshot",
+    "kind": "Editorial/listing page screenshot",
     "source": "https://fineonline.jp/culture/post-15560/",
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T05:03:06.457Z",
     "alt": "Grandfather's source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "c8310551ea805c77014e42551c244d8588d9bc0865b796a9ffe74dafae872b81",
+    "bytes": 32834
   },
   "hachiko-statue": {
     "src": "shots/hachiko-statue-site.webp",
-    "kind": "Official site screenshot",
+    "kind": "Tourism guide screenshot",
     "source": "https://www.gotokyo.org/en/spot/86/",
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T05:01:05.809Z",
     "alt": "Hachiko Statue source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "286ac213b14d00f3507fd27cf50694a428af63d6259839ff04002e08320400c1",
+    "bytes": 61182
   },
   "hanayaka-kimono-tea-ceremony": {
     "src": "shots/hanayaka-kimono-tea-ceremony-site.webp",
@@ -227,17 +472,27 @@
     "capturedAt": "2026-10-27T04:58:21.872Z",
     "alt": "HANAYAKA kimono + tea ceremony source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "c96b4f760734fa1829e1eb213768b95f493d7412abdfbecaec3aa1f9070d931e",
+    "bytes": 22872
   },
   "harajuku-gyoza-ro": {
     "src": "shots/harajuku-gyoza-ro-site.webp",
-    "kind": "Official site screenshot",
+    "kind": "Editorial/listing page screenshot",
     "source": "https://trulytokyo.com/gyozaro/",
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T05:02:12.414Z",
     "alt": "Harajuku Gyoza Ro source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "af9234bd121fa0ed76f21fa2543e1844dd7b4d4b0ca2793458eddc57b8396040",
+    "bytes": 45632
   },
   "hareruya2-akihabara-tower": {
     "src": "shots/hareruya2-akihabara-tower-site.webp",
@@ -247,7 +502,12 @@
     "capturedAt": "2026-10-27T04:58:52.880Z",
     "alt": "Hareruya2 Akihabara Tower source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "7cd41b8b9a5d4956601e48c9efce68cb70b63421ed423028fd8d0c9428ef47a9",
+    "bytes": 38616
   },
   "hikiniku-to-kome-shibuya": {
     "src": "shots/hikiniku-to-kome-shibuya-site.webp",
@@ -257,17 +517,58 @@
     "capturedAt": "2026-10-27T04:51:24.819Z",
     "alt": "Hikiniku to Kome (Shibuya) source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "bcfa26e03171e98204571e69f1ee0db6e75c58236eaedc8f2af78f56a153bc6b",
+    "bytes": 32042
+  },
+  "hirakuza-ginza-sumo-live-restaurant": {
+    "src": "shots/hirakuza-ginza-sumo-live-restaurant-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://hirakuza.net/tokyo/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:20:47.441Z",
+    "alt": "HIRAKUZA Ginza (sumo live restaurant) source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "24de1fef7d1850e75e64cfa258bb47aec9607dab01c39c97bed93b400030b8b0",
+    "bytes": 47548
+  },
+  "hub-shibuya-british-pub-sports": {
+    "src": "shots/hub-shibuya-british-pub-sports-site.webp",
+    "kind": "Historical tourism PDF listing",
+    "source": "https://play-shibuya.com/pds2024/wp-content/themes/play/pdf/map/shibuyaMap_night_en.pdf",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:13:29Z",
+    "alt": "HUB Shibuya (British pub / sports) source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "PDF page rendering, exact cropped excerpt",
+    "capture_note": "February 2024 Shibuya Night Map, listing 20. A historical listing, not a venue photo. Recheck current hours.",
+    "sha256": "e39baf65aaf1c40d191bf7d871ab88f948ddc39c01d8d6491e11427755df362f",
+    "bytes": 7152,
+    "source_page": 2
   },
   "jbs-jazz-blues-soul": {
     "src": "shots/jbs-jazz-blues-soul-site.webp",
-    "kind": "Source-page screenshot",
+    "kind": "Editorial/listing page screenshot",
     "source": "https://www.timeout.com/tokyo/music/jbs",
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T05:07:18.089Z",
     "alt": "JBS (Jazz Blues Soul) source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "f4e1d90991013baa098a1104350d2a43b909c5d612eec326f4b6e373c4e2653c",
+    "bytes": 41870
   },
   "jikasei-mensho-shibuya-parco": {
     "src": "shots/jikasei-mensho-shibuya-parco-site.webp",
@@ -277,7 +578,12 @@
     "capturedAt": "2026-10-27T04:51:50.027Z",
     "alt": "Jikasei MENSHO (Shibuya PARCO) source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "056601cea27a81bede4fbc56c0203568c00ff9eacabe791d7e30d6492e3d8f13",
+    "bytes": 42098
   },
   "kindal-harajuku": {
     "src": "shots/kindal-harajuku-site.webp",
@@ -287,7 +593,12 @@
     "capturedAt": "2026-10-27T04:53:44.212Z",
     "alt": "Kindal Harajuku source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "d414b008508a31c3ae20a0cfd2ca43c98eb38e6ce18cbbf32786b8bab798d646",
+    "bytes": 42408
   },
   "kith-tokyo": {
     "src": "shots/kith-tokyo-site.webp",
@@ -297,7 +608,12 @@
     "capturedAt": "2026-10-27T04:51:54.893Z",
     "alt": "Kith Tokyo source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "65163cac6840377913bf17a4875b91f563dd813fb1a3be926d479e7829e20e71",
+    "bytes": 26160
   },
   "kitsuneya": {
     "src": "shots/kitsuneya-site.webp",
@@ -307,27 +623,73 @@
     "capturedAt": "2026-10-27T04:57:16.086Z",
     "alt": "Kitsuneya source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "8689eb13270391fd0b24a9e509eceaededaba5a6c157886db18fa16d266e8a77",
+    "bytes": 37178
+  },
+  "kiyosumi-gardens": {
+    "src": "shots/kiyosumi-gardens-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.tokyo-park.or.jp/park/kiyosumi/index.html",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:18:21.306Z",
+    "alt": "Kiyosumi Gardens source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "c93bf5532fff15307315bc0ff0133b04dc84cfd21f29e57f03040a751a9b33fb",
+    "bytes": 41498
   },
   "koenji-look-street-pal-arcade": {
     "src": "shots/koenji-look-street-pal-arcade-site.webp",
-    "kind": "Official site screenshot",
+    "kind": "Tourism guide screenshot",
     "source": "https://www.gotokyo.org/en/destinations/western-tokyo/koenji/index.html",
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T05:05:22.196Z",
     "alt": "Koenji Look Street / Pal arcade source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Official Koenji district guide; festival photograph is district context, not a scheduled event for the trip.",
+    "sha256": "44c3183a268f7cc8f47c9d91998cb4c084e5ce8ccecf90c35a605940b3273c17",
+    "bytes": 67460
+  },
+  "korakuen-hall-boxing-pro-wrestling": {
+    "src": "shots/korakuen-hall-boxing-pro-wrestling-site.webp",
+    "kind": "Official PDF excerpt",
+    "source": "https://www.tokyo-dome.jp/english/upload/ca294d8cfeaf19425c5c354048f43368.pdf",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:24:47Z",
+    "alt": "Korakuen Hall (boxing / pro wrestling) source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "PDF page rendering, exact cropped excerpt",
+    "capture_note": "Tokyo Dome Group Report, printed page 09 / PDF page 10. Venue photograph and description, not current event availability.",
+    "sha256": "9e19a5c3c97175ba8bbae03c4aeb758307f144277692720cf9de15d0750ec86b",
+    "bytes": 76114,
+    "source_page": 10
   },
   "luis-jdm-experience-daikoku-pa-night-tour": {
     "src": "shots/luis-jdm-experience-daikoku-pa-night-tour-site.webp",
-    "kind": "Source-page screenshot",
+    "kind": "Editorial/listing page screenshot",
     "source": "https://www.getyourguide.com/tokyo-l193/daikoku-pa-jdm-tour-fast-furious-t1136242/",
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T04:59:24.179Z",
     "alt": "Luis JDM Experience (Daikoku PA night tour) source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "f21804da0909ff358df348cadaeb5e32fc2106aa347038b7010bb4cd954d8099",
+    "bytes": 43762
   },
   "mandarake-complex": {
     "src": "shots/mandarake-complex-site.webp",
@@ -337,7 +699,42 @@
     "capturedAt": "2026-10-27T05:02:43.773Z",
     "alt": "Mandarake Complex source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "8026e7093448a5e7349c0d1cc00f99bb57526f83d7a083408b4e236f5d09ad0b",
+    "bytes": 45074
+  },
+  "meguro-river-walk": {
+    "src": "shots/meguro-river-walk-site.webp",
+    "kind": "Tourism guide screenshot",
+    "source": "https://www.gotokyo.org/en/destinations/southern-tokyo/nakameguro/index.html",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:21:39.126Z",
+    "alt": "Meguro River walk source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "d174c42f4aecdd9ec137d38f15b16359637ea520c3daf1f275de029f37b71265",
+    "bytes": 51292
+  },
+  "meiji-jingu": {
+    "src": "shots/meiji-jingu-site.webp",
+    "kind": "Tourism guide screenshot",
+    "source": "https://www.gotokyo.org/en/spot/76/index.html",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:10:18.707Z",
+    "alt": "Meiji Jingu source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "cae3972cc90648ac7e22a86c5ad00d6f13c296a54bf739dbfc8a641c40da09d4",
+    "bytes": 56496
   },
   "meiji-jingu-gaien-batting-golf-range": {
     "src": "shots/meiji-jingu-gaien-batting-golf-range-site.webp",
@@ -347,7 +744,12 @@
     "capturedAt": "2026-10-27T04:59:48.181Z",
     "alt": "Meiji Jingu Gaien Batting + Golf Range source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "9dbb2213d9fc75480ef6c3c61911075bcae168601f9a3c1aa133b4dd5c497d83",
+    "bytes": 23622
   },
   "minami-aoyama-shimizuyu-sento": {
     "src": "shots/minami-aoyama-shimizuyu-sento-site.webp",
@@ -357,7 +759,12 @@
     "capturedAt": "2026-10-27T05:00:34.432Z",
     "alt": "Minami-Aoyama Shimizuyu (sento) source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "f5ac2037bddbd6b62a65cc76e37e931a5868560a532ffe9c418793c7e57d28d3",
+    "bytes": 29206
   },
   "nakamise-dori": {
     "src": "shots/nakamise-dori-site.webp",
@@ -367,7 +774,42 @@
     "capturedAt": "2026-10-27T04:57:32.830Z",
     "alt": "Nakamise-dori source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "affc93be3d3bc3936f0c11d470e338fa676ff3c9d33d82c3147d7e70e4dc6b09",
+    "bytes": 24142
+  },
+  "new-york-bar-park-hyatt-tokyo": {
+    "src": "shots/new-york-bar-park-hyatt-tokyo-site.webp",
+    "kind": "Tourism guide screenshot",
+    "source": "https://www.gotokyo.org/en/story/guide/tokyo-at-night/index.html",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:12:06.096Z",
+    "alt": "New York Bar (Park Hyatt Tokyo) source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "a18410ea8201e3693e83ee74dc8fd10847e9ce76530d5077e65ca6463e582242",
+    "bytes": 62800
+  },
+  "new-york-joe-exchange": {
+    "src": "shots/new-york-joe-exchange-site.webp",
+    "kind": "Tourism guide screenshot",
+    "source": "https://www.japan.travel/en/story/shimokitazawa-shopping-guide/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:17:09.588Z",
+    "alt": "New York Joe Exchange source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "d76af6795e17f7f689936c537455204566c8aac102061326cdf0d0f085391f0c",
+    "bytes": 70486
   },
   "nihonbashi-philly-eagles-bar": {
     "src": "shots/nihonbashi-philly-eagles-bar-site.webp",
@@ -377,7 +819,27 @@
     "capturedAt": "2026-10-27T04:56:50.199Z",
     "alt": "Nihonbashi Philly (Eagles bar) source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "44b0036c3059d3573333de9808056313e2fb5a9d02e9489b7c52aeb1924b1b74",
+    "bytes": 36526
+  },
+  "nonbei-yokocho": {
+    "src": "shots/nonbei-yokocho-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.2004-tight.com/nonbei-yokocho.html",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:20:15.768Z",
+    "alt": "Nonbei Yokocho source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Alley etiquette section from local bar TIGHT. Not a representative photo of every bar.",
+    "sha256": "90998a7d10d187b065c407bf88a16c5dc3954472e562ba51763fb4a0792867d5",
+    "bytes": 21234
   },
   "omoide-yokocho": {
     "src": "shots/omoide-yokocho-site.webp",
@@ -387,17 +849,27 @@
     "capturedAt": "2026-10-27T05:05:37.804Z",
     "alt": "Omoide Yokocho source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "82e61baca01eecad000d0682665048a023ad50587d2fe1b96be02276ef1639a6",
+    "bytes": 78660
   },
   "omotesando-cat-street-harajuku-shibuya-walk": {
     "src": "shots/omotesando-cat-street-harajuku-shibuya-walk-site.webp",
-    "kind": "Official site screenshot",
+    "kind": "Tourism guide screenshot",
     "source": "https://www.japan.travel/en/spot/2174/",
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T05:01:10.644Z",
     "alt": "Omotesando > Cat Street > Harajuku > Shibuya walk source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "971d227a47d46f51eaa916bfe5b1ce12a1cd21d083a4628e56606138f4f30ed8",
+    "bytes": 46966
   },
   "pizza-marumo": {
     "src": "shots/pizza-marumo-site.webp",
@@ -407,7 +879,12 @@
     "capturedAt": "2026-10-27T04:55:14.785Z",
     "alt": "Pizza Marumo source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "884f155754434663dc1d3629cc14bb44f7c00cd5a2929eb6cf45bd2422e00e6e",
+    "bytes": 9534
   },
   "radio-kaikan": {
     "src": "shots/radio-kaikan-site.webp",
@@ -417,17 +894,42 @@
     "capturedAt": "2026-10-27T04:58:43.416Z",
     "alt": "Radio Kaikan source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "8e3f545d540fac4626f30fe184dac4146ecb623483ccf2f9e8961ea1482e4a5a",
+    "bytes": 50268
+  },
+  "ragtag-harajuku": {
+    "src": "shots/ragtag-harajuku-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.ragtag.jp/english/harajuku.html",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:09:37.708Z",
+    "alt": "RAGTAG Harajuku source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "8ccfaf99984350357811aead424df280e319f035530953ecb5e32a23d08a70ad",
+    "bytes": 49948
   },
   "ramen-afro-beats": {
     "src": "shots/ramen-afro-beats-site.webp",
-    "kind": "Source-page screenshot",
+    "kind": "Editorial/listing page screenshot",
     "source": "https://tabelog.com/en/tokyo/A1304/A130402/13282860/",
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T04:55:53.504Z",
     "alt": "Ramen Afro Beats source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "70d75a41e7827ea7cf6f2f1ed4768d7d69b9fdf30cde67a95429c444f8193474",
+    "bytes": 41802
   },
   "recoco-shibuya-record-cafe": {
     "src": "shots/recoco-shibuya-record-cafe-site.webp",
@@ -437,7 +939,27 @@
     "capturedAt": "2026-10-27T05:05:01.209Z",
     "alt": "RECOCO Shibuya (record cafe) source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "b353c229863a4620654b772d39b744fbd05f9f5be6aa9f2f4ee3132ae8c9518a",
+    "bytes": 18084
+  },
+  "recoco-shimokitazawa": {
+    "src": "shots/recoco-shimokitazawa-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://recoco.cafe/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:19:09.588Z",
+    "alt": "RECOCO Shimokitazawa source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "c3682c6d5715c66e49695e87a3879eefefd02aed07e7a9b3f80750acb3783eb7",
+    "bytes": 35964
   },
   "round1-stadium-divercity-tokyo-plaza": {
     "src": "shots/round1-stadium-divercity-tokyo-plaza-site.webp",
@@ -447,7 +969,27 @@
     "capturedAt": "2026-10-27T05:04:28.318Z",
     "alt": "Round1 Stadium DiverCity Tokyo Plaza source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "1db31e555ae8b3f4a3d3f5703a43a8e257dc832f4180c682232555eeda80c147",
+    "bytes": 30422
+  },
+  "safari-koenji": {
+    "src": "shots/safari-koenji-site.webp",
+    "kind": "Tourism guide screenshot",
+    "source": "https://experience-suginami.tokyo/2017/09/safari-1/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:09:45.629Z",
+    "alt": "Safari Koenji source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "f883657559a7d1adf8c1001d62105973f4b6f2bddb5f2adcdc7b56afb165b0f5",
+    "bytes": 75784
   },
   "senso-ji-kaminarimon": {
     "src": "shots/senso-ji-kaminarimon-site.webp",
@@ -457,17 +999,27 @@
     "capturedAt": "2026-10-27T04:57:28.012Z",
     "alt": "Senso-ji & Kaminarimon source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "396628062606a8f0c07e09975f201c88978d91df0150a01c0d9b56afeffe0014",
+    "bytes": 30876
   },
   "shibuya-center-gai": {
     "src": "shots/shibuya-center-gai-site.webp",
-    "kind": "Official site screenshot",
+    "kind": "Tourism guide screenshot",
     "source": "https://www.gotokyo.org/en/spot/88/index.html",
     "checked": "2026-10-27",
-    "capturedAt": "2026-10-27T05:01:06.667Z",
+    "capturedAt": "2026-10-27T05:10:23.776Z",
     "alt": "Shibuya Center-Gai source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "1d837dd8917d8ab18cc877a67a357150d44d009363e737c0580efe32438e7995",
+    "bytes": 35758
   },
   "shibuya-parco": {
     "src": "shots/shibuya-parco-site.webp",
@@ -477,7 +1029,12 @@
     "capturedAt": "2026-10-27T05:05:09.698Z",
     "alt": "Shibuya PARCO source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "288789d1d829e2cc31a857c86e01cd7006a5511b8e178bae3aace9a711878f05",
+    "bytes": 72410
   },
   "shibuya-sky": {
     "src": "shots/shibuya-sky-site.webp",
@@ -487,27 +1044,57 @@
     "capturedAt": "2026-10-27T05:04:22.472Z",
     "alt": "Shibuya Sky source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "f2f51616448d7c7d21a631789b3830d5d0874c39b5d7f77f7afd3b9fe97fde80",
+    "bytes": 18554
   },
   "shinjuku-batting-center": {
     "src": "shots/shinjuku-batting-center-site.webp",
-    "kind": "Official site screenshot",
+    "kind": "Editorial/listing page screenshot",
     "source": "https://www.battingcenter.com/tokyo/3838/",
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T04:59:39.085Z",
     "alt": "Shinjuku Batting Center source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "8221c2ed6885bdc9a6154707a4dc91af0671280c9548116198fad2662b9b0692",
+    "bytes": 41506
+  },
+  "shinjuku-gyoen": {
+    "src": "shots/shinjuku-gyoen-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://policies.env.go.jp/national-garden/shinjukugyoen/english/guide/information/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:18:06.373Z",
+    "alt": "Shinjuku Gyoen source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Official admission page includes spring cherry blossoms; not a November foliage prediction.",
+    "sha256": "eb218974074e900128ac17b4312ed1b8eb13831ca2bc0f0eeb7bbe1da32f9d8e",
+    "bytes": 53100
   },
   "shinjuku-sumo-club": {
     "src": "shots/shinjuku-sumo-club-site.webp",
-    "kind": "Official site screenshot",
+    "kind": "Operator press-release screenshot",
     "source": "https://prtimes.jp/main/html/rd/p/000000014.000181480.html",
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T05:03:16.035Z",
     "alt": "Shinjuku Sumo Club source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "9728aebfad5e747488f32b7e5c699369fdd5ad98debce1176bed3ae056212401",
+    "bytes": 47644
   },
   "spa-laqua-tokyo-dome": {
     "src": "shots/spa-laqua-tokyo-dome-site.webp",
@@ -517,7 +1104,12 @@
     "capturedAt": "2026-10-27T05:00:45.801Z",
     "alt": "Spa LaQua (Tokyo Dome) source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "529800f779c81f8c03969cc25d5af49adfb0e5262c1a4b0f860fd4c34f3590bf",
+    "bytes": 19122
   },
   "starbucks-reserve-roastery-tokyo": {
     "src": "shots/starbucks-reserve-roastery-tokyo-site.webp",
@@ -527,7 +1119,12 @@
     "capturedAt": "2026-10-27T05:02:20.430Z",
     "alt": "Starbucks Reserve Roastery Tokyo source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "03d7a0320e64fbcbe268c8904b81bef0181cd4dad5b4f703210ab4eafbdecd41",
+    "bytes": 44904
   },
   "street-kart-akihabara": {
     "src": "shots/street-kart-akihabara-site.webp",
@@ -537,7 +1134,57 @@
     "capturedAt": "2026-10-27T04:59:33.150Z",
     "alt": "STREET KART Akihabara source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "5be84e589dd1373f63a4667126d55af99c6709c2f0007726732488bd2b815c41",
+    "bytes": 52878
+  },
+  "street-kart-shibuya-annex-mario-kart-style": {
+    "src": "shots/street-kart-shibuya-annex-mario-kart-style-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://akihabara.streetkart.com/en/booking_shibuya2.html",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:12:39.648Z",
+    "alt": "STREET KART Shibuya Annex (Mario Kart style) source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "c4d98a72b5d7fec8b705239b8df2a7e15cbdcb16fd150e2edee05e58347d2db7",
+    "bytes": 72710
+  },
+  "sunshine-aquarium": {
+    "src": "shots/sunshine-aquarium-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://sunshinecity.jp/en/aquarium/ticket/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:18:26.355Z",
+    "alt": "Sunshine Aquarium source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "3e84120c8d592553ba8b368bcd91be78ac0c883cd8e499730624cc5a26f542eb",
+    "bytes": 42170
+  },
+  "super-potato-akihabara": {
+    "src": "shots/super-potato-akihabara-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.superpotato.com/shop/akihabara/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:12:31.834Z",
+    "alt": "Super Potato Akihabara source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "e018e6972beb3269b1beb847c029842b2070e06dc99a9d75ebc420c7d88d17c5",
+    "bytes": 67110
   },
   "supreme-daikanyama": {
     "src": "shots/supreme-daikanyama-site.webp",
@@ -547,7 +1194,12 @@
     "capturedAt": "2026-10-27T04:52:33.416Z",
     "alt": "Supreme Daikanyama source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "96af8027439af4f3f55aaaec91e3aa54151a9ee834048054a6f85913f608a22c",
+    "bytes": 65804
   },
   "supreme-harajuku": {
     "src": "shots/supreme-harajuku-site.webp",
@@ -557,7 +1209,12 @@
     "capturedAt": "2026-10-27T04:52:33.415Z",
     "alt": "Supreme Harajuku source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "a2895d6e53ce62b290ecb5b14125087e0f17952c5cebe18f530f939aab4b9dc4",
+    "bytes": 59376
   },
   "supreme-shibuya": {
     "src": "shots/supreme-shibuya-site.webp",
@@ -567,7 +1224,12 @@
     "capturedAt": "2026-10-27T04:52:33.415Z",
     "alt": "Supreme Shibuya source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "ceed1705302f564cf81291b28b0973d3f75345fc8ee84c84d655491fd62ec849",
+    "bytes": 48560
   },
   "sushi-itadori-bekkan": {
     "src": "shots/sushi-itadori-bekkan-site.webp",
@@ -577,7 +1239,12 @@
     "capturedAt": "2026-10-27T04:57:14.230Z",
     "alt": "Sushi Itadori Bekkan source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "1634fc9bf180b294d53669f8769ef21d9bb9662408face697dca5becc95a654b",
+    "bytes": 40658
   },
   "teamlab-planets": {
     "src": "shots/teamlab-planets-site.webp",
@@ -587,27 +1254,72 @@
     "capturedAt": "2026-10-27T05:05:51.534Z",
     "alt": "teamLab Planets source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "431d8e66cac0c1ebe1a2bebdf6bd03a70f780c12d403ce4cd40781fd7d156f28",
+    "bytes": 48752
+  },
+  "tgct": {
+    "src": "shots/tgct-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.tokyocycling.jp/tour-fee/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:17:47.235Z",
+    "alt": "Tokyo Great Cycling Tour source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "11b2ce590a4d5b5abddc7d99b1913b736f9a135b331d5201f8ee4501fcfc7333",
+    "bytes": 27720
   },
   "the-bellwood": {
     "src": "shots/the-bellwood-site.webp",
-    "kind": "Source-page screenshot",
+    "kind": "Editorial/listing page screenshot",
     "source": "https://tabelog.com/en/tokyo/A1303/A130301/13247129/",
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T05:00:54.354Z",
     "alt": "The Bellwood source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "5c185bdaa31896d55a0af0d03f6a3d71ee47a8df146651ec56ced15e67cce231",
+    "bytes": 38300
   },
   "the-sg-club": {
     "src": "shots/the-sg-club-site.webp",
-    "kind": "Source-page screenshot",
+    "kind": "Reservation page screenshot",
     "source": "https://www.tablecheck.com/en/shops/the-sg-club/reserve",
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T04:52:57.880Z",
     "alt": "The SG Club source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "0eb33b587917fae1b17b2fd1ca8c4d208fd6c4285c948a0b6ac747dad7c22fae",
+    "bytes": 30590
+  },
+  "tokyo-national-museum": {
+    "src": "shots/tokyo-national-museum-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.tnm.jp/modules/r_free_page/index.php?id=113&lang=en",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:18:11.536Z",
+    "alt": "Tokyo National Museum source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "c93bd0852172cec32749aeb601231f2fe2404c7eeb57e2307646be4997fc4fc5",
+    "bytes": 13650
   },
   "tokyo-skytree": {
     "src": "shots/tokyo-skytree-site.webp",
@@ -617,7 +1329,12 @@
     "capturedAt": "2026-10-27T04:58:28.846Z",
     "alt": "Tokyo Skytree source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "deec0befd4a9f56d1d242dca0a0cda5e713119f6b54ca484f2033b2ac242a2cb",
+    "bytes": 58918
   },
   "tokyo-toyosu-manyo-club-onsen": {
     "src": "shots/tokyo-toyosu-manyo-club-onsen-site.webp",
@@ -627,17 +1344,72 @@
     "capturedAt": "2026-10-27T05:00:42.372Z",
     "alt": "Tokyo Toyosu Manyo Club (onsen) source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "b2a82ae255b8948abe3436d105056b267590ef1555dd6fe175f5cc8967a5bded",
+    "bytes": 30336
+  },
+  "tokyobike-kiyosumi": {
+    "src": "shots/tokyobike-kiyosumi-site.webp",
+    "kind": "Shared rental overview screenshot",
+    "source": "https://tokyobike.com/tokyobikerentals/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:24:05.519Z",
+    "alt": "TOKYOBIKE TOKYO rental source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Shared Tokyobike rentals overview covering multiple shops. The cover photograph is not asserted to show the Yanaka branch.",
+    "sha256": "17027154cb2548a162f2ed40205f0fc66f96aa00db3bb5dd06f88b673dd00699",
+    "bytes": 37184
+  },
+  "tokyobike-yanaka": {
+    "src": "shots/tokyobike-yanaka-site.webp",
+    "kind": "Shared rental overview screenshot",
+    "source": "https://tokyobike.com/tokyobikerentals/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:24:05.725Z",
+    "alt": "Tokyobike Yanaka Soil rental source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Shared Tokyobike rentals overview covering multiple shops. The cover photograph is not asserted to show the Yanaka branch.",
+    "sha256": "17027154cb2548a162f2ed40205f0fc66f96aa00db3bb5dd06f88b673dd00699",
+    "bytes": 37184
+  },
+  "tonkatsu-maisen-aoyama": {
+    "src": "shots/tonkatsu-maisen-aoyama-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://mai-sen.com/shop/?type=restaurant",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:09:53.117Z",
+    "alt": "Tonkatsu Maisen Aoyama source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "7ba1dd3e032e1a0ab7de17d6965871ae1afa0bc5b5befcb7757ce7c75e209c52",
+    "bytes": 16072
   },
   "toyosu-market-tuna-auction": {
     "src": "shots/toyosu-market-tuna-auction-site.webp",
-    "kind": "Official site screenshot",
+    "kind": "Tourism guide screenshot",
     "source": "https://www.gotokyo.org/en/spot/1743/index.html",
     "checked": "2026-10-27",
-    "capturedAt": "2026-10-27T05:01:17.527Z",
+    "capturedAt": "2026-10-27T05:10:27.900Z",
     "alt": "Toyosu Market tuna auction source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "05973faba25a42c72edb6b6f646d28058db1e11364bb039f1fb284b8c5ab1106",
+    "bytes": 72350
   },
   "tsukiji-outer-market": {
     "src": "shots/tsukiji-outer-market-site.webp",
@@ -647,7 +1419,12 @@
     "capturedAt": "2026-10-27T04:56:56.822Z",
     "alt": "Tsukiji Outer Market source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "cb406fa112f92f3d4f9b8e2b514923d9c7d0b3ffca91488c6bb0cf8d998936c4",
+    "bytes": 46848
   },
   "tsukiji-yamacho-tamagoyaki": {
     "src": "shots/tsukiji-yamacho-tamagoyaki-site.webp",
@@ -657,7 +1434,12 @@
     "capturedAt": "2026-10-27T04:57:13.448Z",
     "alt": "Tsukiji Yamacho (tamagoyaki) source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "20be0909f8522ff4d4a9afb481e06c4e255bfe1d49f32b98141acb436e569999",
+    "bytes": 41498
   },
   "two-rooms-grill-bar": {
     "src": "shots/two-rooms-grill-bar-site.webp",
@@ -667,17 +1449,27 @@
     "capturedAt": "2026-10-27T05:01:58.935Z",
     "alt": "TWO ROOMS Grill | Bar source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "00fcc9deb0bda018d15936d739393b15fc5779db4e6aef2a96dfb4d60a575c2c",
+    "bytes": 33960
   },
   "uniqlo-ginza-12-floors-uniqlo-tokyo": {
     "src": "shots/uniqlo-ginza-12-floors-uniqlo-tokyo-site.webp",
-    "kind": "Official site screenshot",
+    "kind": "Tourism guide screenshot",
     "source": "https://www.ginza.jp/en/landmark/9743",
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T05:02:08.331Z",
     "alt": "UNIQLO GINZA (12 floors) / UNIQLO TOKYO source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "f7345dc8a709e79bff28ed10f35090239b5bfe9091a36d17e1cf850666c19e64",
+    "bytes": 37480
   },
   "uniqlo-harajuku-ut": {
     "src": "shots/uniqlo-harajuku-ut-site.webp",
@@ -687,35 +1479,71 @@
     "capturedAt": "2026-10-27T05:02:02.724Z",
     "alt": "UNIQLO Harajuku / UT source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Historical operator launch announcement from May 2020, not a current-event claim.",
+    "sha256": "5718da0e8aa41755761461cb61726bdbca8c68d4c955e87694ea41105e15d2ab",
+    "bytes": 67378
+  },
+  "uobei-shibuya-dogenzaka": {
+    "src": "shots/uobei-shibuya-dogenzaka-site.webp",
+    "kind": "Official venue profile screenshot",
+    "source": "https://page.line.me/lbw7214z",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:25:29.659Z",
+    "alt": "Uobei Shibuya Dogenzaka source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "a9f04070a98533911f2a4fb57e003a75dc3b4453d37370252dfb326a1890d41c",
+    "bytes": 33768
   },
   "whistler-koenji": {
     "src": "shots/whistler-koenji-site.webp",
-    "kind": "Official site screenshot",
+    "kind": "Tourism guide screenshot",
     "source": "https://experience-suginami.tokyo/2017/10/whistler/",
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T05:01:16.849Z",
     "alt": "Whistler Koenji source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "51ae8ca39861fbe4f979a013cba39638325fe60d411d8492ebf73833a132d2df",
+    "bytes": 39590
   },
   "yoroniku": {
     "src": "shots/yoroniku-site.webp",
-    "kind": "Source-page screenshot",
+    "kind": "Reservation page screenshot",
     "source": "https://omakase.in/en/r/xd706837",
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T04:53:39.595Z",
     "alt": "Yoroniku source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Text, booking or listing information",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "9507c7a120696a4a0a9ec797cd0e25e40a08d3b3ddb2f3e56d09122dec9d7d1f",
+    "bytes": 21526
   },
   "shibuya-scramble-crossing": {
     "src": "shots/shibuya-scramble-crossing-site.webp",
-    "kind": "Official tourism screenshot",
+    "kind": "Tourism guide screenshot",
     "source": "https://www.gotokyo.org/en/spot/78/index.html",
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T04:50:58Z",
     "alt": "Shibuya Crossing official GO TOKYO page screenshot",
-    "verified_visual": true
+    "verified_visual": true,
+    "visual_content": "Source page imagery and information",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Source-page record, not a claim that displayed hours, prices, availability or seasonal imagery apply to your visit.",
+    "sha256": "55692b1a8d3f414c8a90d96233954a5cac6c649170c11d76b7b17caf759fe6d5",
+    "bytes": 97378
   }
 }

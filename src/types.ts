@@ -3,5 +3,5 @@ export interface Place {slug:string;name:string;area:string;category:Category;su
 export interface Booking {slug:string;name:string;area:string;booking_url?:string;booking_window:string;booking_status:string;booking_priority:number;google_maps_url?:string;confirmation?:{date?:string;time?:string};[key:string]:unknown}
 export interface Cluster {code:string;name:string;station:string;description:string;good_day:string;pairs:{code:string;minutes:number;description:string}[];place_slugs:string[];center:{lat:number;lng:number}}
 export interface ClusterData {clusters:Cluster[];codes:string[];matrix:Record<string,Record<string,number>>;trip_days:unknown[];off_map:unknown}
-export interface ImageRecord {src:string;kind:string;source:string;checked:string;alt:string}
+export interface ImageRecord {src:string;kind:string;source:string;checked:string;alt:string;capture_note?:string;visual_content?:string;capture_method?:string;sha256?:string;verified_visual?:boolean}
 export type Plan=Record<string,string>;

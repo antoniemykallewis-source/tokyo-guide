@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {createHash} from 'node:crypto';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import {
@@ -325,4 +326,15 @@ test('home distances cover94 archive stops and9 new options without invented tra
 const d=readData<Record<string,any>>('home-distances'); const h=readData<any>('home');assert.equal(Object.keys(d).length,103);assert.equal(h.lat,35.740334);assert.equal(h.lng,139.716202);assert.match(h.source_url,/msearch.gsi.go.jp/);
 for(const p of places){assert.ok(d[p.slug].straight_line_km>=0);assert.equal(d[p.slug].travel_time,null);const u=new URL(d[p.slug].transit_url);assert.match(u.searchParams.get('origin')||'',/Ikebukurohonchō/);assert.equal(u.searchParams.get('travelmode'),'transit');}
 assert.equal(d['shibuya-scramble-crossing'].straight_line_km,9.1);assert.equal(d['tgct'].straight_line_km,null);
+});
+
+
+test('all94 original places and9 new options have reviewed source captures',()=>{
+const shots=readData<Record<string,any>>('screenshots');const rec=readData<any>('recommendations');const ids=[...places.map(p=>p.slug),...rec.options.map((o:any)=>o.id)];assert.equal(Object.keys(shots).length,103);assert.deepEqual(Object.keys(shots).sort(),ids.sort());for(const shot of Object.values(shots)){assert.equal(shot.verified_visual,true);assert.match(shot.src,/^shots\/[a-z0-9-]+\.webp$/);assert.equal(new URL(shot.source).protocol,'https:');}
+});
+test('all103 capture files match their published integrity hashes',()=>{
+for(const shot of Object.values(readData<Record<string,any>>('screenshots'))){const bytes=readFileSync(new URL('../public/'+shot.src,import.meta.url));assert.equal(bytes.length,shot.bytes);assert.equal(createHash('sha256').update(bytes).digest('hex'),shot.sha256);}
+});
+test('historical and shared source captures retain explicit non-photo caveats',()=>{
+const shots=readData<Record<string,any>>('screenshots');assert.match(shots['hub-shibuya-british-pub-sports'].capture_note,/historical listing, not a venue photo/);assert.match(shots['2nd-street-harajuku'].capture_note,/historical 2025/);assert.match(shots['tokyobike-yanaka'].capture_note,/not asserted/);assert.equal(Object.values(shots).filter(s=>s.capture_method.startsWith('PDF')).length,2);
 });
