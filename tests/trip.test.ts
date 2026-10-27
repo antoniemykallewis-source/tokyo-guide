@@ -260,3 +260,32 @@ test('unbooked arrival day does not auto-assign an off-map multi-hour tour', () 
   const plan = autoPlan(selected,places,[],clusters);
   assert.notEqual(plan[tour.slug],DAYS[0]);
 });
+
+
+test('Bay Night keeps teamLab, Alvark and Round1 together on the eligible Saturday', () => {
+  const slugs = [
+    'teamlab-planets',
+    'alvark-tokyo-b-league-at-toyota-arena-tokyo',
+    'round1-stadium-divercity-tokyo-plaza',
+  ];
+  const plan = autoPlan(slugs,places,[],clusters);
+  for (const slug of slugs) {
+    assert.equal(plan[slug],'2026-11-14', `${slug} should join the Saturday bay event`);
+    assert.deepEqual(dayConflicts(find(slug),plan[slug]),[]);
+  }
+});
+
+test('nearby-area preference never overrides closures, daily capacity or the free Friday', () => {
+  const plan = autoPlan(places.map(p=>p.slug),places,[],clusters);
+  for (const [i,date] of DAYS.entries()) {
+    const dayPlaces = places.filter(p=>plan[p.slug]===date);
+    assert.ok(dayPlaces.length<=(i===0||i===5?2:5), `${date} exceeds its place limit`);
+    if (i===2) assert.equal(dayPlaces.length,0, 'Friday stays free unless manually overridden');
+    const areas = [...new Set(dayPlaces.map(p=>p.cluster_code))];
+    assert.ok(areas.length<=2);
+    for (const p of dayPlaces) assert.deepEqual(dayConflicts(p,date),[]);
+    for (const a of areas) for (const b of areas) {
+      if(a!==b) assert.ok((clusters.matrix[a]?.[b]??Infinity)<=15);
+    }
+  }
+});

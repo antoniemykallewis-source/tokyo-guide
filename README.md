@@ -6,7 +6,7 @@ Live destination: https://antoniemykallewis-source.github.io/tokyo-guide/
 
 ## Run
 
-Node24, then `npm ci`, `npm run dev`. `npm run qa` runs25 unit tests, strict TypeScript and production build. `npm run build` emits `dist`, a94-record no-JavaScript fallback,404fallback and a versioned offline service worker.
+Node24, then `npm ci`, `npm run dev`. `npm run qa` runs27 unit tests, strict TypeScript and production build. `npm run build` emits `dist`, a94-record no-JavaScript fallback,404fallback and a versioned offline service worker.
 
 GitHub Actions builds and publishes `main` to GitHub Pages. Base path is `/tokyo-guide/`. The public site has `noindex,nofollow`. This is not access control: the repository, built site and shared plan links are public.
 
@@ -18,7 +18,7 @@ GitHub Actions builds and publishes `main` to GitHub Pages. Base path is `/tokyo
 - Saved places, conservative area-first day grouping, dated closure/event warnings, pinned booked items and shared URL state. Overflow stays visibly unplaced instead of forcing a distant or closed venue into a day. Friday stays free by default. Arrival is light and near Shibuya; Monday is morning-only.
 - Urgency-sorted booking links from `public/data/bookings.json`, runtime refresh with build-ID cache key and bundled offline fallback.
 - Actual R3F/three WebGPU/TSL schematic city, automatic WebGL2 backend, genuine compileAsync signal, district rings and scramble particles. Decorative, not photorealistic Tokyo or a navigational map.
-- Static/reduced-motion mode, manual Lite Mode, phone thumb navigation, keyboard/native-dialog accessibility, muted-default original synthesized chime, pixel-mode/keyboard Easter eggs.
+- Static/reduced-motion mode, manual Lite Mode, phone thumb navigation, keyboard/native-dialog accessibility, muted-default original synthesized chime, CSS thrift-rack swipe, scratchable listening-bar records, Akihabara hold-to-catch claw, contextual cursor and pixel-mode/keyboard/shutter Easter eggs.
 - Local fonts, offline card data and available images after service-worker installation. Booking sites, Google Maps and external map tiles need a network.
 
 ## Data and privacy

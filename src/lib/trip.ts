@@ -20,11 +20,15 @@ export function autoPlan(stars:string[],places:Place[],bookings:Booking[],data:C
    if(i===0&&(p.cluster_code==='OFF'||(data.matrix.SBY?.[p.cluster_code]??60)>5))return {d,score:Infinity};
    if(i===5&&p.cluster_code==='OFF')return {d,score:Infinity};
    if(areas.length>2||areas.some(a=>areas.some(b=>a!==b&&(data.matrix[a]?.[b]??60)>15)))return {d,score:Infinity};
+   const sameArea=peers.some(q=>q.cluster_code===p.cluster_code);
+   // Once a day passes every hard constraint, fill its anchor and nearby pair
+   // before opening another day. Travel/load scores only break ties in a tier.
+   // In particular, Toyosu should join an Odaiba event day, not drift to Thursday.
+   const group=sameArea?0:peers.length?1:2;
    let score=peers.length*3+(i===0?7:0)+(i===5?12:0);
-   if(peers.some(q=>q.cluster_code===p.cluster_code))score-=12;
-   else if(peers.length)score+=(data.matrix[peers[0].cluster_code]?.[p.cluster_code]??60)/2;
-   return {d,score};
-  }).sort((a,b)=>a.score-b.score);
+   if(peers.length&&!sameArea)score+=(data.matrix[peers[0].cluster_code]?.[p.cluster_code]??60)/2;
+   return {d,score,group};
+  }).sort((a,b)=>(a.group??3)-(b.group??3)||a.score-b.score);
   if(Number.isFinite(scores[0].score))result[p.slug]=scores[0].d;
  }
  return result;
