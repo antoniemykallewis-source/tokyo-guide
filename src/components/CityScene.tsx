@@ -71,6 +71,46 @@ function useSceneActivity(ref: { current: HTMLDivElement | null }) {
   return { active, reduced };
 }
 
+type GraphicsSupport = 'checking' | 'webgpu' | 'webgl2' | 'none';
+
+// Do not instantiate Three's WebGL backend until an actual context exists.
+// A browser may expose navigator.gpu but return no adapter, or expose the
+// WebGL constructors while GPU access is disabled by its environment.
+export async function detectGraphicsSupport(): Promise<Exclude<GraphicsSupport, 'checking'>> {
+  if (typeof window === 'undefined' || typeof document === 'undefined') return 'none';
+  try {
+    const gpu = navigator.gpu;
+    if (gpu && await gpu.requestAdapter({ powerPreference: 'low-power' })) return 'webgpu';
+  } catch {
+    // An unavailable/rejected adapter still permits a genuine WebGL2 fallback.
+  }
+  let context: WebGL2RenderingContext | null = null;
+  try {
+    const probe = document.createElement('canvas');
+    probe.width = probe.height = 1;
+    context = probe.getContext('webgl2', { antialias: false, depth: false });
+    return context && !context.isContextLost() && context.getParameter(context.VERSION)
+      ? 'webgl2' : 'none';
+  } catch {
+    return 'none';
+  } finally {
+    // The detached probe is never rendered and must not consume a live context.
+    try { context?.getExtension('WEBGL_lose_context')?.loseContext(); } catch { /* best effort */ }
+  }
+}
+
+function useGraphicsSupport(enabled: boolean) {
+  const [support, setSupport] = useState<GraphicsSupport>('checking');
+  useEffect(() => {
+    let cancelled = false;
+    if (!enabled) return;
+    setSupport('checking');
+    void detectGraphicsSupport().then(result => { if (!cancelled) setSupport(result); });
+    return () => { cancelled = true; };
+  }, [enabled]);
+  return support;
+}
+
 function rand(n: number) { const x = Math.sin(n * 127.1 + 311.7) * 43758.5453; return x - Math.floor(x); }
 
 function CityBlocks({ tier }: { tier: 'full' | 'lite' }) {
@@ -268,6 +308,7 @@ function World({ activeCode, tier = 'lite', onReady, onSelectDistrict, onFailed 
 export default function CityScene({ activeCode = 'SBY', tier = 'lite', onReady, onSelectDistrict }: CitySceneProps) {
   const root = useRef<HTMLDivElement>(null);
   const { active, reduced } = useSceneActivity(root);
+  const graphicsSupport = useGraphicsSupport(!reduced);
   const [rendererName, setRendererName] = useState('3D archive');
   const [failed, setFailed] = useState(false);
   const onFailed = useCallback(() => setFailed(true), []);
@@ -275,7 +316,7 @@ export default function CityScene({ activeCode = 'SBY', tier = 'lite', onReady, 
   const fallback = <StaticCity activeCode={activeCode} onReady={onFallbackReady} />;
   return <div className="na-city" ref={root} aria-label="Decorative schematic Tokyo city. Use the area list for navigation.">
     <style>{css}</style>
-    {reduced || failed ? fallback : <SceneBoundary fallback={fallback}>
+    {reduced || failed || graphicsSupport === 'checking' || graphicsSupport === 'none' ? fallback : <SceneBoundary fallback={fallback}>
       <Suspense fallback={fallback}>
         <Canvas
           camera={{ position: [17, 17, 24], fov: 42, near: .1, far: 100 }}
@@ -283,7 +324,7 @@ export default function CityScene({ activeCode = 'SBY', tier = 'lite', onReady, 
           frameloop={active ? 'always' : 'never'}
           fallback={fallback}
           gl={async props => {
-            const renderer = new THREE.WebGPURenderer({ canvas: props.canvas as HTMLCanvasElement, antialias: tier === 'full', alpha: false, powerPreference: 'high-performance' });
+            const renderer = new THREE.WebGPURenderer({ canvas: props.canvas as HTMLCanvasElement, antialias: tier === 'full', alpha: false, powerPreference: 'high-performance', forceWebGL: graphicsSupport === 'webgl2' });
             await renderer.init();
             const backend = renderer.backend as { isWebGPUBackend?: boolean };
             setRendererName(backend.isWebGPUBackend ? 'WebGPU / TSL' : 'WebGL2 / TSL');
