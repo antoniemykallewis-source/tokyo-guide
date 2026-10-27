@@ -300,8 +300,8 @@ test('every original place has a clear source-grounded description', () => {
 });
 test('new recommendation options are separate, sourced and coordinate-free', () => {
   const rec = readData<any>('recommendations');
-  assert.equal(rec.options.length,9); assert.equal(rec.packages.length,5);
-  assert.equal(new Set(rec.options.map((o:any)=>o.id)).size,9);
+  assert.equal(rec.options.length,6); assert.equal(rec.archived_options.length,3); assert.equal(rec.packages.length,5);
+  assert.equal(new Set([...rec.options,...rec.archived_options].map((o:any)=>o.id)).size,9);
   for(const o of rec.options) { assert.equal(new URL(o.source_url).protocol,'https:');assert.equal(new URL(o.maps_url).hostname,'www.google.com');assert.equal(o.checked_date,'2026-10-27');assert.ok(!('lat' in o)); }
 });
 test('sample-day linked stops resolve without substituting shops for generic meals', () => {
@@ -330,11 +330,29 @@ assert.equal(d['shibuya-scramble-crossing'].straight_line_km,9.1);assert.equal(d
 
 
 test('all94 original places and9 new options have reviewed source captures',()=>{
-const shots=readData<Record<string,any>>('screenshots');const rec=readData<any>('recommendations');const ids=[...places.map(p=>p.slug),...rec.options.map((o:any)=>o.id)];assert.equal(Object.keys(shots).length,103);assert.deepEqual(Object.keys(shots).sort(),ids.sort());for(const shot of Object.values(shots)){assert.equal(shot.verified_visual,true);assert.match(shot.src,/^shots\/[a-z0-9-]+\.webp$/);assert.equal(new URL(shot.source).protocol,'https:');}
+const shots=readData<Record<string,any>>('screenshots');const rec=readData<any>('recommendations');const ids=[...places.map(p=>p.slug),...[...rec.options,...rec.archived_options].map((o:any)=>o.id)];assert.equal(Object.keys(shots).length,103);assert.deepEqual(Object.keys(shots).sort(),ids.sort());for(const shot of Object.values(shots)){assert.equal(shot.verified_visual,true);assert.match(shot.src,/^shots\/[a-z0-9-]+\.webp$/);assert.equal(new URL(shot.source).protocol,'https:');}
 });
 test('all103 capture files match their published integrity hashes',()=>{
 for(const shot of Object.values(readData<Record<string,any>>('screenshots'))){const bytes=readFileSync(new URL('../public/'+shot.src,import.meta.url));assert.equal(bytes.length,shot.bytes);assert.equal(createHash('sha256').update(bytes).digest('hex'),shot.sha256);}
 });
 test('historical and shared source captures retain explicit non-photo caveats',()=>{
 const shots=readData<Record<string,any>>('screenshots');assert.match(shots['hub-shibuya-british-pub-sports'].capture_note,/historical listing, not a venue photo/);assert.match(shots['2nd-street-harajuku'].capture_note,/historical 2025/);assert.match(shots['tokyobike-yanaka'].capture_note,/not asserted/);assert.equal(Object.values(shots).filter(s=>s.capture_method.startsWith('PDF')).length,2);
+});
+
+
+test('group preference removes gardens and traditional museum from active ideas and all day alternatives',()=>{
+ const rec=readData<any>('recommendations');
+ const archived=['shinjuku-gyoen','kiyosumi-gardens','tokyo-national-museum'];
+ assert.deepEqual(rec.archived_options.map((o:any)=>o.id).sort(),archived.sort());
+ const active=JSON.stringify({options:rec.options,packages:rec.packages,fuji:rec.fuji});
+ for(const id of archived)assert.ok(!active.includes(id));
+ assert.doesNotMatch(active,/garden|museum|Shinjuku Gyoen/i);
+ assert.equal(rec.options.filter((o:any)=>['tgct','dig-west-side','tokyobike-kiyosumi','tokyobike-yanaka','docomo-share'].includes(o.id)).length,5);
+ assert.ok(rec.options.some((o:any)=>o.id==='sunshine-aquarium'));
+});
+test('preference refinement preserves original immersive experiences and source evidence',()=>{
+ assert.ok(places.some(p=>p.slug==='teamlab-planets'));
+ assert.equal(places.length,94);
+ const shots=readData<Record<string,any>>('screenshots');
+ for(const id of ['shinjuku-gyoen','kiyosumi-gardens','tokyo-national-museum','teamlab-planets'])assert.equal(shots[id].verified_visual,true);
 });
