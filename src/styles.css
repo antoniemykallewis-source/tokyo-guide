@@ -29,3 +29,4 @@
 .clarity-mode.view-planner .guide-intro p,.clarity-mode.view-bookings .guide-intro p{display:block}.clarity-mode .place-card.venue-closed .booking-simple{display:none}.clarity-mode .place-card .category-dot{background:var(--accent)}
 .clarity-mode .map-toggle{min-width:72px;flex:0 0 72px;padding:12px 8px}.clarity-mode .archive-toolbar .search{min-width:0}
 @media(max-width:650px){.clarity-mode .map-toggle{min-width:65px;flex-basis:65px}}
+.suggestions{border:1px solid #4e5e3c;margin:12px 0}.suggestions>summary{font:14px Archivo;padding:13px;min-height:46px}.clarity-mode .suggestions .template-row{margin:0;padding:0 13px 13px}.clarity-mode .suggestions .template-row>span{display:none}.clarity-mode .planner-section>.home-base{margin-top:22px}.day-tabs{scrollbar-width:none}.day-tabs::-webkit-scrollbar{display:none}
