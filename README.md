@@ -30,7 +30,7 @@ GitHub Actions builds and publishes `main` to GitHub Pages. Base path is `/tokyo
 
 All confirmations in the supplied files were blank. No reservations have been made. Only public booking date/time may be included. Never commit confirmation numbers, guest names, party details, private notes, licenses, keys or payment data. URL shares contain saved venue slugs and day assignments only. No backend or analytics. The lodging address is public with explicit owner approval; the source lodging screenshot, host identity, guest images and other private details are excluded.
 
-The provided139.5MB screenshot archive could not be downloaded through the available authorized Slack routes.29 independently retrieved official public venue/site previews are supplied instead, with exact source provenance and seasonal context in `images.json`. Other cards explicitly say VISUAL NOT AVAILABLE. These are not represented as the supplied screenshots. Copyright remains with the source owners; no separate reuse license is claimed.
+The provided 139.5 MB screenshot archive could not be downloaded through the available authorized Slack routes. The final guide instead has 103 independently captured, visually reviewed source artifacts in `screenshots.json` and 29 official public venue/site previews in `images.json`, with source provenance and seasonal context. Some source artifacts are historical listings or text/booking screens, not venue photos. These are not represented as the supplied screenshots. Copyright remains with the source owners; no separate reuse license is claimed.
 
 ## Optional real maps and genuine blockers
 
@@ -67,7 +67,7 @@ Design references: [Apple tab bars](https://developer.apple.com/design/human-int
 - `recommendations.json` adds five area-based sample day menus, five cycling options, four additional tourist stops and an optional weather-dependent Kawaguchiko/Fuji day. These are ideas, not bookings. New options remain separate from the original94.
 - Displayed clock times use AM/PM. Stored opening hours and booking data stay24-hour for parsing. Source screenshots retain their original publisher content.
 - `home.json` records Japan GSI's exact-address geocode (an address point, not a surveyed doorway). `home-distances.json` has approximate straight-line distance for all94 original places plus actual-address transit/walking links. Never interpret these distances as road distance or travel time. New options have route links but no invented coordinates or distance.
-- Official/source-site screenshots are being captured independently and individually visually reviewed. `screenshots.json` records source, capture date and kind, distinct from venue photos. Empty/blocked captures are not represented as successful venue imagery.
+- Official/source-site screenshots were captured independently and individually visually reviewed. `screenshots.json` records source, capture date and kind, distinct from venue photos. Empty/blocked captures are not represented as successful venue imagery.
 - A real iPhone screenshot exposed a fixed-bottom navigation overlay failure. Mobile navigation is now a compact in-flow sticky top row with no bottom safe-area expansion. Narrow desktop-browser QA is not a substitute for a fresh iPhone verification.
 
 ## Final visual coverage
