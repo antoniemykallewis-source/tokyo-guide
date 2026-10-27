@@ -5,3 +5,4 @@ evidence/
 .env*
 !.env.example
 *.tsbuildinfo
+user-reference/
