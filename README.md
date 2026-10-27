@@ -6,7 +6,7 @@ Live destination: https://antoniemykallewis-source.github.io/tokyo-guide/
 
 ## Run
 
-Node24, then `npm ci`, `npm run dev`. `npm run qa` runs43 unit tests, strict TypeScript and production build. `npm run build` emits `dist`, an active-record no-JavaScript fallback,404fallback and a versioned offline service worker.
+Node24, then `npm ci`, `npm run dev`. `npm run qa` runs45 unit tests, strict TypeScript and production build. `npm run build` emits `dist`, an active-record no-JavaScript fallback,404fallback and a versioned offline service worker.
 
 GitHub Actions builds and publishes `main` to GitHub Pages. Base path is `/tokyo-guide/`. The public site has `noindex,nofollow`. This is not access control: the repository, built site and shared plan links are public.
 
@@ -87,3 +87,7 @@ teamLab is no longer suggested in active browsing, booking urgency or automatic 
 The private-court options are NEON Shibuya and SEIBU Shinagawa, both reservation-based, not guaranteed walk-ins. Availability observations are timestamped and not holds. LÝFT is conditional: official residency requirements mean tourist access is not established; do not purchase on the assumption of eligibility. Its ¥22,000 week pass is not a one-visit day rate.
 
 The header’s ¥ / $ calculator uses a saved Xe reference of 157.71185649 JPY per USD, checked October 27, 2026 at 3:00 AM UTC. The rate is editable and works offline; it is not live and excludes fees. No exchange-rate API, secret or billing was configured. Raw preference answers and research transcripts are not published.
+
+## Social DJ bars
+
+WREP and Bridge Shibuya add a hip-hop/house social-night choice with announced November 11–14 event information and clear date-specific cover charges. POPINN remains the smaller reservable alternative; Kura is a local east-side backup. No patron demographics or private social motivations are published. Camera/vintage shopping is unchanged. The source-capture manifest now has 119 reviewed entries and 22 researched additions are saveable.

@@ -445,7 +445,7 @@
       "name": "POPINN.GINZA",
       "area": "Ginza",
       "category": "Bars",
-      "description": "DJs, vinyl/CD selection, cocktails, beer; darts and table games are optional. Crowd described by venue as late-20s to40s.",
+      "description": "DJ bar with casual games; more relaxed than WREP and Bridge, not a guaranteed busy dance floor.",
       "lat": null,
       "lng": null,
       "google_maps_url": "https://www.google.com/maps/search/?api=1&query=POPINN.GINZA%204F%20Hatori%20Building%2C%204-3-5%20Ginza%2C%20Chuo-ku%2C%20Tokyo%20Tokyo%20Japan",
@@ -465,19 +465,22 @@
       "booking_status": "need_to_book",
       "booking_priority": 3,
       "source_notes": [
+        "90s–2000s hip-hop and R&B. Published DJ start: Sunday–Thursday 7:00 PM; Friday–Saturday 9:00 PM.",
         "Reservations accepted for 3+; five fits the published policy. Online official form; Nov seats/DJ lineup unconfirmed.",
+        "Indoor smoking permitted (official FAQ).",
         "Smoking allowed indoors.",
         "Home page still features August flyers: do not present a named Nov 13/14 party as confirmed.",
-        "Not booked; exact November availability unconfirmed."
+        "Exact group seating and filming permission are unverified."
       ],
       "filming_restrictions": [
         "No explicit public filming policy verified. Ask staff before interior filming; get consent for identifiable patrons/staff, avoid flash/tripods unless authorized."
       ],
       "source_urls": [
-        "https://www.popinn.tokyo/about-9",
+        "https://www.popinn.tokyo/",
+        "https://www.popinn.tokyo/about",
         "https://www.popinn.tokyo/question",
         "https://www.popinn.tokyo/access",
-        "https://www.popinn.tokyo/menus",
+        "https://www.popinn.tokyo/schedule",
         "https://www.popinn.tokyo/reservation-info"
       ],
       "address": "4F Hatori Building, 4-3-5 Ginza, Chuo-ku, Tokyo",
@@ -510,6 +513,7 @@
       "booking_status": "walk_in",
       "booking_priority": 3,
       "source_notes": [
+        "East-side early-evening backup only, not a primary social-night destination. Closes 11 PM; travel-date DJ lineup and group seating unverified.",
         "Official contact/Instagram exists, but no verified five-person reservation policy or Nov lineup.",
         "Closes 11:00 PM: early-evening music, not an after-midnight option.",
         "Current official events show October, not the travel dates; DJ/programme not confirmed.",
@@ -552,7 +556,7 @@
       "cluster_station": "",
       "walk_min_from_station": null,
       "booking_url": "https://reserva.be/shibuyapickleballclub",
-      "booking_window": "RED court Nov 12, 2026, 2–3 PM showed one slot remaining. Not booked or held.",
+      "booking_window": "Observed October 27, 2026 at 6:52 AM UTC: RED court November 12, 2–3 PM showed one slot. Availability can change. Not booked or held.",
       "booking_status": "need_to_book",
       "booking_priority": 1,
       "source_notes": [
@@ -837,6 +841,110 @@
       "address": "Ekoda Station ticket gate, 1-78 Asahigaoka, Nerima-ku, Tokyo 176-0005. Operator spells station Ekota; railway uses Ekoda (江古田). Host wears a ramen-print T-shirt.",
       "extra": true,
       "auto_plan": false
+    },
+    {
+      "slug": "wrep",
+      "name": "DJ Bar & Lounge WREP",
+      "area": "Shibuya",
+      "category": "Bars",
+      "description": "Bar counter, window/table seating and a dance area. Officially designed as a social place for hip-hop listeners; can get louder and more club-like on DJ nights.",
+      "lat": null,
+      "lng": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=DJ%20Bar%20%26%20Lounge%20WREP%209F%20Shibuya%20Parkside%20Kyodo%20Building%2C%201-25-6%20Shibuya%2C%20Shibuya-ku%2C%20Tokyo",
+      "official_url": "https://djbar.wrep.jp/",
+      "price": "Official Nov 11 and Nov 12 door ¥1,000; Nov 13 door ¥1,500 per adult. Drinks additional. Allow ¥4,000–6,000 per person including entry and drinks as a planning estimate.",
+      "wait_level": "Check the night’s door policy",
+      "reservation_needed": "Check group seating",
+      "best_time": "Optional evening, announced music starts at 8:00 PM",
+      "hours": "Recent official listings open 8:00 PM; late close commonly listed as 5:00 AM, but trip-night closing time needs confirmation. Nov 14 unlisted; Nov 15 TBA.",
+      "notes": "Bar counter, window/table seating and a dance area. Officially designed as a social place for hip-hop listeners; can get louder and more club-like on DJ nights.",
+      "from_antonie_list": false,
+      "cluster_code": "SBY",
+      "cluster_station": "",
+      "walk_min_from_station": null,
+      "booking_url": null,
+      "booking_window": "Window/table/VIP seating reported; five-person reservation terms and minimum spend not published in checked sources. Do not promise a group table.",
+      "booking_status": "walk_in",
+      "booking_priority": 5,
+      "source_notes": [
+        "Hip-hop DJs; Thursday resident programming also has dancehall/reggae roots. Choose the specific lineup rather than assuming every night sounds identical.",
+        "Window/table/VIP seating reported; five-person reservation terms and minimum spend not published in checked sources. Do not promise a group table.",
+        "Not verified.",
+        "Announced November 11: WREP WEDNESDAY -Diggin’ Out-. DJ $oLA / DJ TAKATO / DJ MUSASHI. 8:00 PM opening. ¥1,000 door. Lineup can change; not a booking.",
+        "Announced November 12: WREP THURSDAY. DJ MAGARA / ASIAN STAR / DJ DEFLO. 8:00 PM opening. ¥1,000 door. Lineup can change; not a booking.",
+        "Announced November 13: WREP 2nd FRIDAY. DJ YANATAKE / DJ YAZ / DJ TSUHAKO. 8:00 PM opening. ¥1,500 door. Lineup can change; not a booking.",
+        "Exact group seating and filming permission are unverified."
+      ],
+      "filming_restrictions": [
+        "No explicit venue photo/filming policy verified. Ask staff before interior filming and obtain consent for identifiable people; do not treat published venue photos as permission to film."
+      ],
+      "source_urls": [
+        "https://djbar.wrep.jp/",
+        "https://djbar.wrep.jp/access/",
+        "https://djbar.wrep.jp/schedule/2026-11/",
+        "https://deeptokyo.jp/en/spot/nightlife/6650/",
+        "https://djbar.wrep.jp/schedule/wrep-wednesday-24/",
+        "https://djbar.wrep.jp/schedule/wrep-2nd-friday-43/",
+        "https://djbar.wrep.jp/schedule/wrep-thursday-184/"
+      ],
+      "address": "9F Shibuya Parkside Kyodo Building, 1-25-6 Shibuya, Shibuya-ku, Tokyo",
+      "extra": true,
+      "auto_plan": false,
+      "closed_dates": []
+    },
+    {
+      "slug": "bridge-shibuya",
+      "name": "DJ BAR Bridge Shibuya",
+      "area": "Shibuya",
+      "category": "Bars",
+      "description": "Top-floor bar overlooking Shibuya Crossing. Official concept includes conversation, not only DJ listening; deeper seating offers a break from the dancefloor.",
+      "lat": null,
+      "lng": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=DJ%20BAR%20Bridge%20Shibuya%2010F%20Shibuya%20Parkside%20Kyodo%20Building%2C%201-25-6%20Shibuya%2C%20Shibuya-ku%2C%20Tokyo",
+      "official_url": "https://djbar-bridge.com/shibuya/",
+      "price": "Nov 11 and Nov 12: ¥1,000 door. Nov 13 and Nov 14: ¥1,500 per adult. Official event prices; drinks additional. Allow ¥4,000–6,000 with drinks (planning estimate).",
+      "wait_level": "Check the night’s door policy",
+      "reservation_needed": "Check group seating",
+      "best_time": "Optional evening, announced music starts at 8:00 PM",
+      "hours": "8:00 PM–5:00 AM reported by Shibuya tourist information; trip-week official pages confirm 8:00 PM opening. CLOSED Sunday Nov 15.",
+      "notes": "Top-floor bar overlooking Shibuya Crossing. Official concept includes conversation, not only DJ listening; deeper seating offers a break from the dancefloor.",
+      "from_antonie_list": false,
+      "cluster_code": "SBY",
+      "cluster_station": "",
+      "walk_min_from_station": null,
+      "booking_url": null,
+      "booking_window": "No verified five-person reservation or minimum-spend policy. Seating exists but is not guaranteed.",
+      "booking_status": "walk_in",
+      "booking_priority": 5,
+      "source_notes": [
+        "House and genre-crossing DJ selections. Nov 13 and Nov 14 official event pages explicitly list House.",
+        "No verified five-person reservation or minimum-spend policy. Seating exists but is not guaranteed.",
+        "Smoking allowed according to Shibuya-san tourist-information nightlife guide.",
+        "Announced November 11: Kubota Takeshi / JUNGLE ROCK. 8:00 PM opening. ¥1,000 door. Lineup can change; not a booking.",
+        "Announced November 12: HOUSE-TEX. DJ EMMA / KATIMI AI. 8:00 PM opening. ¥1,000 door. Lineup can change; not a booking.",
+        "Announced November 13: DJ NORI / AOR*. 8:00 PM opening. ¥1,500 door. Lineup can change; not a booking.",
+        "Announced November 14: Kza / Mustache X. 8:00 PM opening. ¥1,500 door. Lineup can change; not a booking.",
+        "Exact group seating and filming permission are unverified."
+      ],
+      "filming_restrictions": [
+        "No explicit venue photo/filming policy verified. Ask staff before interior filming and obtain consent for identifiable people; do not treat published venue photos as permission to film."
+      ],
+      "source_urls": [
+        "https://djbar-bridge.com/shibuya/",
+        "https://djbar-bridge.com/shibuya/schedule/2026-11/",
+        "https://djbar-bridge.com/shibuya/schedule/dj-nori-98/",
+        "https://djbar-bridge.com/shibuya/schedule/kza-40/",
+        "https://deeptokyo.jp/en/spot/nightlife/4414/",
+        "https://shibuya-san.co.jp/en/topics/night-time-guide/",
+        "https://djbar-bridge.com/shibuya/schedule/house-tex-162/",
+        "https://djbar-bridge.com/shibuya/schedule/kubotatakeshi-81/"
+      ],
+      "address": "10F Shibuya Parkside Kyodo Building, 1-25-6 Shibuya, Shibuya-ku, Tokyo",
+      "extra": true,
+      "auto_plan": false,
+      "closed_dates": [
+        "2026-11-15"
+      ]
     }
   ],
   "overrides": {
@@ -1044,6 +1152,8 @@
     "street-kart-shibuya-hs",
     "map-camera-shinjuku",
     "lyft-gym-omotesando",
+    "wrep",
+    "bridge-shibuya",
     "popinn-ginza"
   ],
   "planning_note": "2–3 main daytime anchors, plus optional evening drinks. Budget examples are planning estimates, not spending authorization or confirmed bookings.",

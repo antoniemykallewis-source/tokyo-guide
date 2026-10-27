@@ -1755,5 +1755,52 @@
     "capture_note": "Tourism page updated December 25, 2024; general sports facility overview, not a dedicated golf photograph, current hours authority or availability confirmation. Operator golf page had an age/residence gate and was not used.",
     "sha256": "4b2f9a03d3174dcd3ddac897fe33e27f93fd6edba4a4373133a3fabe0c725dfe",
     "bytes": 71148
+  },
+  "wrep": {
+    "src": "shots/wrep-site.webp",
+    "kind": "Official event page screenshot",
+    "source": "https://djbar.wrep.jp/schedule/wrep-2nd-friday-43/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T07:22:58.560Z",
+    "alt": "WREP November 13, 2026 Hip-Hop event details",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Published event lineup and artist promotional imagery",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Published programme, not ticket or entry availability; artist imagery is not a venue photograph.",
+    "sha256": "6ae1e95ced3cb4ce6adef6189dad9f025cfeeb5e2e5260eef987159c8b58c349",
+    "bytes": 29960,
+    "supplementary": [
+      {
+        "src": "shots/wrep-november-schedule-site.webp",
+        "kind": "Official event page screenshot",
+        "source": "https://djbar.wrep.jp/schedule/2026-11/",
+        "checked": "2026-10-27",
+        "capturedAt": "2026-10-27T07:22:34.780Z",
+        "alt": "WREP November 2026 schedule",
+        "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+        "verified_visual": true,
+        "visual_content": "Published event lineup and artist promotional imagery",
+        "capture_method": "Cloud browser screenshot",
+        "capture_note": "Published programme, not ticket or entry availability; artist imagery is not a venue photograph.",
+        "sha256": "4885e7d819bcbb011c22ff8253a6e82e911c6a5b7ef9380f1ac015f7361b3bba",
+        "bytes": 28202
+      }
+    ]
+  },
+  "bridge-shibuya": {
+    "src": "shots/bridge-shibuya-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://djbar-bridge.com/shibuya/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T07:24:07.457Z",
+    "alt": "Bridge Shibuya official venue description",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true,
+    "visual_content": "Official text description of venue atmosphere",
+    "capture_method": "Cloud browser screenshot",
+    "capture_note": "Text-focused official source screenshot, not a venue photograph or music guarantee for a particular night.",
+    "sha256": "1d97e1bcc9c2f24b808e771ec697d98095c3f57dcfc8e3ce38d0d13d7b85e88b",
+    "bytes": 50042
   }
 }

@@ -255,6 +255,17 @@
           "option_id": null,
           "related_ids": [],
           "optional": true
+        },
+        {
+          "time": "Optional evening, after road activities",
+          "title": "WREP hip-hop or Bridge house",
+          "what": "Social DJ bars in the same Shibuya building. Choose one; check the actual night’s lineup and entry policy. Never put drinks before the kart tour.",
+          "place_slug": "wrep",
+          "option_id": null,
+          "related_ids": [
+            "bridge-shibuya"
+          ],
+          "optional": true
         }
       ],
       "must_book": [

@@ -18,7 +18,7 @@ function StaticSceneFallback({onReady}:CitySceneProps){useEffect(()=>{onReady?.(
 // A missing optional chunk, including an offline first attempt, must never remove the guide.
 const CityScene=lazy(()=>import('./components/CityScene').catch(()=>({default:StaticSceneFallback})));
 const TEMPLATE_SLUGS:Record<string,string[]>={
- west:['ragtag-harajuku','omotesando-cat-street-harajuku-shibuya-walk','shibuya-sky','street-kart-shibuya-annex-mario-kart-style','pizza-marumo','bar-trench','bar-martha'],
+ west:['ragtag-harajuku','omotesando-cat-street-harajuku-shibuya-walk','shibuya-sky','street-kart-shibuya-annex-mario-kart-style','pizza-marumo','wrep','bridge-shibuya'],
  thrift:['flamingo-shimokitazawa','new-york-joe-exchange','safari-koenji','whistler-koenji','shinjuku-batting-center','golden-gai','shinjuku-sumo-club'],
  east:['tsukiji-outer-market','ginza-kagari-main','uniqlo-ginza-12-floors-uniqlo-tokyo','dover-street-market-ginza','gigo-akihabara-arcades','korakuen-hall-boxing-pro-wrestling','spa-laqua-tokyo-dome'],
  bay:['alvark-tokyo-b-league-at-toyota-arena-tokyo','round1-stadium-divercity-tokyo-plaza'],

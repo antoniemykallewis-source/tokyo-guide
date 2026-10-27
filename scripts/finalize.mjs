@@ -1,7 +1,8 @@
 import fs from 'node:fs';import path from 'node:path';
 const archive=JSON.parse(fs.readFileSync('public/data/places.json','utf8'));
 const curation=JSON.parse(fs.readFileSync('public/data/curated.json','utf8'));
-const places=[...archive,...curation.places].map(p=>({...p,...curation.overrides[p.slug]})).filter(p=>!curation.excluded_slugs.includes(p.slug)&&!p.permanently_closed);
+const places=[...archive,...curation.places].map(p=>({...p,...curation.overrides[p.slug]})).filter(p=>!curation.excluded_slugs.includes(p.slug)&&!p.permanently_closed&&!['closed','permanently_closed'].includes(String(p.availability)));
+if(places.some(p=>p.permanently_closed||['closed','permanently_closed'].includes(String(p.availability))))throw new Error('Closed records must not enter the active no-JS guide');
 
 const displayTime=s=>String(s??'').replace(/(?<![\d:])([01]?\d|2[0-4]):([0-5]\d)(?![\d:])(?:\s*(AM|PM))?/gi,(all,h,m,ap)=>ap?`${Number(h)}:${m} ${ap.toUpperCase()}`:`${Number(h)%12||12}:${m} ${Number(h)>=12&&Number(h)<24?'PM':'AM'}`);
 const escape=s=>displayTime(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replace(/[—–]/g,'. ');

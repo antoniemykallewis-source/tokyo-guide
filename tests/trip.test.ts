@@ -333,9 +333,9 @@ assert.equal(d['shibuya-scramble-crossing'].straight_line_km,9.1);assert.equal(d
 
 
 test('all94 original places and9 new options have reviewed source captures',()=>{
-const shots=readData<Record<string,any>>('screenshots');const rec=readData<any>('recommendations');const ids=[...new Set([...places.map(p=>p.slug),...[...rec.options,...rec.archived_options].map((o:any)=>o.id),...readData<any>('curated').places.map((p:Place)=>p.slug)])];assert.equal(Object.keys(shots).length,117);assert.deepEqual(Object.keys(shots).sort(),ids.sort());for(const shot of Object.values(shots)){assert.equal(shot.verified_visual,true);assert.match(shot.src,/^shots\/[a-z0-9-]+\.webp$/);assert.equal(new URL(shot.source).protocol,'https:');}
+const shots=readData<Record<string,any>>('screenshots');const rec=readData<any>('recommendations');const ids=[...new Set([...places.map(p=>p.slug),...[...rec.options,...rec.archived_options].map((o:any)=>o.id),...readData<any>('curated').places.map((p:Place)=>p.slug)])];assert.equal(Object.keys(shots).length,119);assert.deepEqual(Object.keys(shots).sort(),ids.sort());for(const shot of Object.values(shots)){assert.equal(shot.verified_visual,true);assert.match(shot.src,/^shots\/[a-z0-9-]+\.webp$/);assert.equal(new URL(shot.source).protocol,'https:');}
 });
-test('all117 capture files match their published integrity hashes',()=>{
+test('all119 capture files match their published integrity hashes',()=>{
 for(const shot of Object.values(readData<Record<string,any>>('screenshots'))){const bytes=readFileSync(new URL('../public/'+shot.src,import.meta.url));assert.equal(bytes.length,shot.bytes);assert.equal(createHash('sha256').update(bytes).digest('hex'),shot.sha256);}
 });
 test('historical and shared source captures retain explicit non-photo caveats',()=>{
@@ -367,7 +367,7 @@ test('excluded suggestions remain in original source and shared state but do not
  const next=autoPlan(old.stars,places,[],clusters);assert.ok(!next['teamlab-planets']);assert.equal(preserveArchivedAssignments(old.plan,next)['teamlab-planets'],DAYS[3]);
 });
 test('new curated cards have no fabricated coordinates and can round-trip saved URLs',()=>{
- const extras=readData<any>('curated').places as Place[];assert.equal(extras.length,20);
+ const extras=readData<any>('curated').places as Place[];assert.equal(extras.length,22);
  for(const p of extras){assert.equal(p.lat,null);assert.equal(p.lng,null);assert.equal(p.walk_min_from_station,null);assert.equal(hasCoordinates(p),false);assert.ok(p.description&&p.description.length>30);assert.ok(p.official_url?.startsWith('https://'));}
  const saved=extras.map(p=>p.slug);assert.deepEqual(decodeState(encodeState(saved,{}),[...places,...extras])?.stars,saved);
 });
@@ -387,4 +387,16 @@ test('reference currency calculator handles yen, dollars, splitting and invalid 
  assert.equal(FX_REFERENCE.checkedAt,'2026-10-27T03:00:00Z');assert.ok(Math.abs(convertMoney(10000,'JPY')!-63.40677333)<0.0001);
  assert.ok(Math.abs(splitMoney(convertMoney(10000,'JPY')!,5)!-12.68135467)<0.0001);
  assert.equal(convertMoney(100,'USD',150),15000);assert.equal(convertMoney(100,'JPY',0),null);assert.equal(convertMoney(-1,'JPY'),null);assert.equal(splitMoney(100,0),null);assert.equal(splitMoney(100,2.5),null);
+});
+
+
+test('social-bar curation stays public-factual and retains camera shopping',()=>{
+ const c=readData<any>('curated');const all=c.places as Place[];
+ assert.ok(all.some(p=>p.slug==='wrep'));assert.ok(all.some(p=>p.slug==='bridge-shibuya'));assert.ok(all.some(p=>p.slug==='map-camera-shinjuku'));
+ assert.equal(all.find(p=>p.slug==='bridge-shibuya')?.closed_dates?.includes('2026-11-15'),true);
+ const barText=JSON.stringify(all.filter(p=>['wrep','bridge-shibuya','popinn-ginza'].includes(p.slug)));assert.doesNotMatch(barText,/single women|attractiveness|dating|girlfriend|relationship status/i);
+});
+
+test('supplementary source captures also match integrity hashes',()=>{
+ for(const shot of Object.values(readData<Record<string,any>>('screenshots')))for(const extra of shot.supplementary||[]){const bytes=readFileSync(new URL('../public/'+extra.src,import.meta.url));assert.equal(bytes.length,extra.bytes);assert.equal(createHash('sha256').update(bytes).digest('hex'),extra.sha256);}
 });
