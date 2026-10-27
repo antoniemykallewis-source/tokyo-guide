@@ -1,0 +1,920 @@
+{
+  "shibuya-scramble-crossing": {
+    "straight_line_km": 9.1,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Shibuya+Scramble+Crossing+Shibuya+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Shibuya+Scramble+Crossing+Shibuya+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Shibuya+Scramble+Crossing+Shibuya+Tokyo+Japan&travelmode=transit"
+  },
+  "hachiko-statue": {
+    "straight_line_km": 9.1,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Hachiko+Statue+Shibuya+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Hachiko+Statue+Shibuya+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Hachiko+Statue+Shibuya+Tokyo+Japan&travelmode=transit"
+  },
+  "shibuya-sky": {
+    "straight_line_km": 9.2,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Shibuya+Sky+Shibuya+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Shibuya+Sky+Shibuya+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Shibuya+Sky+Shibuya+Tokyo+Japan&travelmode=transit"
+  },
+  "shibuya-center-gai": {
+    "straight_line_km": 9.0,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Shibuya+Center-Gai+Shibuya+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Shibuya+Center-Gai+Shibuya+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Shibuya+Center-Gai+Shibuya+Tokyo+Japan&travelmode=transit"
+  },
+  "shibuya-parco": {
+    "straight_line_km": 8.8,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Shibuya+PARCO+Shibuya+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Shibuya+PARCO+Shibuya+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Shibuya+PARCO+Shibuya+Tokyo+Japan&travelmode=transit"
+  },
+  "hikiniku-to-kome-shibuya": {
+    "straight_line_km": 9.3,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Hikiniku+to+Kome+%28Shibuya%29+Shibuya+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Hikiniku+to+Kome+%28Shibuya%29+Shibuya+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Hikiniku+to+Kome+%28Shibuya%29+Shibuya+Tokyo+Japan&travelmode=transit"
+  },
+  "good-wood-terrace": {
+    "straight_line_km": 9.2,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Good+Wood+Terrace+Shibuya+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Good+Wood+Terrace+Shibuya+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Good+Wood+Terrace+Shibuya+Tokyo+Japan&travelmode=transit"
+  },
+  "recoco-shibuya-record-cafe": {
+    "straight_line_km": 9.4,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=RECOCO+Shibuya+%28record+cafe%29+Shibuya+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=RECOCO+Shibuya+%28record+cafe%29+Shibuya+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=RECOCO+Shibuya+%28record+cafe%29+Shibuya+Tokyo+Japan&travelmode=transit"
+  },
+  "uobei-shibuya-dogenzaka": {
+    "straight_line_km": 9.1,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Uobei+Shibuya+Dogenzaka+Shibuya+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Uobei+Shibuya+Dogenzaka+Shibuya+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Uobei+Shibuya+Dogenzaka+Shibuya+Tokyo+Japan&travelmode=transit"
+  },
+  "jikasei-mensho-shibuya-parco": {
+    "straight_line_km": 8.9,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Jikasei+MENSHO+%28Shibuya+PARCO%29+Shibuya+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Jikasei+MENSHO+%28Shibuya+PARCO%29+Shibuya+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Jikasei+MENSHO+%28Shibuya+PARCO%29+Shibuya+Tokyo+Japan&travelmode=transit"
+  },
+  "kith-tokyo": {
+    "straight_line_km": 8.8,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Kith+Tokyo+Shibuya+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Kith+Tokyo+Shibuya+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Kith+Tokyo+Shibuya+Tokyo+Japan&travelmode=transit"
+  },
+  "supreme-shibuya": {
+    "straight_line_km": 8.6,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Supreme+Shibuya+Shibuya+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Supreme+Shibuya+Shibuya+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Supreme+Shibuya+Shibuya+Tokyo+Japan&travelmode=transit"
+  },
+  "grandfather-s": {
+    "straight_line_km": 8.9,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Grandfather%27s+Shibuya+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Grandfather%27s+Shibuya+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Grandfather%27s+Shibuya+Tokyo+Japan&travelmode=transit"
+  },
+  "jbs-jazz-blues-soul": {
+    "straight_line_km": 9.4,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=JBS+%28Jazz+Blues+Soul%29+Shibuya+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=JBS+%28Jazz+Blues+Soul%29+Shibuya+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=JBS+%28Jazz+Blues+Soul%29+Shibuya+Tokyo+Japan&travelmode=transit"
+  },
+  "the-sg-club": {
+    "straight_line_km": 8.7,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=The+SG+Club+Shibuya+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=The+SG+Club+Shibuya+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=The+SG+Club+Shibuya+Tokyo+Japan&travelmode=transit"
+  },
+  "nonbei-yokocho": {
+    "straight_line_km": 9.1,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Nonbei+Yokocho+Shibuya+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Nonbei+Yokocho+Shibuya+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Nonbei+Yokocho+Shibuya+Tokyo+Japan&travelmode=transit"
+  },
+  "c-la-vi-tokyo": {
+    "straight_line_km": 9.3,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=C%C3%89+LA+VI+Tokyo+Shibuya+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=C%C3%89+LA+VI+Tokyo+Shibuya+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=C%C3%89+LA+VI+Tokyo+Shibuya+Tokyo+Japan&travelmode=transit"
+  },
+  "omotesando-cat-street-harajuku-shibuya-walk": {
+    "straight_line_km": 8.2,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Omotesando+%3E+Cat+Street+%3E+Harajuku+%3E+Shibuya+walk+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Omotesando+%3E+Cat+Street+%3E+Harajuku+%3E+Shibuya+walk+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Omotesando+%3E+Cat+Street+%3E+Harajuku+%3E+Shibuya+walk+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit"
+  },
+  "chermside-sandwich-harajuku": {
+    "straight_line_km": 7.7,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=CHERMSIDE+SANDWICH+Harajuku+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=CHERMSIDE+SANDWICH+Harajuku+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=CHERMSIDE+SANDWICH+Harajuku+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit"
+  },
+  "harajuku-gyoza-ro": {
+    "straight_line_km": 8.0,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Harajuku+Gyoza+Ro+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Harajuku+Gyoza+Ro+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Harajuku+Gyoza+Ro+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit"
+  },
+  "afuri-harajuku": {
+    "straight_line_km": 7.6,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=AFURI+Harajuku+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=AFURI+Harajuku+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=AFURI+Harajuku+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit"
+  },
+  "tonkatsu-maisen-aoyama": {
+    "straight_line_km": 8.0,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tonkatsu+Maisen+Aoyama+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tonkatsu+Maisen+Aoyama+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tonkatsu+Maisen+Aoyama+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit"
+  },
+  "yoroniku": {
+    "straight_line_km": 8.9,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Yoroniku+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Yoroniku+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Yoroniku+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit"
+  },
+  "two-rooms-grill-bar": {
+    "straight_line_km": 8.3,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=TWO+ROOMS+Grill+%7C+Bar+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=TWO+ROOMS+Grill+%7C+Bar+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=TWO+ROOMS+Grill+%7C+Bar+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit"
+  },
+  "kindal-harajuku": {
+    "straight_line_km": 7.9,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Kindal+Harajuku+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Kindal+Harajuku+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Kindal+Harajuku+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit"
+  },
+  "ragtag-harajuku": {
+    "straight_line_km": 8.2,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=RAGTAG+Harajuku+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=RAGTAG+Harajuku+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=RAGTAG+Harajuku+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit"
+  },
+  "2nd-street-harajuku": {
+    "straight_line_km": 7.9,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=2nd+STREET+Harajuku+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=2nd+STREET+Harajuku+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=2nd+STREET+Harajuku+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit"
+  },
+  "berberjin": {
+    "straight_line_km": 7.8,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Berberjin+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Berberjin+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Berberjin+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit"
+  },
+  "supreme-harajuku": {
+    "straight_line_km": 7.9,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Supreme+Harajuku+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Supreme+Harajuku+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Supreme+Harajuku+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit"
+  },
+  "domicile-tokyo-pleasures-stockist": {
+    "straight_line_km": 7.9,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Domicile+Tokyo+%28Pleasures+stockist%29+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Domicile+Tokyo+%28Pleasures+stockist%29+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Domicile+Tokyo+%28Pleasures+stockist%29+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit"
+  },
+  "uniqlo-harajuku-ut": {
+    "straight_line_km": 7.9,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=UNIQLO+Harajuku+%2F+UT+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=UNIQLO+Harajuku+%2F+UT+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=UNIQLO+Harajuku+%2F+UT+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit"
+  },
+  "meiji-jingu": {
+    "straight_line_km": 7.3,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Meiji+Jingu+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Meiji+Jingu+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Meiji+Jingu+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit"
+  },
+  "recoco-shimokitazawa": {
+    "straight_line_km": 9.7,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=RECOCO+Shimokitazawa+Shimokitazawa+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=RECOCO+Shimokitazawa+Shimokitazawa+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=RECOCO+Shimokitazawa+Shimokitazawa+Tokyo+Japan&travelmode=transit"
+  },
+  "flamingo-shimokitazawa": {
+    "straight_line_km": 9.8,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Flamingo+Shimokitazawa+Shimokitazawa+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Flamingo+Shimokitazawa+Shimokitazawa+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Flamingo+Shimokitazawa+Shimokitazawa+Tokyo+Japan&travelmode=transit"
+  },
+  "new-york-joe-exchange": {
+    "straight_line_km": 9.6,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=New+York+Joe+Exchange+Shimokitazawa+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=New+York+Joe+Exchange+Shimokitazawa+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=New+York+Joe+Exchange+Shimokitazawa+Tokyo+Japan&travelmode=transit"
+  },
+  "chicago-shimokitazawa": {
+    "straight_line_km": 9.8,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Chicago+Shimokitazawa+Shimokitazawa+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Chicago+Shimokitazawa+Shimokitazawa+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Chicago+Shimokitazawa+Shimokitazawa+Tokyo+Japan&travelmode=transit"
+  },
+  "safari-koenji": {
+    "straight_line_km": 7.3,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Safari+Koenji+Koenji+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Safari+Koenji+Koenji+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Safari+Koenji+Koenji+Tokyo+Japan&travelmode=transit"
+  },
+  "whistler-koenji": {
+    "straight_line_km": 7.1,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Whistler+Koenji+Koenji+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Whistler+Koenji+Koenji+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Whistler+Koenji+Koenji+Tokyo+Japan&travelmode=transit"
+  },
+  "koenji-look-street-pal-arcade": {
+    "straight_line_km": 7.4,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Koenji+Look+Street+%2F+Pal+arcade+Koenji+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Koenji+Look+Street+%2F+Pal+arcade+Koenji+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Koenji+Look+Street+%2F+Pal+arcade+Koenji+Tokyo+Japan&travelmode=transit"
+  },
+  "starbucks-reserve-roastery-tokyo": {
+    "straight_line_km": 10.3,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Starbucks+Reserve+Roastery+Tokyo+Nakameguro+%2F+Daikanyama+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Starbucks+Reserve+Roastery+Tokyo+Nakameguro+%2F+Daikanyama+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Starbucks+Reserve+Roastery+Tokyo+Nakameguro+%2F+Daikanyama+Tokyo+Japan&travelmode=transit"
+  },
+  "meguro-river-walk": {
+    "straight_line_km": 10.8,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Meguro+River+walk+Nakameguro+%2F+Daikanyama+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Meguro+River+walk+Nakameguro+%2F+Daikanyama+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Meguro+River+walk+Nakameguro+%2F+Daikanyama+Tokyo+Japan&travelmode=transit"
+  },
+  "daikanyama-t-site": {
+    "straight_line_km": 10.3,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Daikanyama+T-SITE+Nakameguro+%2F+Daikanyama+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Daikanyama+T-SITE+Nakameguro+%2F+Daikanyama+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Daikanyama+T-SITE+Nakameguro+%2F+Daikanyama+Tokyo+Japan&travelmode=transit"
+  },
+  "supreme-daikanyama": {
+    "straight_line_km": 10.1,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Supreme+Daikanyama+Nakameguro+%2F+Daikanyama+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Supreme+Daikanyama+Nakameguro+%2F+Daikanyama+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Supreme+Daikanyama+Nakameguro+%2F+Daikanyama+Tokyo+Japan&travelmode=transit"
+  },
+  "pizza-marumo": {
+    "straight_line_km": 10.6,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Pizza+Marumo+Ebisu+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Pizza+Marumo+Ebisu+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Pizza+Marumo+Ebisu+Tokyo+Japan&travelmode=transit"
+  },
+  "ebisu-yokocho": {
+    "straight_line_km": 10.3,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Ebisu+Yokocho+Ebisu+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Ebisu+Yokocho+Ebisu+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Ebisu+Yokocho+Ebisu+Tokyo+Japan&travelmode=transit"
+  },
+  "bar-martha": {
+    "straight_line_km": 10.2,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Bar+Martha+Ebisu+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Bar+Martha+Ebisu+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Bar+Martha+Ebisu+Tokyo+Japan&travelmode=transit"
+  },
+  "bar-trench": {
+    "straight_line_km": 10.3,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Bar+TRENCH+Ebisu+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Bar+TRENCH+Ebisu+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Bar+TRENCH+Ebisu+Tokyo+Japan&travelmode=transit"
+  },
+  "cafe-aaliya": {
+    "straight_line_km": 5.6,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Cafe+AALIYA+Shinjuku+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Cafe+AALIYA+Shinjuku+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Cafe+AALIYA+Shinjuku+Tokyo+Japan&travelmode=transit"
+  },
+  "ramen-afro-beats": {
+    "straight_line_km": 5.8,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Ramen+Afro+Beats+Shinjuku+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Ramen+Afro+Beats+Shinjuku+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Ramen+Afro+Beats+Shinjuku+Tokyo+Japan&travelmode=transit"
+  },
+  "fuunji": {
+    "straight_line_km": 6.2,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Fuunji+Shinjuku+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Fuunji+Shinjuku+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Fuunji+Shinjuku+Tokyo+Japan&travelmode=transit"
+  },
+  "golden-gai": {
+    "straight_line_km": 5.3,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Golden+Gai+Shinjuku+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Golden+Gai+Shinjuku+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Golden+Gai+Shinjuku+Tokyo+Japan&travelmode=transit"
+  },
+  "omoide-yokocho": {
+    "straight_line_km": 5.5,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Omoide+Yokocho+Shinjuku+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Omoide+Yokocho+Shinjuku+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Omoide+Yokocho+Shinjuku+Tokyo+Japan&travelmode=transit"
+  },
+  "bar-benfiddich": {
+    "straight_line_km": 5.6,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Bar+BenFiddich+Shinjuku+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Bar+BenFiddich+Shinjuku+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Bar+BenFiddich+Shinjuku+Tokyo+Japan&travelmode=transit"
+  },
+  "new-york-bar-park-hyatt-tokyo": {
+    "straight_line_km": 6.5,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=New+York+Bar+%28Park+Hyatt+Tokyo%29+Shinjuku+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=New+York+Bar+%28Park+Hyatt+Tokyo%29+Shinjuku+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=New+York+Bar+%28Park+Hyatt+Tokyo%29+Shinjuku+Tokyo+Japan&travelmode=transit"
+  },
+  "godzilla-head-hotel-gracery": {
+    "straight_line_km": 5.2,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Godzilla+Head+%28Hotel+Gracery%29+Shinjuku+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Godzilla+Head+%28Hotel+Gracery%29+Shinjuku+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Godzilla+Head+%28Hotel+Gracery%29+Shinjuku+Tokyo+Japan&travelmode=transit"
+  },
+  "ginza-kagari-main": {
+    "straight_line_km": 8.7,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Ginza+Kagari+%28main%29+Ginza+%2F+Nihonbashi+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Ginza+Kagari+%28main%29+Ginza+%2F+Nihonbashi+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Ginza+Kagari+%28main%29+Ginza+%2F+Nihonbashi+Tokyo+Japan&travelmode=transit"
+  },
+  "uniqlo-ginza-12-floors-uniqlo-tokyo": {
+    "straight_line_km": 8.9,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=UNIQLO+GINZA+%2812+floors%29+%2F+UNIQLO+TOKYO+Ginza+%2F+Nihonbashi+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=UNIQLO+GINZA+%2812+floors%29+%2F+UNIQLO+TOKYO+Ginza+%2F+Nihonbashi+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=UNIQLO+GINZA+%2812+floors%29+%2F+UNIQLO+TOKYO+Ginza+%2F+Nihonbashi+Tokyo+Japan&travelmode=transit"
+  },
+  "abercrombie-fitch-ginza": {
+    "straight_line_km": 8.9,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Abercrombie+%26+Fitch+Ginza+Ginza+%2F+Nihonbashi+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Abercrombie+%26+Fitch+Ginza+Ginza+%2F+Nihonbashi+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Abercrombie+%26+Fitch+Ginza+Ginza+%2F+Nihonbashi+Tokyo+Japan&travelmode=transit"
+  },
+  "dover-street-market-ginza": {
+    "straight_line_km": 8.9,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Dover+Street+Market+Ginza+Ginza+%2F+Nihonbashi+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Dover+Street+Market+Ginza+Ginza+%2F+Nihonbashi+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Dover+Street+Market+Ginza+Ginza+%2F+Nihonbashi+Tokyo+Japan&travelmode=transit"
+  },
+  "nihonbashi-philly-eagles-bar": {
+    "straight_line_km": 8.2,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Nihonbashi+Philly+%28Eagles+bar%29+Ginza+%2F+Nihonbashi+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Nihonbashi+Philly+%28Eagles+bar%29+Ginza+%2F+Nihonbashi+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Nihonbashi+Philly+%28Eagles+bar%29+Ginza+%2F+Nihonbashi+Tokyo+Japan&travelmode=transit"
+  },
+  "tsukiji-outer-market": {
+    "straight_line_km": 9.7,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tsukiji+Outer+Market+Tsukiji+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tsukiji+Outer+Market+Tsukiji+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tsukiji+Outer+Market+Tsukiji+Tokyo+Japan&travelmode=transit"
+  },
+  "tsukiji-yamacho-tamagoyaki": {
+    "straight_line_km": 9.7,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tsukiji+Yamacho+%28tamagoyaki%29+Tsukiji+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tsukiji+Yamacho+%28tamagoyaki%29+Tsukiji+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tsukiji+Yamacho+%28tamagoyaki%29+Tsukiji+Tokyo+Japan&travelmode=transit"
+  },
+  "sushi-itadori-bekkan": {
+    "straight_line_km": 9.7,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Sushi+Itadori+Bekkan+Tsukiji+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Sushi+Itadori+Bekkan+Tsukiji+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Sushi+Itadori+Bekkan+Tsukiji+Tokyo+Japan&travelmode=transit"
+  },
+  "kitsuneya": {
+    "straight_line_km": 9.7,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Kitsuneya+Tsukiji+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Kitsuneya+Tsukiji+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Kitsuneya+Tsukiji+Tokyo+Japan&travelmode=transit"
+  },
+  "toyosu-market-tuna-auction": {
+    "straight_line_km": 12.2,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Toyosu+Market+tuna+auction+Toyosu+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Toyosu+Market+tuna+auction+Toyosu+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Toyosu+Market+tuna+auction+Toyosu+Tokyo+Japan&travelmode=transit"
+  },
+  "teamlab-planets": {
+    "straight_line_km": 12.1,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=teamLab+Planets+Toyosu+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=teamLab+Planets+Toyosu+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=teamLab+Planets+Toyosu+Tokyo+Japan&travelmode=transit"
+  },
+  "senso-ji-kaminarimon": {
+    "straight_line_km": 7.8,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Senso-ji+%26+Kaminarimon+Asakusa+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Senso-ji+%26+Kaminarimon+Asakusa+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Senso-ji+%26+Kaminarimon+Asakusa+Tokyo+Japan&travelmode=transit"
+  },
+  "nakamise-dori": {
+    "straight_line_km": 7.9,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Nakamise-dori+Asakusa+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Nakamise-dori+Asakusa+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Nakamise-dori+Asakusa+Tokyo+Japan&travelmode=transit"
+  },
+  "hanayaka-kimono-tea-ceremony": {
+    "straight_line_km": 7.8,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=HANAYAKA+kimono+%2B+tea+ceremony+Asakusa+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=HANAYAKA+kimono+%2B+tea+ceremony+Asakusa+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=HANAYAKA+kimono+%2B+tea+ceremony+Asakusa+Tokyo+Japan&travelmode=transit"
+  },
+  "tokyo-skytree": {
+    "straight_line_km": 9.2,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tokyo+Skytree+Asakusa+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tokyo+Skytree+Asakusa+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tokyo+Skytree+Asakusa+Tokyo+Japan&travelmode=transit"
+  },
+  "super-potato-akihabara": {
+    "straight_line_km": 6.7,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Super+Potato+Akihabara+Akihabara+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Super+Potato+Akihabara+Akihabara+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Super+Potato+Akihabara+Akihabara+Tokyo+Japan&travelmode=transit"
+  },
+  "radio-kaikan": {
+    "straight_line_km": 6.8,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Radio+Kaikan+Akihabara+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Radio+Kaikan+Akihabara+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Radio+Kaikan+Akihabara+Tokyo+Japan&travelmode=transit"
+  },
+  "mandarake-complex": {
+    "straight_line_km": 6.7,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Mandarake+Complex+Akihabara+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Mandarake+Complex+Akihabara+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Mandarake+Complex+Akihabara+Tokyo+Japan&travelmode=transit"
+  },
+  "hareruya2-akihabara-tower": {
+    "straight_line_km": 6.8,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Hareruya2+Akihabara+Tower+Akihabara+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Hareruya2+Akihabara+Tower+Akihabara+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Hareruya2+Akihabara+Tower+Akihabara+Tokyo+Japan&travelmode=transit"
+  },
+  "gigo-akihabara-arcades": {
+    "straight_line_km": 6.7,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=GiGO+Akihabara+arcades+Akihabara+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=GiGO+Akihabara+arcades+Akihabara+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=GiGO+Akihabara+arcades+Akihabara+Tokyo+Japan&travelmode=transit"
+  },
+  "andaz-tokyo-rooftop-bar": {
+    "straight_line_km": 8.7,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Andaz+Tokyo+Rooftop+Bar+Roppongi+%2F+Toranomon+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Andaz+Tokyo+Rooftop+Bar+Roppongi+%2F+Toranomon+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Andaz+Tokyo+Rooftop+Bar+Roppongi+%2F+Toranomon+Tokyo+Japan&travelmode=transit"
+  },
+  "luis-jdm-experience-daikoku-pa-night-tour": {
+    "straight_line_km": 31.0,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Luis+JDM+Experience+%28Daikoku+PA+night+tour%29+Day+trip+%2F+night+tour+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Luis+JDM+Experience+%28Daikoku+PA+night+tour%29+Day+trip+%2F+night+tour+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Luis+JDM+Experience+%28Daikoku+PA+night+tour%29+Day+trip+%2F+night+tour+Tokyo+Japan&travelmode=transit"
+  },
+  "street-kart-shibuya-annex-mario-kart-style": {
+    "straight_line_km": 9.4,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=STREET+KART+Shibuya+Annex+%28Mario+Kart+style%29+Shibuya+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=STREET+KART+Shibuya+Annex+%28Mario+Kart+style%29+Shibuya+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=STREET+KART+Shibuya+Annex+%28Mario+Kart+style%29+Shibuya+Tokyo+Japan&travelmode=transit"
+  },
+  "street-kart-akihabara": {
+    "straight_line_km": 6.9,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=STREET+KART+Akihabara+Akihabara+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=STREET+KART+Akihabara+Akihabara+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=STREET+KART+Akihabara+Akihabara+Tokyo+Japan&travelmode=transit"
+  },
+  "shinjuku-batting-center": {
+    "straight_line_km": 5.0,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Shinjuku+Batting+Center+Shinjuku+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Shinjuku+Batting+Center+Shinjuku+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Shinjuku+Batting+Center+Shinjuku+Tokyo+Japan&travelmode=transit"
+  },
+  "meiji-jingu-gaien-batting-golf-range": {
+    "straight_line_km": 7.4,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Meiji+Jingu+Gaien+Batting+%2B+Golf+Range+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Meiji+Jingu+Gaien+Batting+%2B+Golf+Range+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Meiji+Jingu+Gaien+Batting+%2B+Golf+Range+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit"
+  },
+  "72tokyo-shibuya-golf-simulator-bar": {
+    "straight_line_km": 8.9,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=72TOKYO+Shibuya+%28golf+simulator+%2B+bar%29+Shibuya+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=72TOKYO+Shibuya+%28golf+simulator+%2B+bar%29+Shibuya+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=72TOKYO+Shibuya+%28golf+simulator+%2B+bar%29+Shibuya+Tokyo+Japan&travelmode=transit"
+  },
+  "round1-stadium-divercity-tokyo-plaza": {
+    "straight_line_km": 13.9,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Round1+Stadium+DiverCity+Tokyo+Plaza+Odaiba+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Round1+Stadium+DiverCity+Tokyo+Plaza+Odaiba+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Round1+Stadium+DiverCity+Tokyo+Plaza+Odaiba+Tokyo+Japan&travelmode=transit"
+  },
+  "alvark-tokyo-b-league-at-toyota-arena-tokyo": {
+    "straight_line_km": 14.1,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Alvark+Tokyo+%28B.League%29+at+TOYOTA+ARENA+TOKYO+Odaiba+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Alvark+Tokyo+%28B.League%29+at+TOYOTA+ARENA+TOKYO+Odaiba+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Alvark+Tokyo+%28B.League%29+at+TOYOTA+ARENA+TOKYO+Odaiba+Tokyo+Japan&travelmode=transit"
+  },
+  "korakuen-hall-boxing-pro-wrestling": {
+    "straight_line_km": 5.1,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Korakuen+Hall+%28boxing+%2F+pro+wrestling%29+Tokyo+Dome+%2F+Suidobashi+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Korakuen+Hall+%28boxing+%2F+pro+wrestling%29+Tokyo+Dome+%2F+Suidobashi+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Korakuen+Hall+%28boxing+%2F+pro+wrestling%29+Tokyo+Dome+%2F+Suidobashi+Tokyo+Japan&travelmode=transit"
+  },
+  "asakusa-sumo-club": {
+    "straight_line_km": 7.6,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Asakusa+Sumo+Club+Asakusa+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Asakusa+Sumo+Club+Asakusa+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Asakusa+Sumo+Club+Asakusa+Tokyo+Japan&travelmode=transit"
+  },
+  "hirakuza-ginza-sumo-live-restaurant": {
+    "straight_line_km": 8.8,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=HIRAKUZA+Ginza+%28sumo+live+restaurant%29+Ginza+%2F+Nihonbashi+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=HIRAKUZA+Ginza+%28sumo+live+restaurant%29+Ginza+%2F+Nihonbashi+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=HIRAKUZA+Ginza+%28sumo+live+restaurant%29+Ginza+%2F+Nihonbashi+Tokyo+Japan&travelmode=transit"
+  },
+  "shinjuku-sumo-club": {
+    "straight_line_km": 4.6,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Shinjuku+Sumo+Club+Shinjuku+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Shinjuku+Sumo+Club+Shinjuku+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Shinjuku+Sumo+Club+Shinjuku+Tokyo+Japan&travelmode=transit"
+  },
+  "gold-s-gym-harajuku-tokyo": {
+    "straight_line_km": 8.0,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Gold%27s+Gym+Harajuku+Tokyo+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Gold%27s+Gym+Harajuku+Tokyo+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Gold%27s+Gym+Harajuku+Tokyo+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit"
+  },
+  "minami-aoyama-shimizuyu-sento": {
+    "straight_line_km": 8.3,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Minami-Aoyama+Shimizuyu+%28sento%29+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Minami-Aoyama+Shimizuyu+%28sento%29+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Minami-Aoyama+Shimizuyu+%28sento%29+Harajuku+%2F+Omotesando+%2F+Aoyama+Tokyo+Japan&travelmode=transit"
+  },
+  "tokyo-toyosu-manyo-club-onsen": {
+    "straight_line_km": 12.1,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tokyo+Toyosu+Manyo+Club+%28onsen%29+Toyosu+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tokyo+Toyosu+Manyo+Club+%28onsen%29+Toyosu+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tokyo+Toyosu+Manyo+Club+%28onsen%29+Toyosu+Tokyo+Japan&travelmode=transit"
+  },
+  "spa-laqua-tokyo-dome": {
+    "straight_line_km": 4.9,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Spa+LaQua+%28Tokyo+Dome%29+Tokyo+Dome+%2F+Suidobashi+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Spa+LaQua+%28Tokyo+Dome%29+Tokyo+Dome+%2F+Suidobashi+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Spa+LaQua+%28Tokyo+Dome%29+Tokyo+Dome+%2F+Suidobashi+Tokyo+Japan&travelmode=transit"
+  },
+  "hub-shibuya-british-pub-sports": {
+    "straight_line_km": 8.8,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=HUB+Shibuya+%28British+pub+%2F+sports%29+Shibuya+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=HUB+Shibuya+%28British+pub+%2F+sports%29+Shibuya+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=HUB+Shibuya+%28British+pub+%2F+sports%29+Shibuya+Tokyo+Japan&travelmode=transit"
+  },
+  "the-bellwood": {
+    "straight_line_km": 9.0,
+    "distance_label": "Approx. straight-line distance; not walking or rail distance",
+    "destination_coordinate_source": "Existing guide coordinates, not newly verified",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=The+Bellwood+Shibuya+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=The+Bellwood+Shibuya+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=The+Bellwood+Shibuya+Tokyo+Japan&travelmode=transit"
+  },
+  "tgct": {
+    "straight_line_km": null,
+    "distance_label": "Open live route for travel distance/time",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tokyo+Great+Cycling+Tour+Shinkawa+%2F+Kayabacho+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tokyo+Great+Cycling+Tour+Shinkawa+%2F+Kayabacho+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tokyo+Great+Cycling+Tour+Shinkawa+%2F+Kayabacho+Tokyo+Japan&travelmode=transit"
+  },
+  "dig-west-side": {
+    "straight_line_km": null,
+    "distance_label": "Open live route for travel distance/time",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=DIG+Tokyo+West-Side+Cycling+%26+Food+Tour+Koenji+%2F+Nakano+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=DIG+Tokyo+West-Side+Cycling+%26+Food+Tour+Koenji+%2F+Nakano+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=DIG+Tokyo+West-Side+Cycling+%26+Food+Tour+Koenji+%2F+Nakano+Tokyo+Japan&travelmode=transit"
+  },
+  "tokyobike-kiyosumi": {
+    "straight_line_km": null,
+    "distance_label": "Open live route for travel distance/time",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=TOKYOBIKE+TOKYO+rental+Kiyosumi-Shirakawa+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=TOKYOBIKE+TOKYO+rental+Kiyosumi-Shirakawa+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=TOKYOBIKE+TOKYO+rental+Kiyosumi-Shirakawa+Tokyo+Japan&travelmode=transit"
+  },
+  "tokyobike-yanaka": {
+    "straight_line_km": null,
+    "distance_label": "Open live route for travel distance/time",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tokyobike+Yanaka+Soil+rental+Yanaka+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tokyobike+Yanaka+Soil+rental+Yanaka+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tokyobike+Yanaka+Soil+rental+Yanaka+Tokyo+Japan&travelmode=transit"
+  },
+  "docomo-share": {
+    "straight_line_km": null,
+    "distance_label": "Open live route for travel distance/time",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Docomo+Tokyo+Bike+Share+Tokyo+supported+cycle+ports+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Docomo+Tokyo+Bike+Share+Tokyo+supported+cycle+ports+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Docomo+Tokyo+Bike+Share+Tokyo+supported+cycle+ports+Tokyo+Japan&travelmode=transit"
+  },
+  "shinjuku-gyoen": {
+    "straight_line_km": null,
+    "distance_label": "Open live route for travel distance/time",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Shinjuku+Gyoen+Shinjuku+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Shinjuku+Gyoen+Shinjuku+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Shinjuku+Gyoen+Shinjuku+Tokyo+Japan&travelmode=transit"
+  },
+  "tokyo-national-museum": {
+    "straight_line_km": null,
+    "distance_label": "Open live route for travel distance/time",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tokyo+National+Museum+Ueno+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tokyo+National+Museum+Ueno+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Tokyo+National+Museum+Ueno+Tokyo+Japan&travelmode=transit"
+  },
+  "kiyosumi-gardens": {
+    "straight_line_km": null,
+    "distance_label": "Open live route for travel distance/time",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Kiyosumi+Gardens+Kiyosumi-Shirakawa+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Kiyosumi+Gardens+Kiyosumi-Shirakawa+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Kiyosumi+Gardens+Kiyosumi-Shirakawa+Tokyo+Japan&travelmode=transit"
+  },
+  "sunshine-aquarium": {
+    "straight_line_km": null,
+    "distance_label": "Open live route for travel distance/time",
+    "travel_time": null,
+    "transit_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Sunshine+Aquarium+Ikebukuro+Tokyo+Japan&travelmode=transit",
+    "walking_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Sunshine+Aquarium+Ikebukuro+Tokyo+Japan&travelmode=walking",
+    "maps_url": "https://www.google.com/maps/dir/?api=1&origin=1-ch%C5%8Dme-33-9+Ikebukurohonch%C5%8D%2C+Toshima+City%2C+Tokyo%2C+Japan&destination=Sunshine+Aquarium+Ikebukuro+Tokyo+Japan&travelmode=transit"
+  }
+}

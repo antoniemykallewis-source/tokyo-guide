@@ -6,20 +6,20 @@ Live destination: https://antoniemykallewis-source.github.io/tokyo-guide/
 
 ## Run
 
-Node24, then `npm ci`, `npm run dev`. `npm run qa` runs27 unit tests, strict TypeScript and production build. `npm run build` emits `dist`, a94-record no-JavaScript fallback,404fallback and a versioned offline service worker.
+Node24, then `npm ci`, `npm run dev`. `npm run qa` runs33 unit tests, strict TypeScript and production build. `npm run build` emits `dist`, a94-record no-JavaScript fallback,404fallback and a versioned offline service worker.
 
 GitHub Actions builds and publishes `main` to GitHub Pages. Base path is `/tokyo-guide/`. The public site has `noindex,nofollow`. This is not access control: the repository, built site and shared plan links are public.
 
 ## What works without credentials
 
-- Clear Places / Saved / My day / Bookings screens with labeled phone navigation, compact rows and optional 3D. All94 source records,26 original selections,15 area clusters plus the off-map tour.93 active entries are shown by default; the corrected closed record is opt-in.
+- Clear Places / Saved / My day / Bookings screens with labeled, in-flow top phone navigation, compact rows and always-visible schematic 3D. All94 source records,26 original selections,15 area clusters plus the off-map tour.93 active entries are shown by default; the corrected closed record is opt-in.
 - Owner-authorized public Home Base address with Google Maps directions. Address edits stay local and are excluded from shared plan URLs. Ikebukuro is outside the supplied15-area transit matrix, so no home-origin travel estimate is invented.
 - Search, category/original-list/booking filters, direct Maps links, details, venue-source previews.
 - Nearby walking estimates with explicit location permission, or manual area selection plus the supplied transit matrix. Coordinates stay on-device.
 - Saved places, conservative area-first day grouping, dated closure/event warnings, pinned booked items and shared URL state. Overflow stays visibly unplaced instead of forcing a distant or closed venue into a day. Friday stays free by default. Arrival is light in the original source grouping; Monday is morning-only.
 - Urgency-sorted booking links from `public/data/bookings.json`, runtime refresh with build-ID cache key and bundled offline fallback.
 - Actual R3F/three WebGPU/TSL schematic city, automatic WebGL2 backend, genuine compileAsync signal, district rings and scramble particles. Decorative, not photorealistic Tokyo or a navigational map.
-- Static/reduced-motion mode, manual Lite Mode, labeled phone navigation, keyboard/native-dialog accessibility, muted-default original synthesized chime and scratchable listening-bar records. Ornamental rack/cursor/claw surfaces are not in the default clarity view.
+- Static/reduced-motion mode, manual Lite Mode, labeled, in-flow top phone navigation, keyboard/native-dialog accessibility, muted-default original synthesized chime and scratchable listening-bar records. Ornamental rack/cursor/claw surfaces are not in the default clarity view.
 - Local fonts, offline card data and available images after service-worker installation. Booking sites, Google Maps and external map tiles need a network.
 
 ## Data and privacy
@@ -56,6 +56,16 @@ Edit the corresponding public entry in `public/data/bookings.json`. Set `booking
 
 ## Phone clarity revision
 
-Places open first, with neighborhood, search, category, direct Maps and save. Nearby geolocation remains available with an explicit permission prompt and manual fallback. My day keeps suggested sets, grouping, date selection, conflict warnings, direct Maps, shared plans and a collapsible neighborhood travel matrix. Bookings is a separate priority list. 3D and its motion engine load only after the visitor requests the optional city view.
+Places open first, with neighborhood, search, category, direct Maps and save. Nearby geolocation remains available with an explicit permission prompt and manual fallback. My day keeps suggested sets, grouping, date selection, conflict warnings, direct Maps, shared plans and a collapsible neighborhood travel matrix. Bookings is a separate priority list. A non-intercepting schematic 3D city remains behind the interface, progressively loaded after core content. Coarse-pointer phones use low-power rendering; unavailable GPUs and reduced motion use a dimensional isometric static fallback.
 
 Design references: [Apple tab bars](https://developer.apple.com/design/human-interface-guidelines/tab-bars), [Google Maps URLs](https://developers.google.com/maps/documentation/urls/get-started), [WebKit reduced motion](https://webkit.org/blog/7551/responsive-design-for-motion/).
+
+## Hybrid and practical-trip additions
+
+- Restored a large authentic Shibuya photo hero while keeping separate labeled views and descriptive place rows.
+- All94 records have plain-language cuisine/dish, shopping type or attraction explanations in `descriptions.json`.
+- `recommendations.json` adds five area-based sample day menus, five cycling options, four additional tourist stops and an optional weather-dependent Kawaguchiko/Fuji day. These are ideas, not bookings. New options remain separate from the original94.
+- Displayed clock times use AM/PM. Stored opening hours and booking data stay24-hour for parsing. Source screenshots retain their original publisher content.
+- `home.json` records Japan GSI's exact-address geocode (an address point, not a surveyed doorway). `home-distances.json` has approximate straight-line distance for all94 original places plus actual-address transit/walking links. Never interpret these distances as road distance or travel time. New options have route links but no invented coordinates or distance.
+- Official/source-site screenshots are being captured independently and individually visually reviewed. `screenshots.json` records source, capture date and kind, distinct from venue photos. Empty/blocked captures are not represented as successful venue imagery.
+- A real iPhone screenshot exposed a fixed-bottom navigation overlay failure. Mobile navigation is now a compact in-flow sticky top row with no bottom safe-area expansion. Narrow desktop-browser QA is not a substitute for a fresh iPhone verification.

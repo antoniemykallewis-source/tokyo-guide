@@ -49,3 +49,7 @@ Bookings are authoritative for booking status, priority, URL and window. The san
 ## Privacy
 
 All supplied confirmation objects were empty. The public files strip confirmation numbers, party sizes, and confirmation notes regardless. Personal clothing-size and preference copy was removed. Public selection flags were retained as specifically requested. Do not commit raw Slack responses, the original research pack, screenshots with private UI, signed download URLs, API secrets or later private booking details. A public GitHub Pages URL, even with noindex, is public. Public reservation dates/times should only be added when sharing them is authorized.
+
+## Shibuya Sky release timing update
+
+Operator notice dated February27,2025, page2 confirms midnight Japan time two weeks before entry for visits from April2 onward: https://shibuya-scramble-square.com/assets/pdf/about/20250227scsq.pdf . The2026 festival page repeats the ordinary exhibition rule: https://shibuya-scramble-square.com/sky/bonodori/ . This confirms the release rule, not November inventory. America/Los_Angeles conversion crosses the November1 DST change: October27–31 at8AM PDT, November1 at7AM PST.

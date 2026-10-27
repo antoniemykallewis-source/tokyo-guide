@@ -65,7 +65,10 @@
           "opens_at": "2026-11-02T00:00:00+09:00"
         }
       ],
-      "release_note": "Exact midnight release time is source-provided. Official page confirms the two-week sales window. Confirm live ticketing."
+      "release_note": "Exact midnight release time is source-provided. Official page confirms the two-week sales window. Confirm live ticketing.",
+      "release_rule_source": "https://shibuya-scramble-square.com/assets/pdf/about/20250227scsq.pdf",
+      "release_rule_checked": "2026-10-27",
+      "release_rule_note": "Official operator notice confirms midnight Japan time two weeks before entry. November inventory and desired slots are not guaranteed."
     },
     {
       "slug": "hikiniku-to-kome-shibuya",

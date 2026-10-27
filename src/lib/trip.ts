@@ -1,7 +1,8 @@
 import type {Place,Booking,Plan,ClusterData} from '../types';
 export const DAYS=Array.from({length:6},(_,i)=>`2026-11-${11+i}`);
 export const LABELS=['WED 11','THU 12','FRI 13','SAT 14','SUN 15','MON 16'];
-export const clean=(s:unknown)=>String(s??'').replace(/[—–]/g,'. ').replace(/\s+/g,' ').trim();
+export function formatTimeText(value:unknown):string{return String(value??'').replace(/(?<![\d:])([01]?\d|2[0-4]):([0-5]\d)(?::([0-5]\d))?(?![\d:])(?:\s*(AM|PM))?/gi,(match,h,m,seconds,meridiem)=>{if(meridiem)return `${Number(h)}:${m}${seconds?':'+seconds:''} ${meridiem.toUpperCase()}`;const hour=Number(h);if(hour===24&&m!=='00')return match;return `${hour%12||12}:${m}${seconds?':'+seconds:''} ${hour>=12&&hour<24?'PM':'AM'}`;});}
+export const clean=(s:unknown)=>formatTimeText(s).replace(/—/g,'. ').replace(/\s+/g,' ').trim();
 export function isClosed(p:Place){return p.permanently_closed===true||['permanently_closed','closed'].includes(String(p.availability));}
 const closedBySlug:Record<string,number[]>={'hikiniku-to-kome-shibuya':[3],'shimizuyu':[5],'grandfathers':[1],'kitsuneya':[0],'nihonbashi-philly':[0,6]};
 export function closedDays(p:Place):number[]{if(Array.isArray(p.closed_days))return p.closed_days;const s=p.slug.toLowerCase();if(s.includes('hikiniku'))return [3];if(s.includes('shimizuyu'))return [5];if(s.includes('grandfather'))return [1];if(s.includes('kitsuneya'))return [0];if(s.includes('nihonbashi-philly'))return [0,6];if(s.includes('toyosu-market'))return [0,3];return closedBySlug[s]??[];}

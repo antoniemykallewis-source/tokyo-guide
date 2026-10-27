@@ -1,0 +1,12 @@
+{
+  "label": "Home Base",
+  "address": "1-chōme-33-9 Ikebukurohonchō, Toshima City, Tokyo, Japan",
+  "lat": 35.740334,
+  "lng": 139.716202,
+  "source_url": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E8%B1%8A%E5%B3%B6%E5%8C%BA%E6%B1%A0%E8%A2%8B%E6%9C%AC%E7%94%BA1-33-9",
+  "source": "Geospatial Information Authority of Japan address search",
+  "matched_address": "東京都豊島区池袋本町一丁目３３番９号",
+  "precision_note": "Address-point geocode, not a surveyed doorway. Existing destination coordinates also vary in precision. Round geographic distances to 0.1 km and label approximate.",
+  "checked_date": "2026-10-27",
+  "method": "Distances are approximate straight-line separation, not walk/train distance or travel time. Live directions start at the actual home address; they include station access and transfers. Home is near Kita-Ikebukuro, not inside Ikebukuro Station. Do not silently use Ikebukuro station as the home origin."
+}

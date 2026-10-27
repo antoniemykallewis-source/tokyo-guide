@@ -36,14 +36,67 @@ const css = `
 .na-city:after {content:"";position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 -80px 80px -60px #0B0B0B;z-index:1}
 .na-city-caption {position:absolute;right:16px;bottom:14px;z-index:2;color:#a7aaa0;font:9px/1.5 'Martian Mono',monospace;letter-spacing:.08em;text-transform:uppercase;text-align:right;pointer-events:none}
 .na-city-caption b {display:block;color:#DFFF00;font-weight:500}
-.na-city-static {position:absolute;inset:0;background:radial-gradient(ellipse at 58% 54%,#20270c,transparent 50%),repeating-linear-gradient(0deg,transparent 0 38px,#22261a 39px 40px),repeating-linear-gradient(90deg,transparent 0 38px,#22261a 39px 40px);transform:perspective(650px) rotateX(54deg) rotateZ(-18deg) scale(1.3);transform-origin:50% 45%}
-.na-city-static i {position:absolute;width:56px;height:56px;border:1px solid #DFFF00;border-radius:50%;box-shadow:0 0 0 9px #dfff0010;display:grid;place-items:center;color:#DFFF00;font:8px 'Martian Mono',monospace;font-style:normal}
+.na-city-static {position:absolute;inset:0;background:#0B0B0B;overflow:hidden}
+.na-city-static svg {display:block;width:100%;height:100%;min-height:280px}
+@media (max-width:640px) {.na-city-static svg {width:140%;max-width:none;margin-left:-20%}.na-city-caption {max-width:210px;font-size:8px}}
 `;
 
 function StaticCity({ activeCode, onReady }: Pick<CitySceneProps, 'activeCode' | 'onReady'>) {
   useEffect(() => { onReady?.(); }, [onReady]);
+  const scene = useMemo(() => {
+    // Isometric illustration, not fabricated Tokyo building footprints.
+    const project = (x: number, z: number, h = 0): [number, number] => [800 + (x - z) * 29, 490 + (x + z) * 13 - h * 48];
+    const polygon = (points: [number, number][]) => points.map(p => p.map(n => n.toFixed(1)).join(',')).join(' ');
+    const path = (points: [number, number][]) => points.map((p, i) => `${i ? 'L' : 'M'}${p[0].toFixed(1)},${p[1].toFixed(1)}`).join(' ');
+    const buildings: { id: number; depth: number; roof: string; left: string; right: string; windows: string; height: number }[] = [];
+    for (let row = 0; row < 19; row++) for (let col = 0; col < 19; col++) {
+      const id = row * 19 + col;
+      const x = (col - 9) * 1.8;
+      const z = (row - 9) * 1.8;
+      if (rand(id + 28) < .16 || Math.abs(x + z * .35) < .9 || Math.abs(z - x * .15) < .9) continue;
+      const width = .74 + rand(id + 81) * .5;
+      const depth = .75 + rand(id + 140) * .5;
+      const density = .35 + .65 * Math.max(0, 1 - Math.hypot(x, z) / 23);
+      const height = .35 + Math.pow(rand(id + 73), 2.2) * 5.8 * density;
+      const top = [project(x, z, height), project(x + width, z, height), project(x + width, z + depth, height), project(x, z + depth, height)];
+      const floor = [project(x, z), project(x + width, z), project(x + width, z + depth), project(x, z + depth)];
+      const windows: string[] = [];
+      for (let level = .24; level < height - .12; level += .27) {
+        if (rand(id + Math.round(level * 15)) > .28) windows.push(path([project(x + width, z + depth * .13, level), project(x + width, z + depth * .83, level)]));
+        if (rand(id + Math.round(level * 27)) > .52) windows.push(path([project(x + width * .2, z + depth, level), project(x + width * .85, z + depth, level)]));
+      }
+      buildings.push({ id, depth: x + z, height, roof: polygon(top), left: polygon([top[3], top[2], floor[2], floor[3]]), right: polygon([top[1], top[2], floor[2], floor[1]]), windows: windows.join(' ') });
+    }
+    buildings.sort((a, b) => a.depth - b.depth);
+    const grid = Array.from({ length: 23 }, (_, i) => {
+      const v = (i - 11) * 1.8;
+      return `${path([project(v, -20), project(v, 20)])} ${path([project(-20, v), project(20, v)])}`;
+    }).join(' ');
+    const districts = DISTRICTS.map(d => ({ ...d, point: project(d.x, d.z) }));
+    return { buildings, grid, districts };
+  }, []);
   return <div className="na-city-static" aria-hidden="true">
-    {DISTRICTS.map(d => <i key={d.code} style={{ left: `${48 + d.x * 2.8}%`, top: `${42 + d.z * 3.6}%`, opacity: !activeCode || activeCode === d.code ? 1 : .35 }}>{d.code}</i>)}
+    <svg viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice" focusable="false">
+      <path d="M800 -20 L1660 490 L800 1020 L-60 490Z" fill="#0d130d" />
+      <path d={scene.grid} fill="none" stroke="#485d32" strokeWidth=".8" opacity=".42" />
+      {scene.buildings.map(b => <g key={b.id} stroke="#536844" strokeWidth=".7" strokeLinejoin="round">
+        <polygon points={b.left} fill="#121e13" />
+        <polygon points={b.right} fill="#1e2d19" />
+        <polygon points={b.roof} fill={b.height > 3 ? '#465532' : '#2c3a24'} />
+        {b.windows && <path d={b.windows} fill="none" stroke={b.height > 3 ? '#aec26b' : '#708349'} strokeWidth="1.1" opacity={b.height > 3 ? '.66' : '.4'} />}
+      </g>)}
+      {scene.districts.map(d => {
+        const selected = activeCode === d.code;
+        const [x, y] = d.point;
+        return <g key={d.code} opacity={selected ? 1 : .56} stroke={selected ? LIME : '#a0b66e'}>
+          <ellipse cx={x} cy={y} rx={selected ? 43 : 27} ry={selected ? 18 : 11} fill="#0b0b0b" fillOpacity=".6" strokeWidth={selected ? 2 : 1} />
+          {selected && <ellipse cx={x} cy={y} rx="57" ry="24" fill="none" opacity=".38" strokeWidth="1" />}
+          <path d={`M${x},${y}V${y - (selected ? 130 : 67)}`} strokeWidth={selected ? 2 : 1} />
+          <rect x={x - 4} y={y - (selected ? 138 : 75)} width="8" height="8" fill={selected ? LIME : '#a0b66e'} stroke="none" transform={`rotate(45 ${x} ${y - (selected ? 134 : 71)})`} />
+          <text x={x + 10} y={y - (selected ? 130 : 67)} stroke="none" fill={selected ? LIME : PAPER} fontFamily="'Martian Mono', monospace" fontSize={selected ? 13 : 10} letterSpacing="1">{d.code}</text>
+        </g>;
+      })}
+    </svg>
   </div>;
 }
 
@@ -109,6 +162,31 @@ function useGraphicsSupport(enabled: boolean) {
     return () => { cancelled = true; };
   }, [enabled]);
   return support;
+}
+
+function useCoarsePointer() {
+  const [coarse, setCoarse] = useState(() => typeof window !== 'undefined' && window.matchMedia('(pointer: coarse)').matches);
+  useEffect(() => {
+    const media = window.matchMedia('(pointer: coarse)');
+    const update = () => setCoarse(media.matches);
+    media.addEventListener('change', update);
+    return () => media.removeEventListener('change', update);
+  }, []);
+  return coarse;
+}
+
+// A demand loop limits continuous background work to 30 fps on phone/lite,
+// 60 fps on full. Hidden or offscreen scenes have no animation timer.
+function FrameBudget({ active, tier }: { active: boolean; tier: 'full' | 'lite' }) {
+  const invalidate = useThree(state => state.invalidate);
+  useEffect(() => {
+    if (!active) return;
+    let timer: number;
+    const tick = () => { invalidate(); timer = window.setTimeout(tick, 1000 / (tier === 'full' ? 60 : 30)); };
+    tick();
+    return () => window.clearTimeout(timer);
+  }, [active, tier, invalidate]);
+  return null;
 }
 
 function rand(n: number) { const x = Math.sin(n * 127.1 + 311.7) * 43758.5453; return x - Math.floor(x); }
@@ -309,10 +387,12 @@ export default function CityScene({ activeCode = 'SBY', tier = 'lite', onReady, 
   const root = useRef<HTMLDivElement>(null);
   const { active, reduced } = useSceneActivity(root);
   const graphicsSupport = useGraphicsSupport(!reduced);
+  const coarse = useCoarsePointer();
+  const renderTier = coarse ? 'lite' : tier;
   const [rendererName, setRendererName] = useState('3D archive');
   const [failed, setFailed] = useState(false);
   const onFailed = useCallback(() => setFailed(true), []);
-  const onFallbackReady = useCallback(() => { setRendererName('Static archive'); onReady?.(); }, [onReady]);
+  const onFallbackReady = useCallback(() => { setRendererName('Static isometric archive'); onReady?.(); }, [onReady]);
   const fallback = <StaticCity activeCode={activeCode} onReady={onFallbackReady} />;
   return <div className="na-city" ref={root} aria-label="Decorative schematic Tokyo city. Use the area list for navigation.">
     <style>{css}</style>
@@ -320,21 +400,22 @@ export default function CityScene({ activeCode = 'SBY', tier = 'lite', onReady, 
       <Suspense fallback={fallback}>
         <Canvas
           camera={{ position: [17, 17, 24], fov: 42, near: .1, far: 100 }}
-          dpr={[1, tier === 'full' ? 1.75 : 1.25]}
-          frameloop={active ? 'always' : 'never'}
+          dpr={[1, renderTier === 'full' ? 1.75 : 1.25]}
+          frameloop={active ? 'demand' : 'never'}
           fallback={fallback}
           gl={async props => {
-            const renderer = new THREE.WebGPURenderer({ canvas: props.canvas as HTMLCanvasElement, antialias: tier === 'full', alpha: false, powerPreference: 'high-performance', forceWebGL: graphicsSupport === 'webgl2' });
+            const renderer = new THREE.WebGPURenderer({ canvas: props.canvas as HTMLCanvasElement, antialias: renderTier === 'full', alpha: false, powerPreference: renderTier === 'full' ? 'high-performance' : 'low-power', forceWebGL: graphicsSupport === 'webgl2', outputBufferType: renderTier === 'full' ? THREE.HalfFloatType : THREE.UnsignedByteType });
             await renderer.init();
             const backend = renderer.backend as { isWebGPUBackend?: boolean };
             setRendererName(backend.isWebGPUBackend ? 'WebGPU / TSL' : 'WebGL2 / TSL');
             return renderer;
           }}
         >
-          <World activeCode={activeCode} tier={tier} onReady={onReady} onSelectDistrict={onSelectDistrict} onFailed={onFailed} />
+          <FrameBudget active={active} tier={renderTier} />
+          <World activeCode={activeCode} tier={renderTier} onReady={onReady} onSelectDistrict={onSelectDistrict} onFailed={onFailed} />
         </Canvas>
       </Suspense>
     </SceneBoundary>}
-    <div className="na-city-caption"><b>{reduced ? 'STATIC ARCHIVE' : rendererName}</b>Schematic city. Not a navigation map.</div>
+    <div className="na-city-caption"><b>{reduced ? 'STATIC ISOMETRIC ARCHIVE' : rendererName}</b>Schematic city. Not a navigation map.</div>
   </div>;
 }

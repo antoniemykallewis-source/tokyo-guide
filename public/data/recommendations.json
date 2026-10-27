@@ -1,0 +1,454 @@
+{
+  "updated": "2026-10-27",
+  "intro": "Flexible day menus, not a fixed six-day itinerary. Existing confirmed bookings and arrival/departure times take precedence. New options are separate from original 94.",
+  "transit_note": "Local fares and live journey times not quoted: use live rail routing. Approximate dayparts allow for queues and browsing.",
+  "options": [
+    {
+      "id": "tgct",
+      "title": "Tokyo Great Cycling Tour",
+      "area": "Shinkawa / Kayabacho",
+      "what": "Guided city bicycle tours: an arranged bike, guide and route rather than navigating alone.",
+      "price": "Adult half day ¥9,000; full day ¥15,000",
+      "source_url": "https://www.tokyocycling.jp/tour-fee/",
+      "checked_date": "2026-10-27",
+      "constraints": [
+        "Prior reservation; exact Nov date availability unconfirmed.",
+        "Standard adult bikes suit about 150 cm+; e-assist +¥3,000 half day/+¥5,000 full day, only 5 bikes sized 153 cm+.",
+        "Runs in winter; weather cancellation policy applies. Return bike before any alcohol."
+      ],
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Tokyo%20Great%20Cycling%20Tour%20Tokyo",
+      "booking_url": "https://www.tokyocycling.jp/",
+      "additional_sources": [
+        "https://www.tokyocycling.jp/faq/"
+      ]
+    },
+    {
+      "id": "dig-west-side",
+      "title": "DIG Tokyo West-Side Cycling & Food Tour",
+      "area": "Koenji / Nakano",
+      "what": "A 3.5–4 hours small-group pedal-bike tour of residential lanes and everyday Japanese food; not major monuments.",
+      "price": "From ¥14,000",
+      "source_url": "https://www.digtokyotours.com/tokyocyclingtours",
+      "checked_date": "2026-10-27",
+      "constraints": [
+        "Roughly 12–15 km; confident riding required.",
+        "Small-group riders over 10 years and 140 cm; helmets free on request.",
+        "Food stops do not cater for allergies/dietary needs.",
+        "Usually proceeds in rain with ponchos; do not assume automatic cancellation."
+      ],
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=DIG%20Tokyo%20West-Side%20Cycling%20%26%20Food%20Tour%20Tokyo",
+      "booking_url": "https://www.digtokyotours.com/tokyocyclingtours"
+    },
+    {
+      "id": "tokyobike-kiyosumi",
+      "title": "TOKYOBIKE TOKYO rental",
+      "area": "Kiyosumi-Shirakawa",
+      "what": "Independent standard pedal bicycle rental for coffee shops and local backstreet exploring.",
+      "price": "¥2,500/day",
+      "source_url": "https://tokyobike.com/tokyobikerentals/",
+      "checked_date": "2026-10-27",
+      "constraints": [
+        "Book up to 30 days ahead; photo ID; reserve each rider’s size.",
+        "Return to same shop; rental hours Wed–Fri 11:00–17:30, Sat/Sun 10:00–17:30.",
+        "Closed Mon/Tue: not Nov 16. Fleet availability unconfirmed."
+      ],
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=TOKYOBIKE%20TOKYO%20rental%20Tokyo",
+      "booking_url": "https://tokyobiketokyo.bikerentals.co.jp/rentalbike_pretop"
+    },
+    {
+      "id": "tokyobike-yanaka",
+      "title": "Tokyobike Yanaka Soil rental",
+      "area": "Yanaka",
+      "what": "Independent pedal-bike rental for old-Tokyo neighbourhood lanes; shop return required.",
+      "price": "¥2,500/day",
+      "source_url": "https://tokyobike.com/tokyobikerentals/",
+      "checked_date": "2026-10-27",
+      "constraints": [
+        "Closed Tue/Wed/Thu: not Nov 11–12.",
+        "Photo ID and bike-size reservation recommended. Confirm rental hand-back time on booking."
+      ],
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Tokyobike%20Yanaka%20Soil%20rental%20Tokyo",
+      "booking_url": "https://tokyobikeyanakasoil.bikerentals.co.jp/rentalbike_pretop"
+    },
+    {
+      "id": "docomo-share",
+      "title": "Docomo Tokyo Bike Share",
+      "area": "Tokyo supported cycle ports",
+      "what": "Electric-assist bikes for short local hops; less dependable for securing an entire group fleet.",
+      "price": "¥165/30 min; ¥1,650 convenience-store day pass; ¥2,200 staffed IC-card day pass",
+      "source_url": "https://www.docomo-cycle.jp/tokyo/price?lang=en",
+      "checked_date": "2026-10-27",
+      "constraints": [
+        "Convenience-store pass requires SMS; verify phone compatibility.",
+        "IC pass requires contactable phone + photo ID; locate staffed seller first.",
+        "Return only at supported port and confirm completion; stock/hours vary.",
+        "Pass ends 23:59 same day, not 24 hours."
+      ],
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Docomo%20Tokyo%20Bike%20Share%20Tokyo"
+    },
+    {
+      "id": "shinjuku-gyoen",
+      "title": "Shinjuku Gyoen",
+      "area": "Shinjuku",
+      "what": "Japanese and landscaped gardens: a calm daylight break before neon Shinjuku.",
+      "price": "Adult ¥500",
+      "source_url": "https://policies.env.go.jp/national-garden/shinjukugyoen/english/guide/information/",
+      "checked_date": "2026-10-27",
+      "constraints": [
+        "November 09:00–16:30, last entry 16:00.",
+        "Open daily Nov 1–15; CLOSED Mon Nov 16.",
+        "Do not promise peak autumn foliage."
+      ],
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Shinjuku%20Gyoen%20Tokyo"
+    },
+    {
+      "id": "tokyo-national-museum",
+      "title": "Tokyo National Museum",
+      "area": "Ueno",
+      "what": "Japanese art, Buddhist sculpture and historic objects: an indoor cultural anchor.",
+      "price": "Collection adult ¥1,000; special exhibitions extra",
+      "source_url": "https://www.tnm.jp/modules/r_free_page/index.php?id=113&lang=en",
+      "checked_date": "2026-10-27",
+      "constraints": [
+        "09:30–17:00; Fri/Sat until 20:00, last entry 30 min before.",
+        "CLOSED Mon Nov 16. Honkan Room 4 closed during trip, not entire museum.",
+        "Online collection ticket recommended; not a fixed-time slot."
+      ],
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Tokyo%20National%20Museum%20Tokyo"
+    },
+    {
+      "id": "kiyosumi-gardens",
+      "title": "Kiyosumi Gardens",
+      "area": "Kiyosumi-Shirakawa",
+      "what": "A strolling pond garden with ornamental rocks and stepping stones; explore on foot after parking legally.",
+      "price": "Adult ¥150",
+      "source_url": "https://www.tokyo-park.or.jp/park/kiyosumi/index.html",
+      "checked_date": "2026-10-27",
+      "constraints": [
+        "09:00–17:00, last entry 16:30; no regular weekly closure."
+      ],
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kiyosumi%20Gardens%20Tokyo"
+    },
+    {
+      "id": "sunshine-aquarium",
+      "title": "Sunshine Aquarium",
+      "area": "Ikebukuro",
+      "what": "Rooftop aquarium near home base; indoor tanks plus weather-exposed rooftop exhibits.",
+      "price": "Adult ¥2,600–3,200 depending on date",
+      "source_url": "https://sunshinecity.jp/en/aquarium/ticket/",
+      "checked_date": "2026-10-27",
+      "constraints": [
+        "Autumn/winter generally weekdays 10:00–18:00, weekends 09:30–18:00; last 30 min before.",
+        "Recheck exact November calendar; weekend timed reservations recommended."
+      ],
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Sunshine%20Aquarium%20Tokyo"
+    }
+  ],
+  "packages": [
+    {
+      "id": "west-icons",
+      "title": "Shrine, fashion lanes & Shibuya lights",
+      "area": "Harajuku → Shibuya",
+      "travel": "Rail Ikebukuro→Harajuku; walk corridor to Shibuya; rail home. Check live transit.",
+      "budget_note": "Free shrine/crossing; food, shopping and Shibuya Sky extra. Do not treat this as an all-in price.",
+      "sequence": [
+        {
+          "time": "Morning",
+          "title": "Meiji Jingu",
+          "what": "Wooded Shinto shrine.",
+          "place_slug": "meiji-jingu",
+          "option_id": null
+        },
+        {
+          "time": "Lunch",
+          "title": "AFURI Harajuku",
+          "what": "Yuzu-scented ramen.",
+          "place_slug": "afuri-harajuku",
+          "option_id": null
+        },
+        {
+          "time": "Afternoon",
+          "title": "Berberjin",
+          "what": "Vintage clothing and denim.",
+          "place_slug": "berberjin",
+          "option_id": null
+        },
+        {
+          "time": "Afternoon",
+          "title": "Shibuya PARCO",
+          "what": "Fashion and Nintendo/Pokémon merchandise.",
+          "place_slug": "shibuya-parco",
+          "option_id": null
+        },
+        {
+          "time": "Evening",
+          "title": "Shibuya Sky",
+          "what": "Rooftop city view, only if a slot is secured.",
+          "place_slug": "shibuya-sky",
+          "option_id": null
+        },
+        {
+          "time": "After dark",
+          "title": "Shibuya Scramble Crossing",
+          "what": "Street-level crowd-crossing scene.",
+          "place_slug": "shibuya-scramble-crossing",
+          "option_id": null
+        }
+      ],
+      "must_book": [
+        "Shibuya Sky desired slot; meals with reservations remain subject to existing tracker."
+      ],
+      "constraints": [
+        "Approximate dayparts, not a timed booking. Do not attempt every clothing shop."
+      ],
+      "rain_alternative": "Shorten shrine walk; spend more time in PARCO and indoor fashion shops."
+    },
+    {
+      "id": "shinjuku-garden-neon",
+      "title": "Garden daylight & Shinjuku neon",
+      "area": "Shinjuku",
+      "travel": "Rail Ikebukuro→Shinjuku, then local walking; rail home.",
+      "budget_note": "Known garden admission ¥500/person; ramen, batting and bars extra.",
+      "sequence": [
+        {
+          "time": "Late morning",
+          "title": "Shinjuku Gyoen",
+          "what": "Landscaped garden walk.",
+          "place_slug": null,
+          "option_id": "shinjuku-gyoen"
+        },
+        {
+          "time": "Lunch",
+          "title": "Fuunji",
+          "what": "Rich dipping ramen / tsukemen.",
+          "place_slug": "fuunji",
+          "option_id": null
+        },
+        {
+          "time": "Afternoon",
+          "title": "Shinjuku Batting Center",
+          "what": "Casual batting cages; optional.",
+          "place_slug": "shinjuku-batting-center",
+          "option_id": null
+        },
+        {
+          "time": "Evening",
+          "title": "Godzilla Head",
+          "what": "Street-level photo; terrace access not assumed.",
+          "place_slug": "godzilla-head-hotel-gracery",
+          "option_id": null
+        },
+        {
+          "time": "Dinner",
+          "title": "Omoide Yokocho",
+          "what": "Small grilled-skewer eateries.",
+          "place_slug": "omoide-yokocho",
+          "option_id": null
+        },
+        {
+          "time": "Later, optional",
+          "title": "Golden Gai",
+          "what": "Tiny bars, not a large nightclub district.",
+          "place_slug": "golden-gai",
+          "option_id": null
+        }
+      ],
+      "must_book": [],
+      "constraints": [
+        "Garden CLOSED Nov 16; enter by 16:00 other dates.",
+        "Closed Gaien batting/golf is deliberately excluded."
+      ],
+      "rain_alternative": "Cafés, ramen and indoor shops instead of garden; keep evening lanes optional."
+    },
+    {
+      "id": "east-old-skyline",
+      "title": "Old Tokyo & the river skyline",
+      "area": "Asakusa → Oshiage",
+      "travel": "Rail from Ikebukuro with transfer to Asakusa; local walk/rail to Oshiage; rail home.",
+      "budget_note": "Temple grounds/walking free; food and Skytree admission extra.",
+      "sequence": [
+        {
+          "time": "Morning",
+          "title": "Senso-ji",
+          "what": "Buddhist temple and Kaminarimon gate.",
+          "place_slug": "senso-ji-kaminarimon",
+          "option_id": null
+        },
+        {
+          "time": "Late morning",
+          "title": "Nakamise-dori",
+          "what": "Traditional sweets and souvenir stalls.",
+          "place_slug": "nakamise-dori",
+          "option_id": null
+        },
+        {
+          "time": "Lunch",
+          "title": "Asakusa",
+          "what": "Choose a local Japanese lunch; specific restaurant not selected.",
+          "place_slug": null,
+          "option_id": null
+        },
+        {
+          "time": "Afternoon",
+          "title": "Sumida-side walk",
+          "what": "River-side city views, weather permitting.",
+          "place_slug": null,
+          "option_id": null
+        },
+        {
+          "time": "Late afternoon",
+          "title": "Tokyo Skytree",
+          "what": "Observation tower; Solamachi below for gifts, character goods and food.",
+          "place_slug": "tokyo-skytree",
+          "option_id": null
+        }
+      ],
+      "must_book": [
+        "Skytree timed slot if going up."
+      ],
+      "constraints": [
+        "Do not also add Ueno and Akihabara to this full day.",
+        "Poor weather may obscure observation views."
+      ],
+      "rain_alternative": "Short temple visit then more time inside Solamachi shops."
+    },
+    {
+      "id": "koenji-cycle-vintage",
+      "title": "West-side cycling & vintage clothing",
+      "area": "Koenji / Nakano",
+      "travel": "Ikebukuro→Shinjuku→Koenji by JR; choose a service that stops at Koenji.",
+      "budget_note": "Tour from ¥14,000/person; rail, dinner and clothing purchases extra.",
+      "sequence": [
+        {
+          "time": "Booked start",
+          "title": "DIG Tokyo West-Side Cycling & Food Tour",
+          "what": "Allow 3.5–4 hours for riding and everyday Japanese food.",
+          "place_slug": null,
+          "option_id": "dig-west-side"
+        },
+        {
+          "time": "After tour",
+          "title": "Koenji Look Street / Pal arcade",
+          "what": "Covered shopping lanes; vintage clothing nearby.",
+          "place_slug": "koenji-look-street-pal-arcade",
+          "option_id": null
+        },
+        {
+          "time": "Afternoon",
+          "title": "Safari Koenji",
+          "what": "Secondhand clothing / vintage Americana.",
+          "place_slug": "safari-koenji",
+          "option_id": null
+        },
+        {
+          "time": "Dinner",
+          "title": "Koenji",
+          "what": "Relaxed local dinner after returning bikes.",
+          "place_slug": null,
+          "option_id": null
+        }
+      ],
+      "must_book": [
+        "DIG tour slot and rider sizes."
+      ],
+      "constraints": [
+        "Tour generally runs in rain; confirm cancellation terms.",
+        "Return bicycles before drinking; don’t add another far-side district."
+      ],
+      "rain_alternative": "If changing within operator terms, use covered Pal arcade and vintage shops instead."
+    },
+    {
+      "id": "kiyosumi-slow-ride",
+      "title": "Local bikes, coffee & a pond garden",
+      "area": "Kiyosumi-Shirakawa",
+      "travel": "Rail from Ikebukuro to Kiyosumi-Shirakawa with transfer; ride locally, not from hotel.",
+      "budget_note": "Known rental+garden ¥2,650/person; coffee, food and rail extra.",
+      "sequence": [
+        {
+          "time": "Morning / shop opening",
+          "title": "TOKYOBIKE TOKYO rental",
+          "what": "Collect reserved size, confirm legal local route and return time.",
+          "place_slug": null,
+          "option_id": "tokyobike-kiyosumi"
+        },
+        {
+          "time": "Midday",
+          "title": "Kiyosumi-Shirakawa",
+          "what": "Coffee shops and backstreet loop toward Fukagawa; choose route with staff.",
+          "place_slug": null,
+          "option_id": null
+        },
+        {
+          "time": "Early afternoon",
+          "title": "Bike return",
+          "what": "Same shop before rental deadline.",
+          "place_slug": null,
+          "option_id": null
+        },
+        {
+          "time": "Afternoon",
+          "title": "Kiyosumi Gardens",
+          "what": "Pond garden on foot, last entry 16:30.",
+          "place_slug": null,
+          "option_id": "kiyosumi-gardens"
+        }
+      ],
+      "must_book": [
+        "Tokyobike fleet/size reservation."
+      ],
+      "constraints": [
+        "Rental closed Mon Nov 16.",
+        "Published rental end 17:30; return earlier to reach garden.",
+        "Alternative: choose a TGCT half-day tour, not both operators in one day."
+      ],
+      "rain_alternative": "Tokyo National Museum + Akihabara retro games/figures/arcades instead (museum closed Nov 16); on Nov 16 use Sunshine City near home base."
+    }
+  ],
+  "fuji": {
+    "id": "fuji-clear-only",
+    "title": "Optional Fuji: only for clear weather",
+    "area": "Kawaguchiko / Lake Kawaguchi",
+    "what": "A whole-day lake-and-mountain-view excursion, not climbing Mt Fuji.",
+    "recommendation": "Default to Tokyo on a five-day trip. Replace one Tokyo day only if near-date forecast and morning live view are clear and both transport legs work. No November visibility forecast is claimed now.",
+    "transport": "Ikebukuro→Shinjuku JR, then Busta 4 F via New South Gate. Direct coach headline about 1 hour 45 minutes; traffic can extend it. Budget roughly 2.5–3 hours each way from Ikebukuro including transfers as a planning allowance, not timetable.",
+    "price": "Coach ¥2,000 one-way online Fujiyama Connect / ¥2,200 counter; local rail, buses and food extra.",
+    "source_url": "https://bus.fujikyu.co.jp/lp/en-shinjuku-kawaguchiko/",
+    "checked_date": "2026-10-27",
+    "booking": "Reserved seats; same-day online offered subject to availability. Secure the return too. No booking made.",
+    "rail_alternative": "FUJI EXCURSION fastest 1 hour 53 minutes Shinjuku→Kawaguchiko, assigned-seat booking recommended; through fare must be checked, not outdated 2024 ¥4,130. Tickets generally open 10:00 JST one month ahead.",
+    "additional_sources": [
+      "https://www.fujikyu-railway.jp/fujikaiyuu/",
+      "https://www.jreast.co.jp/en/multi/faq/",
+      "https://fujisan-pref.jp/en/article/88/",
+      "https://www.fujisan-climb.jp/en/season/"
+    ],
+    "sequence": [
+      "Early transport to Kawaguchiko",
+      "Local bus to lakeshore / Oishi Park for Fuji across the lake",
+      "Lunch: consider hoto, wide wheat noodles and vegetables in miso broth; restaurant unselected",
+      "Lakeside stroll then reserved return"
+    ],
+    "constraints": [
+      "Full day opportunity cost; skip if cloudy.",
+      "No summit climbing: official summit trails closed out of season.",
+      "Local bus times/fares need recheck; do not squeeze ropeway and pagoda into same simple plan."
+    ],
+    "cloudy_alternative": "Shinjuku Gyoen + Shinjuku or Tokyo National Museum + Akihabara Nov 11–15. On Nov 16 stay close with Ikebukuro Sunshine City.",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Oishi+Park+Kawaguchiko"
+  },
+  "safety": {
+    "text": "Ride left on roadways; sidewalks only where permitted, pedestrians first. Obey lights and stops, use lights at night, wear a helmet, never cycle after alcohol. Stop before using navigation.",
+    "source_url": "https://www.npa.go.jp/english/bureau/traffic/document/4eigo.pdf"
+  },
+  "excluded": [
+    {
+      "title": "Wakasu bicycle rentals",
+      "reason": "Closed for renovations until expected April 2027.",
+      "source_url": "https://www.gotokyo.org/en/see-and-do/nature/waterfront/cycling-along-the-water.html"
+    },
+    {
+      "title": "Meiji Jingu Gaien batting/golf",
+      "reason": "Closed; do not schedule."
+    }
+  ]
+}

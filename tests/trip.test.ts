@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import {
-  DAYS, clean, isClosed, closedDays, dayConflicts, mergedPlaces, autoPlan,
+  DAYS, clean, formatTimeText, isClosed, closedDays, dayConflicts, mergedPlaces, autoPlan,
   planWarnings, distanceMinutes, hoursStatus, encodeState, decodeState,
 } from '../src/lib/trip';
 import type { Place, Booking, ClusterData, Plan } from '../src/types';
@@ -288,4 +288,41 @@ test('nearby-area preference never overrides closures, daily capacity or the fre
       if(a!==b) assert.ok((clusters.matrix[a]?.[b]??Infinity)<=15);
     }
   }
+});
+
+test('every original place has a clear source-grounded description', () => {
+  const descriptions = readData<Record<string,string>>('descriptions');
+  assert.deepEqual(Object.keys(descriptions).sort(), places.map(p=>p.slug).sort());
+  for(const text of Object.values(descriptions)) { assert.ok(text.length>60); assert.ok(!text.includes('\u2014')); }
+  assert.match(descriptions['good-wood-terrace'], /Jamaican.*jerk chicken/);
+  assert.match(descriptions['hikiniku-to-kome-shibuya'], /hamburger patties.*rice/);
+});
+test('new recommendation options are separate, sourced and coordinate-free', () => {
+  const rec = readData<any>('recommendations');
+  assert.equal(rec.options.length,9); assert.equal(rec.packages.length,5);
+  assert.equal(new Set(rec.options.map((o:any)=>o.id)).size,9);
+  for(const o of rec.options) { assert.equal(new URL(o.source_url).protocol,'https:');assert.equal(new URL(o.maps_url).hostname,'www.google.com');assert.equal(o.checked_date,'2026-10-27');assert.ok(!('lat' in o)); }
+});
+test('sample-day linked stops resolve without substituting shops for generic meals', () => {
+  const rec=readData<any>('recommendations');
+  for(const p of rec.packages)for(const step of p.sequence){if(step.place_slug)assert.ok(places.some(p=>p.slug===step.place_slug));if(step.option_id)assert.ok(rec.options.some((o:any)=>o.id===step.option_id));if(['Asakusa','Koenji'].includes(step.title))assert.equal(step.place_slug,null);}
+});
+test('Fuji is an optional weather-dependent replacement, not a summit hike or forecast',()=>{
+  const {fuji}=readData<any>('recommendations');assert.match(fuji.what,/not climbing/);assert.match(fuji.recommendation,/Default to Tokyo/);assert.match(fuji.recommendation,/No November visibility forecast/);assert.ok(fuji.constraints.some((s:string)=>s.includes('No summit climbing')));
+});
+
+
+test('all displayed clocks use AM/PM while stored hours retain 24-hour parsing',()=>{
+assert.equal(formatTimeText('09:00–16:30, last entry 16:00'),'9:00 AM–4:30 PM, last entry 4:00 PM');
+assert.equal(formatTimeText('12:00–24:00 / 00:00 JST'),'12:00 PM–12:00 AM / 12:00 AM JST');
+assert.equal(formatTimeText('10:00 AM / 8:00 pm'),'10:00 AM / 8:00 PM');
+assert.equal(formatTimeText('JPY 2,500 / 2026-11-16'),'JPY 2,500 / 2026-11-16');
+assert.equal(find('shibuya-sky').hours,'10:00-22:30');
+});
+
+
+test('home distances cover94 archive stops and9 new options without invented travel times',()=>{
+const d=readData<Record<string,any>>('home-distances'); const h=readData<any>('home');assert.equal(Object.keys(d).length,103);assert.equal(h.lat,35.740334);assert.equal(h.lng,139.716202);assert.match(h.source_url,/msearch.gsi.go.jp/);
+for(const p of places){assert.ok(d[p.slug].straight_line_km>=0);assert.equal(d[p.slug].travel_time,null);const u=new URL(d[p.slug].transit_url);assert.match(u.searchParams.get('origin')||'',/Ikebukurohonchō/);assert.equal(u.searchParams.get('travelmode'),'transit');}
+assert.equal(d['shibuya-scramble-crossing'].straight_line_km,9.1);assert.equal(d['tgct'].straight_line_km,null);
 });
