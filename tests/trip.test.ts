@@ -7,6 +7,8 @@ import {
   planWarnings, distanceMinutes, hoursStatus, encodeState, decodeState,
 } from '../src/lib/trip';
 import type { Place, Booking, ClusterData, Plan } from '../src/types';
+import {isSuggested,preserveArchivedAssignments,hasCoordinates} from '../src/lib/curation';
+import {convertMoney,splitMoney,FX_REFERENCE} from '../src/lib/currency';
 
 const readData = <T>(name: string): T => JSON.parse(readFileSync(new URL(`../public/data/${name}.json`, import.meta.url), 'utf8'));
 const places = readData<Place[]>('places');
@@ -69,7 +71,7 @@ test('public files contain no private confirmation fields or em dashes', () => {
       }
     }
   };
-  scan(places, 'places'); scan(bookingData, 'bookings'); scan(clusters, 'clusters');
+  scan(places, 'places'); scan(bookingData, 'bookings'); scan(clusters, 'clusters');scan(readData('curated'),'curated');
   assert.ok(!JSON.stringify(places).includes('his cropped/boxy XL vibe'));
   assert.equal(bookings.filter(b => b.booking_status === 'booked').length, 0);
 });
@@ -263,14 +265,15 @@ test('unbooked arrival day does not auto-assign an off-map multi-hour tour', () 
 });
 
 
-test('Bay Night keeps teamLab, Alvark and Round1 together on the eligible Saturday', () => {
+test('Bay Night keeps Alvark and Round1 on Saturday without recommending teamLab', () => {
   const slugs = [
     'teamlab-planets',
     'alvark-tokyo-b-league-at-toyota-arena-tokyo',
     'round1-stadium-divercity-tokyo-plaza',
   ];
   const plan = autoPlan(slugs,places,[],clusters);
-  for (const slug of slugs) {
+  assert.equal(plan['teamlab-planets'],undefined);
+  for (const slug of slugs.filter(isSuggested)) {
     assert.equal(plan[slug],'2026-11-14', `${slug} should join the Saturday bay event`);
     assert.deepEqual(dayConflicts(find(slug),plan[slug]),[]);
   }
@@ -280,7 +283,7 @@ test('nearby-area preference never overrides closures, daily capacity or the fre
   const plan = autoPlan(places.map(p=>p.slug),places,[],clusters);
   for (const [i,date] of DAYS.entries()) {
     const dayPlaces = places.filter(p=>plan[p.slug]===date);
-    assert.ok(dayPlaces.length<=(i===0||i===5?2:5), `${date} exceeds its place limit`);
+    assert.ok(dayPlaces.length<=(i===0||i===5?2:3), `${date} exceeds its place limit`);
     if (i===2) assert.equal(dayPlaces.length,0, 'Friday stays free unless manually overridden');
     const areas = [...new Set(dayPlaces.map(p=>p.cluster_code))];
     assert.ok(areas.length<=2);
@@ -306,10 +309,10 @@ test('new recommendation options are separate, sourced and coordinate-free', () 
 });
 test('sample-day linked stops resolve without substituting shops for generic meals', () => {
   const rec=readData<any>('recommendations');
-  for(const p of rec.packages)for(const step of p.sequence){if(step.place_slug)assert.ok(places.some(p=>p.slug===step.place_slug));if(step.option_id)assert.ok(rec.options.some((o:any)=>o.id===step.option_id));if(['Asakusa','Koenji'].includes(step.title))assert.equal(step.place_slug,null);}
+  for(const p of rec.packages)for(const step of p.sequence){if(step.place_slug)assert.ok([...places,...readData<any>('curated').places].some(p=>p.slug===step.place_slug));if(step.option_id)assert.ok(rec.options.some((o:any)=>o.id===step.option_id));if(['Asakusa','Koenji'].includes(step.title))assert.equal(step.place_slug,null);}
 });
 test('Fuji is an optional weather-dependent replacement, not a summit hike or forecast',()=>{
-  const {fuji}=readData<any>('recommendations');assert.match(fuji.what,/not climbing/);assert.match(fuji.recommendation,/Default to Tokyo/);assert.match(fuji.recommendation,/No November visibility forecast/);assert.ok(fuji.constraints.some((s:string)=>s.includes('No summit climbing')));
+  const {fuji}=readData<any>('recommendations');assert.match(fuji.what,/not climbing/);assert.match(fuji.recommendation,/Optional only, not a default day/);assert.match(fuji.recommendation,/No November visibility forecast/);assert.ok(fuji.constraints.some((s:string)=>s.includes('No summit climbing')));
 });
 
 
@@ -330,9 +333,9 @@ assert.equal(d['shibuya-scramble-crossing'].straight_line_km,9.1);assert.equal(d
 
 
 test('all94 original places and9 new options have reviewed source captures',()=>{
-const shots=readData<Record<string,any>>('screenshots');const rec=readData<any>('recommendations');const ids=[...places.map(p=>p.slug),...[...rec.options,...rec.archived_options].map((o:any)=>o.id)];assert.equal(Object.keys(shots).length,103);assert.deepEqual(Object.keys(shots).sort(),ids.sort());for(const shot of Object.values(shots)){assert.equal(shot.verified_visual,true);assert.match(shot.src,/^shots\/[a-z0-9-]+\.webp$/);assert.equal(new URL(shot.source).protocol,'https:');}
+const shots=readData<Record<string,any>>('screenshots');const rec=readData<any>('recommendations');const ids=[...new Set([...places.map(p=>p.slug),...[...rec.options,...rec.archived_options].map((o:any)=>o.id),...readData<any>('curated').places.map((p:Place)=>p.slug)])];assert.equal(Object.keys(shots).length,117);assert.deepEqual(Object.keys(shots).sort(),ids.sort());for(const shot of Object.values(shots)){assert.equal(shot.verified_visual,true);assert.match(shot.src,/^shots\/[a-z0-9-]+\.webp$/);assert.equal(new URL(shot.source).protocol,'https:');}
 });
-test('all103 capture files match their published integrity hashes',()=>{
+test('all117 capture files match their published integrity hashes',()=>{
 for(const shot of Object.values(readData<Record<string,any>>('screenshots'))){const bytes=readFileSync(new URL('../public/'+shot.src,import.meta.url));assert.equal(bytes.length,shot.bytes);assert.equal(createHash('sha256').update(bytes).digest('hex'),shot.sha256);}
 });
 test('historical and shared source captures retain explicit non-photo caveats',()=>{
@@ -346,7 +349,7 @@ test('group preference removes gardens and traditional museum from active ideas 
  assert.deepEqual(rec.archived_options.map((o:any)=>o.id).sort(),archived.sort());
  const active=JSON.stringify({options:rec.options,packages:rec.packages,fuji:rec.fuji});
  for(const id of archived)assert.ok(!active.includes(id));
- assert.doesNotMatch(active,/garden|museum|Shinjuku Gyoen/i);
+ assert.doesNotMatch(active,/Kiyosumi Gardens|Tokyo National Museum|Shinjuku Gyoen/i);
  assert.equal(rec.options.filter((o:any)=>['tgct','dig-west-side','tokyobike-kiyosumi','tokyobike-yanaka','docomo-share'].includes(o.id)).length,5);
  assert.ok(rec.options.some((o:any)=>o.id==='sunshine-aquarium'));
 });
@@ -355,4 +358,33 @@ test('preference refinement preserves original immersive experiences and source 
  assert.equal(places.length,94);
  const shots=readData<Record<string,any>>('screenshots');
  for(const id of ['shinjuku-gyoen','kiyosumi-gardens','tokyo-national-museum','teamlab-planets'])assert.equal(shots[id].verified_visual,true);
+});
+
+
+test('excluded suggestions remain in original source and shared state but do not auto-plan',()=>{
+ const old={stars:['teamlab-planets','shibuya-sky'],plan:{'teamlab-planets':DAYS[3],'shibuya-sky':DAYS[4]}};
+ assert.deepEqual(decodeState(encodeState(old.stars,old.plan),places),old);assert.equal(isSuggested('teamlab-planets'),false);
+ const next=autoPlan(old.stars,places,[],clusters);assert.ok(!next['teamlab-planets']);assert.equal(preserveArchivedAssignments(old.plan,next)['teamlab-planets'],DAYS[3]);
+});
+test('new curated cards have no fabricated coordinates and can round-trip saved URLs',()=>{
+ const extras=readData<any>('curated').places as Place[];assert.equal(extras.length,20);
+ for(const p of extras){assert.equal(p.lat,null);assert.equal(p.lng,null);assert.equal(p.walk_min_from_station,null);assert.equal(hasCoordinates(p),false);assert.ok(p.description&&p.description.length>30);assert.ok(p.official_url?.startsWith('https://'));}
+ const saved=extras.map(p=>p.slug);assert.deepEqual(decodeState(encodeState(saved,{}),[...places,...extras])?.stars,saved);
+});
+test('unknown-area activities stay manual and ordinary grouped days cap at three stops',()=>{
+ const extras=readData<any>('curated').places as Place[];const all=[...places,...extras];const plan=autoPlan(all.map(p=>p.slug),all,[],clusters);
+ for(const p of extras.filter(p=>p.auto_plan===false))assert.equal(plan[p.slug],undefined);
+ for(const d of DAYS)assert.ok(Object.values(plan).filter(x=>x===d).length<=3);
+});
+test('pickleball and gym caveats do not imply held inventory or tourist eligibility',()=>{
+ const extras=readData<any>('curated').places as Place[];const pick=(id:string)=>extras.find(p=>p.slug===id)!;
+ assert.match(JSON.stringify(pick('neon-pickleball-shibuya').source_notes),/Not booked or held/);
+ assert.match(JSON.stringify(pick('seibu-fast-sports-shinagawa-pickleball').source_notes),/14 days/);
+ assert.match(JSON.stringify(pick('lyft-gym-omotesando').source_notes),/residence card/);assert.equal(pick('lyft-gym-omotesando').requires_access_check,true);
+ assert.ok(extras.every(p=>p.booking_status!=='booked'));
+});
+test('reference currency calculator handles yen, dollars, splitting and invalid rates',()=>{
+ assert.equal(FX_REFERENCE.checkedAt,'2026-10-27T03:00:00Z');assert.ok(Math.abs(convertMoney(10000,'JPY')!-63.40677333)<0.0001);
+ assert.ok(Math.abs(splitMoney(convertMoney(10000,'JPY')!,5)!-12.68135467)<0.0001);
+ assert.equal(convertMoney(100,'USD',150),15000);assert.equal(convertMoney(100,'JPY',0),null);assert.equal(convertMoney(-1,'JPY'),null);assert.equal(splitMoney(100,0),null);assert.equal(splitMoney(100,2.5),null);
 });

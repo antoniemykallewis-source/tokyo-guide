@@ -5,36 +5,38 @@
   "options": [
     {
       "id": "tgct",
-      "title": "Tokyo Great Cycling Tour",
+      "title": "Tokyo Great Cycling Tour - Route L",
       "area": "Shinkawa / Kayabacho",
-      "what": "Guided city bicycle tours: an arranged bike, guide and route rather than navigating alone.",
-      "price": "Adult half day ¥9,000; full day ¥15,000",
-      "source_url": "https://www.tokyocycling.jp/tour-fee/",
+      "what": "A guided three-hour east-Tokyo ride through Ryogoku, Asakusa, Ueno and Akihabara, rather than an independent rental.",
+      "price": "¥9,000 per adult; ¥45,000 for five. Bike, helmet, water and guide included; lunch extra.",
+      "source_url": "https://www.tokyocycling.jp/route-l/",
       "checked_date": "2026-10-27",
       "constraints": [
-        "Prior reservation; exact Nov date availability unconfirmed.",
-        "Standard adult bikes suit about 150 cm+; e-assist +¥3,000 half day/+¥5,000 full day, only 5 bikes sized 153 cm+.",
-        "Runs in winter; weather cancellation policy applies. Return bike before any alcohol."
+        "9:00 AM or 1:00 PM starts; about 17 km.",
+        "Published group limit 2–15; November five-seat availability unverified.",
+        "Passes Ueno Park. Verify exact stops with the operator; no garden or museum visit is added as a separate activity.",
+        "No handheld filming while riding; stop safely."
       ],
       "maps_url": "https://www.google.com/maps/search/?api=1&query=Tokyo%20Great%20Cycling%20Tour%20Tokyo",
-      "booking_url": "https://www.tokyocycling.jp/",
+      "booking_url": "https://www.tokyocycling.jp/booking/",
       "additional_sources": [
         "https://www.tokyocycling.jp/faq/"
       ]
     },
     {
       "id": "dig-west-side",
-      "title": "DIG Tokyo West-Side Cycling & Food Tour",
+      "title": "DIG West-Side Cycling & Food Tour",
       "area": "Koenji / Nakano",
-      "what": "A 3.5–4 hours small-group pedal-bike tour of residential lanes and everyday Japanese food; not major monuments.",
-      "price": "From ¥14,000",
+      "what": "A guided 3.5–4-hour local-life ride through Koenji, Nakano and Asagaya, including lunch, street-food tastes and a drink.",
+      "price": "¥15,000 per person; ¥75,000 for five. Published small-group rate, not a November seat guarantee.",
       "source_url": "https://www.digtokyotours.com/tokyocyclingtours",
       "checked_date": "2026-10-27",
       "constraints": [
-        "Roughly 12–15 km; confident riding required.",
-        "Small-group riders over 10 years and 140 cm; helmets free on request.",
-        "Food stops do not cater for allergies/dietary needs.",
-        "Usually proceeds in rain with ponchos; do not assume automatic cancellation."
+        "9:30 AM or 2:30 PM departures; 9:30 AM fits a relaxed start.",
+        "Published group size 3–8; five fit, but November seats are unverified.",
+        "12–15 km; confident urban cycling required. Request five free helmets.",
+        "Does not cater for dietary requirements or allergies. Confirm the food plan before selecting.",
+        "Usually runs in rain; stop safely before filming and return bikes before drinking."
       ],
       "maps_url": "https://www.google.com/maps/search/?api=1&query=DIG%20Tokyo%20West-Side%20Cycling%20%26%20Food%20Tour%20Tokyo",
       "booking_url": "https://www.digtokyotours.com/tokyocyclingtours"
@@ -103,247 +105,258 @@
   ],
   "packages": [
     {
-      "id": "west-icons",
-      "title": "Shrine, fashion lanes & Shibuya lights",
-      "area": "Harajuku → Shibuya",
-      "travel": "Rail Ikebukuro→Harajuku; walk corridor to Shibuya; rail home. Check live transit.",
-      "budget_note": "Free shrine/crossing; food, shopping and Shibuya Sky extra. Do not treat this as an all-in price.",
-      "sequence": [
-        {
-          "time": "Morning",
-          "title": "Meiji Jingu",
-          "what": "Wooded Shinto shrine.",
-          "place_slug": "meiji-jingu",
-          "option_id": null
-        },
-        {
-          "time": "Lunch",
-          "title": "AFURI Harajuku",
-          "what": "Yuzu-scented ramen.",
-          "place_slug": "afuri-harajuku",
-          "option_id": null
-        },
-        {
-          "time": "Afternoon",
-          "title": "Berberjin",
-          "what": "Vintage clothing and denim.",
-          "place_slug": "berberjin",
-          "option_id": null
-        },
-        {
-          "time": "Afternoon",
-          "title": "Shibuya PARCO",
-          "what": "Fashion and Nintendo/Pokémon merchandise.",
-          "place_slug": "shibuya-parco",
-          "option_id": null
-        },
-        {
-          "time": "Evening",
-          "title": "Shibuya Sky",
-          "what": "Rooftop city view, only if a slot is secured.",
-          "place_slug": "shibuya-sky",
-          "option_id": null
-        },
-        {
-          "time": "After dark",
-          "title": "Shibuya Scramble Crossing",
-          "what": "Street-level crowd-crossing scene.",
-          "place_slug": "shibuya-scramble-crossing",
-          "option_id": null
-        }
-      ],
-      "must_book": [
-        "Shibuya Sky desired slot; meals with reservations remain subject to existing tracker."
-      ],
-      "constraints": [
-        "Approximate dayparts, not a timed booking. Do not attempt every clothing shop."
-      ],
-      "rain_alternative": "Shorten shrine walk; spend more time in PARCO and indoor fashion shops."
-    },
-    {
-      "id": "shinjuku-food-neon",
-      "title": "Ramen, batting cages & Shinjuku neon",
-      "area": "Shinjuku",
-      "travel": "Rail Ikebukuro→Shinjuku, then local walking; rail home.",
-      "budget_note": "Ramen, batting and bars are paid separately. Choose the stops you want; no all-in price.",
-      "sequence": [
-        {
-          "time": "Lunch",
-          "title": "Fuunji",
-          "what": "Rich dipping ramen / tsukemen.",
-          "place_slug": "fuunji",
-          "option_id": null
-        },
-        {
-          "time": "Afternoon",
-          "title": "Shinjuku Batting Center",
-          "what": "Casual batting cages; optional.",
-          "place_slug": "shinjuku-batting-center",
-          "option_id": null
-        },
-        {
-          "time": "Evening",
-          "title": "Godzilla Head",
-          "what": "Street-level photo; terrace access not assumed.",
-          "place_slug": "godzilla-head-hotel-gracery",
-          "option_id": null
-        },
-        {
-          "time": "Dinner",
-          "title": "Omoide Yokocho",
-          "what": "Small grilled-skewer eateries.",
-          "place_slug": "omoide-yokocho",
-          "option_id": null
-        },
-        {
-          "time": "Later, optional",
-          "title": "Golden Gai",
-          "what": "Tiny bars, not a large nightclub district.",
-          "place_slug": "golden-gai",
-          "option_id": null
-        }
-      ],
-      "must_book": [],
-      "constraints": [
-        "Closed Gaien batting/golf is deliberately excluded."
-      ],
-      "rain_alternative": "Keep ramen and indoor stops; leave evening lanes optional."
-    },
-    {
-      "id": "east-old-skyline",
-      "title": "Old Tokyo & the river skyline",
-      "area": "Asakusa → Oshiage",
-      "travel": "Rail from Ikebukuro with transfer to Asakusa; local walk/rail to Oshiage; rail home.",
-      "budget_note": "Temple grounds/walking free; food and Skytree admission extra.",
-      "sequence": [
-        {
-          "time": "Morning",
-          "title": "Senso-ji",
-          "what": "Buddhist temple and Kaminarimon gate.",
-          "place_slug": "senso-ji-kaminarimon",
-          "option_id": null
-        },
-        {
-          "time": "Late morning",
-          "title": "Nakamise-dori",
-          "what": "Traditional sweets and souvenir stalls.",
-          "place_slug": "nakamise-dori",
-          "option_id": null
-        },
-        {
-          "time": "Lunch",
-          "title": "Asakusa",
-          "what": "Choose a local Japanese lunch; specific restaurant not selected.",
-          "place_slug": null,
-          "option_id": null
-        },
-        {
-          "time": "Afternoon",
-          "title": "Sumida-side walk",
-          "what": "River-side city views, weather permitting.",
-          "place_slug": null,
-          "option_id": null
-        },
-        {
-          "time": "Late afternoon",
-          "title": "Tokyo Skytree",
-          "what": "Observation tower; Solamachi below for gifts, character goods and food.",
-          "place_slug": "tokyo-skytree",
-          "option_id": null
-        }
-      ],
-      "must_book": [
-        "Skytree timed slot if going up."
-      ],
-      "constraints": [
-        "Do not also add Ueno and Akihabara to this full day.",
-        "Poor weather may obscure observation views."
-      ],
-      "rain_alternative": "Short temple visit then more time inside Solamachi shops."
-    },
-    {
-      "id": "koenji-cycle-vintage",
-      "title": "West-side cycling & vintage clothing",
+      "id": "koenji-guided-ride",
+      "title": "Guided bikes, food & vintage",
       "area": "Koenji / Nakano",
-      "travel": "Ikebukuro→Shinjuku→Koenji by JR; choose a service that stops at Koenji.",
-      "budget_note": "Tour from ¥14,000/person; rail, dinner and clothing purchases extra.",
+      "travel": "Start with the booked Koenji meeting point. Ride with the guide, return the bike, then browse locally.",
+      "budget_note": "DIG small-group rate ¥15,000 per person includes lunch and snacks. Shopping and evening food/drinks extra.",
       "sequence": [
         {
-          "time": "Booked start",
-          "title": "DIG Tokyo West-Side Cycling & Food Tour",
-          "what": "Allow 3.5–4 hours for riding and everyday Japanese food.",
-          "place_slug": null,
-          "option_id": "dig-west-side"
+          "time": "9:30 AM proposed departure",
+          "title": "DIG West-Side Cycling & Food Tour",
+          "what": "About 3.5–4 hours, 12–15 km and local food. Five seats must be confirmed; this is not booked.",
+          "place_slug": "dig-west-side",
+          "option_id": null,
+          "related_ids": [],
+          "optional": false
         },
         {
-          "time": "After tour",
-          "title": "Koenji Look Street / Pal arcade",
-          "what": "Covered shopping lanes; vintage clothing nearby.",
-          "place_slug": "koenji-look-street-pal-arcade",
-          "option_id": null
+          "time": "After the ride + a rest",
+          "title": "Koenji vintage browsing",
+          "what": "One flexible shopping anchor. Choose the shops you like rather than trying to tick off every store.",
+          "place_slug": "safari-koenji",
+          "option_id": null,
+          "related_ids": [
+            "whistler-koenji",
+            "koenji-look-street-pal-arcade"
+          ],
+          "optional": false
+        },
+        {
+          "time": "Optional evening",
+          "title": "Dinner near your current area",
+          "what": "No extra cross-city activity required after a substantial bike tour.",
+          "place_slug": null,
+          "option_id": null,
+          "related_ids": [],
+          "optional": true
+        }
+      ],
+      "must_book": [
+        "Five seats on the same guided departure; request helmets and discuss food requirements."
+      ],
+      "constraints": [
+        "No handheld filming while cycling. Stop safely for clips.",
+        "This tour normally runs in rain; check its cancellation terms."
+      ],
+      "rain_alternative": "Change only within operator terms. Use existing vintage shops/covered lanes if the ride is cancelled."
+    },
+    {
+      "id": "shinjuku-camera-day",
+      "title": "Camera gear, beef & arcade games",
+      "area": "Shinjuku",
+      "travel": "One camera-shopping block, one meal, one optional arcade stop. Everything stays in the Shinjuku area.",
+      "budget_note": "Camera purchases are outside the food/activity budget. Black Hole courses ¥5,478 or ¥7,678 per person, optional drinks extra.",
+      "sequence": [
+        {
+          "time": "9:30–11:00 AM opening sequence",
+          "title": "Camera-shopping anchor",
+          "what": "Yodobashi opens 9:30 AM, Kitamura 10:00 AM and Map Camera 11:00 AM. Choose one or two stores; this is one anchor, not three separate activities.",
+          "place_slug": "map-camera-shinjuku",
+          "option_id": null,
+          "related_ids": [
+            "yodobashi-camera-shinjuku-west",
+            "shinjuku-kitamura-camera"
+          ],
+          "optional": false
+        },
+        {
+          "time": "Lunch or early dinner",
+          "title": "Yakiniku Black Hole",
+          "what": "Tabletop beef grilling with a 100-minute course; reserve a table for five.",
+          "place_slug": "black-hole-shinjuku-sanchome",
+          "option_id": null,
+          "related_ids": [],
+          "optional": false
+        },
+        {
+          "time": "Flexible afternoon",
+          "title": "namco TOKYO",
+          "what": "Crane games and arcade play; swap for batting if that is the mood.",
+          "place_slug": "namco-tokyo",
+          "option_id": null,
+          "related_ids": [
+            "shinjuku-batting-center"
+          ],
+          "optional": false
+        },
+        {
+          "time": "Optional after dark",
+          "title": "Godzilla street view",
+          "what": "A short exterior clip/photo stop, not another admission. The hotel terrace is closed.",
+          "place_slug": "godzilla-head-hotel-gracery",
+          "option_id": null,
+          "related_ids": [],
+          "optional": true
+        }
+      ],
+      "must_book": [
+        "Black Hole table if selected; exact date availability unverified."
+      ],
+      "constraints": [
+        "Ask before filming inside camera shops. Check item condition, warranty and language before purchases.",
+        "Do not film in Omoide Yokocho without its required prior permission."
+      ],
+      "rain_alternative": "This is already mostly indoors; skip outdoor clips in poor weather."
+    },
+    {
+      "id": "shibuya-karts-fashion",
+      "title": "Street karts, chicken & streetwear",
+      "area": "Shibuya → Harajuku, only if time permits",
+      "travel": "Keep the road activity separate from the bicycle day. Add one nearby shopping block, not a tour of every district.",
+      "budget_note": "Street Kart regular starting rate ¥20,000 per person before optional coverage. Exact November quote unverified; meals and purchases extra.",
+      "sequence": [
+        {
+          "time": "9:30 AM check-in for a proposed 10:00 AM start",
+          "title": "Street Kart Shibuya H-S",
+          "what": "One-hour public-road tour. Confirm five matching karts and all driver documents before paying.",
+          "place_slug": "street-kart-shibuya-hs",
+          "option_id": null,
+          "related_ids": [],
+          "optional": false
+        },
+        {
+          "time": "Lunch",
+          "title": "Good Wood Terrace",
+          "what": "Jamaican jerk chicken with rice and peas. The seasoning may contain fish sauce; it is not a fish-free guarantee.",
+          "place_slug": "good-wood-terrace",
+          "option_id": null,
+          "related_ids": [],
+          "optional": false
         },
         {
           "time": "Afternoon",
-          "title": "Safari Koenji",
-          "what": "Secondhand clothing / vintage Americana.",
-          "place_slug": "safari-koenji",
-          "option_id": null
+          "title": "Streetwear + vintage block",
+          "what": "Choose Shibuya PARCO or a Harajuku resale loop. Many shops open late morning/noon.",
+          "place_slug": "shibuya-parco",
+          "option_id": null,
+          "related_ids": [
+            "ragtag-harajuku",
+            "berberjin",
+            "kith-tokyo"
+          ],
+          "optional": false
         },
         {
-          "time": "Dinner",
-          "title": "Koenji",
-          "what": "Relaxed local dinner after returning bikes.",
-          "place_slug": null,
-          "option_id": null
+          "time": "Optional short clip",
+          "title": "Shibuya Scramble Crossing",
+          "what": "Handheld personal travel capture without obstructing pedestrians. Commercial/staged filming needs separate checks.",
+          "place_slug": "shibuya-scramble-crossing",
+          "option_id": null,
+          "related_ids": [],
+          "optional": true
         }
       ],
       "must_book": [
-        "DIG tour slot and rider sizes."
+        "Driver-document checks and five karts on one departure."
       ],
       "constraints": [
-        "Tour generally runs in rain; confirm cancellation terms.",
-        "Return bicycles before drinking; don’t add another far-side district."
+        "Not Nintendo or Mario Kart. Single-seat vehicles, no passenger substitute.",
+        "Stay sober and never hold a camera while driving.",
+        "Skip the kart anchor entirely if licensing, insurance or weather does not work."
       ],
-      "rain_alternative": "If changing within operator terms, use covered Pal arcade and vintage shops instead."
+      "rain_alternative": "Choose the indoor shopping and meal stops; do not assume a weather cancellation refund."
     },
     {
-      "id": "kiyosumi-slow-ride",
-      "title": "Local bikes, coffee & backstreets",
-      "area": "Kiyosumi-Shirakawa",
-      "travel": "Rail from Ikebukuro to Kiyosumi-Shirakawa with transfer; ride locally, not from hotel.",
-      "budget_note": "Known rental ¥2,500/person; coffee, food and rail extra.",
+      "id": "lift-food-private-court",
+      "title": "Lift, a proper meal & your own court",
+      "area": "Omotesando → Shibuya, conditional",
+      "travel": "Aim for a later-afternoon private court after any gym visit. Do not squeeze an 11:00 AM gym start, lunch and transfer into an assumed 2:00 PM court arrival.",
+      "budget_note": "LÝFT is a ¥22,000 seven-day pass, not a cheap one-off visit. This upfront cost plus court, food and transport can consume or exceed a $100–200 day. Confirm eligibility before buying.",
       "sequence": [
         {
-          "time": "Morning / shop opening",
-          "title": "TOKYOBIKE TOKYO rental",
-          "what": "Collect reserved size, confirm legal local route and return time.",
-          "place_slug": null,
-          "option_id": "tokyobike-kiyosumi"
+          "time": "11:00 AM earliest week-pass access",
+          "title": "LÝFT GÝM, only if visitor eligibility is confirmed",
+          "what": "Official FAQ residency wording means tourist entry is not established. Do not buy or schedule as guaranteed.",
+          "place_slug": "lyft-gym-omotesando",
+          "option_id": null,
+          "related_ids": [],
+          "optional": false
         },
         {
-          "time": "Midday",
-          "title": "Kiyosumi-Shirakawa",
-          "what": "Coffee shops and backstreet loop toward Fukagawa; choose route with staff.",
-          "place_slug": null,
-          "option_id": null
+          "time": "Lunch with breathing room",
+          "title": "CHERMSIDE steak sandwich",
+          "what": "A meat sandwich and fries near Harajuku. Five may wait or split seating; do not lock an unverified meal duration.",
+          "place_slug": "chermside-sandwich-harajuku",
+          "option_id": null,
+          "related_ids": [],
+          "optional": false
         },
         {
-          "time": "Early afternoon",
-          "title": "Bike return",
-          "what": "Same shop before rental deadline.",
-          "place_slug": null,
-          "option_id": null
+          "time": "Reserve a suitable afternoon slot",
+          "title": "Private pickleball at NEON Shibuya",
+          "what": "Your own court: four play doubles while the fifth rotates. Four paddles and two balls included.",
+          "place_slug": "neon-pickleball-shibuya",
+          "option_id": null,
+          "related_ids": [],
+          "optional": false
         }
       ],
       "must_book": [
-        "Tokyobike fleet/size reservation."
+        "Confirm LÝFT eligibility before purchase.",
+        "Book a private court, not open play or a class."
       ],
       "constraints": [
-        "Rental closed Mon Nov 16.",
-        "Published rental end 17:30; return the bicycle before the deadline.",
-        "Alternative: choose a TGCT half-day tour, not both operators in one day."
+        "NEON Nov 12, 2–3 PM showed one slot on Oct 27. It is not held and is too tight to assume after a relaxed gym/lunch. If choosing that slot, skip or separate the gym.",
+        "If gym access is not possible, keep lunch + pickleball as the two anchors.",
+        "SEIBU Shinagawa is a separate indoor private-court alternative, not an extra court on the same day."
       ],
-      "rain_alternative": "Skip the ride if conditions are unsuitable. Use an existing indoor stop from your saved list instead; no replacement is scheduled."
+      "rain_alternative": "Both courts are indoors. If no court is secured, leave the activity unassigned rather than invent availability."
+    },
+    {
+      "id": "cooking-near-home",
+      "title": "Cook ramen, wander & choose the evening",
+      "area": "Ekoda / Ikebukuro",
+      "travel": "Use a Seibu local train from Ikebukuro to Ekoda. Keep this lighter day close to base, with no competing full-day tour.",
+      "budget_note": "Cooking ¥13,000 per person includes one ramen bowl and five gyoza; replaces lunch plus one paid activity. Evening spending optional.",
+      "sequence": [
+        {
+          "time": "Request a 9:00 AM or noon class",
+          "title": "Chef Yoshi ramen + gyoza",
+          "what": "Two-hour English cooking experience. Five fit the stated group limit; date/time is requestable, not confirmed.",
+          "place_slug": "chef-yoshi-ramen-gyoza-ekoda",
+          "option_id": null,
+          "related_ids": [],
+          "optional": false
+        },
+        {
+          "time": "After class",
+          "title": "Free time near Ikebukuro",
+          "what": "Keep room for wandering or rest. No extra attraction is required.",
+          "place_slug": null,
+          "option_id": null,
+          "related_ids": [],
+          "optional": false
+        },
+        {
+          "time": "Optional evening, if you want a night out",
+          "title": "POPINN.GINZA",
+          "what": "A separate trip to a small hip-hop/R&B bar; choose it only if the group wants the travel. Smoking indoors.",
+          "place_slug": "popinn-ginza",
+          "option_id": null,
+          "related_ids": [],
+          "optional": true
+        }
+      ],
+      "must_book": [
+        "Operator must accept the class request before invoice/payment; no request submitted.",
+        "POPINN accepts reservations for 3+, but travel-date seats/DJ lineup unverified."
+      ],
+      "constraints": [
+        "Chicken ramen is not a guaranteed fish-free recipe. Ask about tare/dashi and fillings if complete avoidance matters.",
+        "Ask the host before filming the class."
+      ],
+      "rain_alternative": "The class is indoors; keep the afternoon flexible."
     }
   ],
   "fuji": {
@@ -351,7 +364,7 @@
     "title": "Optional Fuji: only for clear weather",
     "area": "Kawaguchiko / Lake Kawaguchi",
     "what": "A whole-day lake-and-mountain-view excursion, not climbing Mt Fuji.",
-    "recommendation": "Default to Tokyo on a five-day trip. Replace one Tokyo day only if near-date forecast and morning live view are clear and both transport legs work. No November visibility forecast is claimed now.",
+    "recommendation": "Optional only, not a default day in this plan. It gives up most of a Tokyo day. Keep it here for a late decision only if the group changes its mind, the near-date forecast/live view is clear and both transport legs work. No November visibility forecast is claimed now.",
     "transport": "Ikebukuro→Shinjuku JR, then Busta 4 F via New South Gate. Direct coach headline about 1 hour 45 minutes; traffic can extend it. Budget roughly 2.5–3 hours each way from Ikebukuro including transfers as a planning allowance, not timetable.",
     "price": "Coach ¥2,000 one-way online Fujiyama Connect / ¥2,200 counter; local rail, buses and food extra.",
     "source_url": "https://bus.fujikyu.co.jp/lp/en-shinjuku-kawaguchiko/",
@@ -375,7 +388,7 @@
       "No summit climbing: official summit trails closed out of season.",
       "Local bus times/fares need recheck; do not squeeze ropeway and pagoda into same simple plan."
     ],
-    "cloudy_alternative": "Keep a Tokyo day from your existing saved plans rather than committing to mountain views. On Nov 16, stay close to home before departure.",
+    "cloudy_alternative": "Keep your chosen Tokyo day. There is no reason to sacrifice a full day for a clouded mountain view.",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Oishi+Park+Kawaguchiko"
   },
   "safety": {

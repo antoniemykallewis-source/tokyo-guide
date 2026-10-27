@@ -6,7 +6,7 @@ Live destination: https://antoniemykallewis-source.github.io/tokyo-guide/
 
 ## Run
 
-Node24, then `npm ci`, `npm run dev`. `npm run qa` runs38 unit tests, strict TypeScript and production build. `npm run build` emits `dist`, a94-record no-JavaScript fallback,404fallback and a versioned offline service worker.
+Node24, then `npm ci`, `npm run dev`. `npm run qa` runs43 unit tests, strict TypeScript and production build. `npm run build` emits `dist`, an active-record no-JavaScript fallback,404fallback and a versioned offline service worker.
 
 GitHub Actions builds and publishes `main` to GitHub Pages. Base path is `/tokyo-guide/`. The public site has `noindex,nofollow`. This is not access control: the repository, built site and shared plan links are public.
 
@@ -77,3 +77,13 @@ The reviewed source-capture manifest contains103 entries: all94 original places 
 ## Group preference refinement, October 27
 
 Shinjuku Gyoen, Kiyosumi Gardens and Tokyo National Museum are removed from active recommendations, sample-day stops and rain/cloudy alternatives. Their original research records remain in `recommendations.json` under `archived_options`; screenshots and home-route evidence remain intact. The Shinjuku menu now starts with ramen; the Kiyosumi menu keeps only its existing cycling and coffee stops. No new replacement venues were added. The original 94-place archive, teamLab and other immersive experiences are unchanged pending further group preferences.
+
+## Preference-led revision and currency calculator
+
+Twenty researched additions are normalized in `curated.json` with no fabricated coordinates. They can be saved and assigned in My day; unknown-area or booking-dependent additions remain manual rather than being forced into automatic schedules. Fourteen new reviewed source captures bring the manifest to 117; historical and text-only caveats remain intact. The original 94 source records are unchanged.
+
+teamLab is no longer suggested in active browsing, booking urgency or automatic day grouping. Previously saved/shared choices remain recoverable in a labeled archived section until the user removes them. Ordinary automatic days now cap at three stops. Five flexible day menus focus on guided bikes, camera shopping, street karts, conditional gym/private pickleball and an optional cooking class. Fuji remains optional, not a default day. Nothing is booked.
+
+The private-court options are NEON Shibuya and SEIBU Shinagawa, both reservation-based, not guaranteed walk-ins. Availability observations are timestamped and not holds. LÝFT is conditional: official residency requirements mean tourist access is not established; do not purchase on the assumption of eligibility. Its ¥22,000 week pass is not a one-visit day rate.
+
+The header’s ¥ / $ calculator uses a saved Xe reference of 157.71185649 JPY per USD, checked October 27, 2026 at 3:00 AM UTC. The rate is editable and works offline; it is not live and excludes fees. No exchange-rate API, secret or billing was configured. Raw preference answers and research transcripts are not published.

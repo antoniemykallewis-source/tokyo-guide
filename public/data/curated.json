@@ -1,0 +1,1053 @@
+{
+  "updated": "2026-10-27",
+  "places": [
+    {
+      "slug": "tgct",
+      "name": "Tokyo Great Cycling Tour - Route L",
+      "area": "Shinkawa / Kayabacho",
+      "category": "Activities/Sports",
+      "description": "A guided three-hour east-Tokyo ride through Ryogoku, Asakusa, Ueno and Akihabara, rather than an independent rental.",
+      "lat": null,
+      "lng": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Tokyo%20Great%20Cycling%20Tour%20-%20Route%20L%201-3-2%20Shinkawa%2C%20Chuo-ku%20Tokyo%20Japan",
+      "official_url": "https://www.tokyocycling.jp/route-l/",
+      "price": "¥9,000 per adult; ¥45,000 for five. Bike, helmet, water and guide included; lunch extra.",
+      "wait_level": "Check current availability",
+      "reservation_needed": "y",
+      "best_time": "See opening and booking notes",
+      "hours": "See official schedule and notes",
+      "notes": "A guided three-hour east-Tokyo ride through Ryogoku, Asakusa, Ueno and Akihabara, rather than an independent rental.",
+      "from_antonie_list": false,
+      "cluster_code": "EXT",
+      "cluster_station": "",
+      "walk_min_from_station": null,
+      "booking_url": "https://www.tokyocycling.jp/booking/",
+      "booking_window": "Guided tour: confirm five places on the same departure, rider sizes and terms. No reservation made.",
+      "booking_status": "need_to_book",
+      "booking_priority": 1,
+      "source_notes": [
+        "9:00 AM or 1:00 PM starts; about 17 km.",
+        "Published group limit 2–15; November five-seat availability unverified.",
+        "Passes Ueno Park. Verify exact stops with the operator; no garden or museum visit is added as a separate activity.",
+        "No handheld filming while riding; stop safely."
+      ],
+      "filming_restrictions": [
+        "Ask the operator or venue before filming; no blanket filming permission verified."
+      ],
+      "source_urls": [
+        "https://www.tokyocycling.jp/route-l/"
+      ],
+      "address": "1-3-2 Shinkawa, Chuo-ku",
+      "extra": true,
+      "auto_plan": false
+    },
+    {
+      "slug": "dig-west-side",
+      "name": "DIG West-Side Cycling & Food Tour",
+      "area": "Koenji / Nakano",
+      "category": "Activities/Sports",
+      "description": "A guided 3.5–4-hour local-life ride through Koenji, Nakano and Asagaya, including lunch, street-food tastes and a drink.",
+      "lat": null,
+      "lng": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=DIG%20West-Side%20Cycling%20%26%20Food%20Tour%20JR%20Koenji%20Station%2C%20Suginami%20Tokyo%20Japan",
+      "official_url": "https://www.digtokyotours.com/tokyocyclingtours",
+      "price": "¥15,000 per person; ¥75,000 for five. Published small-group rate, not a November seat guarantee.",
+      "wait_level": "Check current availability",
+      "reservation_needed": "y",
+      "best_time": "See opening and booking notes",
+      "hours": "See official schedule and notes",
+      "notes": "A guided 3.5–4-hour local-life ride through Koenji, Nakano and Asagaya, including lunch, street-food tastes and a drink.",
+      "from_antonie_list": false,
+      "cluster_code": "KOE",
+      "cluster_station": "",
+      "walk_min_from_station": null,
+      "booking_url": "https://www.digtokyotours.com/tokyocyclingtours",
+      "booking_window": "Guided tour: confirm five places on the same departure, rider sizes and terms. No reservation made.",
+      "booking_status": "need_to_book",
+      "booking_priority": 1,
+      "source_notes": [
+        "9:30 AM or 2:30 PM departures; 9:30 AM fits a relaxed start.",
+        "Published group size 3–8; five fit, but November seats are unverified.",
+        "12–15 km; confident urban cycling required. Request five free helmets.",
+        "Does not cater for dietary requirements or allergies. Confirm the food plan before selecting.",
+        "Usually runs in rain; stop safely before filming and return bikes before drinking."
+      ],
+      "filming_restrictions": [
+        "Ask the operator or venue before filming; no blanket filming permission verified."
+      ],
+      "source_urls": [
+        "https://www.digtokyotours.com/tokyocyclingtours"
+      ],
+      "address": "JR Koenji Station, Suginami",
+      "extra": true,
+      "auto_plan": false
+    },
+    {
+      "slug": "tokyobike-kiyosumi",
+      "name": "TOKYOBIKE TOKYO rental",
+      "area": "Kiyosumi-Shirakawa",
+      "category": "Activities/Sports",
+      "description": "Independent standard pedal bicycle rental for coffee shops and local backstreet exploring.",
+      "lat": null,
+      "lng": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=TOKYOBIKE%20TOKYO%20rental%20TOKYOBIKE%20TOKYO%20rental%20Kiyosumi-Shirakawa%20Tokyo%20Japan",
+      "official_url": "https://tokyobike.com/tokyobikerentals/",
+      "price": "¥2,500/day",
+      "wait_level": "Check current availability",
+      "reservation_needed": "y",
+      "best_time": "See opening and booking notes",
+      "hours": "See official schedule and notes",
+      "notes": "Independent standard pedal bicycle rental for coffee shops and local backstreet exploring.",
+      "from_antonie_list": false,
+      "cluster_code": "EXT",
+      "cluster_station": "",
+      "walk_min_from_station": null,
+      "booking_url": "https://tokyobiketokyo.bikerentals.co.jp/rentalbike_pretop",
+      "booking_window": "Check exact date and booking conditions with the operator.",
+      "booking_status": "need_to_book",
+      "booking_priority": 5,
+      "source_notes": [
+        "Book up to 30 days ahead; photo ID; reserve each rider’s size.",
+        "Return to same shop; rental hours Wed–Fri 11:00–17:30, Sat/Sun 10:00–17:30.",
+        "Closed Mon/Tue: not Nov 16. Fleet availability unconfirmed."
+      ],
+      "filming_restrictions": [
+        "Ask the operator or venue before filming; no blanket filming permission verified."
+      ],
+      "source_urls": [
+        "https://tokyobike.com/tokyobikerentals/"
+      ],
+      "address": "TOKYOBIKE TOKYO rental Kiyosumi-Shirakawa",
+      "extra": true,
+      "auto_plan": false
+    },
+    {
+      "slug": "tokyobike-yanaka",
+      "name": "Tokyobike Yanaka Soil rental",
+      "area": "Yanaka",
+      "category": "Activities/Sports",
+      "description": "Independent pedal-bike rental for old-Tokyo neighbourhood lanes; shop return required.",
+      "lat": null,
+      "lng": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Tokyobike%20Yanaka%20Soil%20rental%20Tokyobike%20Yanaka%20Soil%20rental%20Yanaka%20Tokyo%20Japan",
+      "official_url": "https://tokyobike.com/tokyobikerentals/",
+      "price": "¥2,500/day",
+      "wait_level": "Check current availability",
+      "reservation_needed": "y",
+      "best_time": "See opening and booking notes",
+      "hours": "See official schedule and notes",
+      "notes": "Independent pedal-bike rental for old-Tokyo neighbourhood lanes; shop return required.",
+      "from_antonie_list": false,
+      "cluster_code": "EXT",
+      "cluster_station": "",
+      "walk_min_from_station": null,
+      "booking_url": "https://tokyobikeyanakasoil.bikerentals.co.jp/rentalbike_pretop",
+      "booking_window": "Check exact date and booking conditions with the operator.",
+      "booking_status": "need_to_book",
+      "booking_priority": 5,
+      "source_notes": [
+        "Closed Tue/Wed/Thu: not Nov 11–12.",
+        "Photo ID and bike-size reservation recommended. Confirm rental hand-back time on booking."
+      ],
+      "filming_restrictions": [
+        "Ask the operator or venue before filming; no blanket filming permission verified."
+      ],
+      "source_urls": [
+        "https://tokyobike.com/tokyobikerentals/"
+      ],
+      "address": "Tokyobike Yanaka Soil rental Yanaka",
+      "extra": true,
+      "auto_plan": false
+    },
+    {
+      "slug": "docomo-share",
+      "name": "Docomo Tokyo Bike Share",
+      "area": "Tokyo supported cycle ports",
+      "category": "Activities/Sports",
+      "description": "Electric-assist bikes for short local hops; less dependable for securing an entire group fleet.",
+      "lat": null,
+      "lng": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Docomo%20Tokyo%20Bike%20Share%20Docomo%20Tokyo%20Bike%20Share%20Tokyo%20supported%20cycle%20ports%20Tokyo%20Japan",
+      "official_url": "https://www.docomo-cycle.jp/tokyo/price?lang=en",
+      "price": "¥165/30 min; ¥1,650 convenience-store day pass; ¥2,200 staffed IC-card day pass",
+      "wait_level": "Check current availability",
+      "reservation_needed": "n",
+      "best_time": "See opening and booking notes",
+      "hours": "See official schedule and notes",
+      "notes": "Electric-assist bikes for short local hops; less dependable for securing an entire group fleet.",
+      "from_antonie_list": false,
+      "cluster_code": "EXT",
+      "cluster_station": "",
+      "walk_min_from_station": null,
+      "booking_url": null,
+      "booking_window": "Check exact date and booking conditions with the operator.",
+      "booking_status": "walk_in",
+      "booking_priority": 5,
+      "source_notes": [
+        "Convenience-store pass requires SMS; verify phone compatibility.",
+        "IC pass requires contactable phone + photo ID; locate staffed seller first.",
+        "Return only at supported port and confirm completion; stock/hours vary.",
+        "Pass ends 23:59 same day, not 24 hours."
+      ],
+      "filming_restrictions": [
+        "Ask the operator or venue before filming; no blanket filming permission verified."
+      ],
+      "source_urls": [
+        "https://www.docomo-cycle.jp/tokyo/price?lang=en"
+      ],
+      "address": "Docomo Tokyo Bike Share Tokyo supported cycle ports",
+      "extra": true,
+      "auto_plan": false
+    },
+    {
+      "slug": "sunshine-aquarium",
+      "name": "Sunshine Aquarium",
+      "area": "Ikebukuro",
+      "category": "Sights",
+      "description": "Rooftop aquarium near home base; indoor tanks plus weather-exposed rooftop exhibits.",
+      "lat": null,
+      "lng": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Sunshine%20Aquarium%20Sunshine%20Aquarium%20Ikebukuro%20Tokyo%20Japan",
+      "official_url": "https://sunshinecity.jp/en/aquarium/ticket/",
+      "price": "Adult ¥2,600–3,200 depending on date",
+      "wait_level": "Check current availability",
+      "reservation_needed": "n",
+      "best_time": "See opening and booking notes",
+      "hours": "See official schedule and notes",
+      "notes": "Rooftop aquarium near home base; indoor tanks plus weather-exposed rooftop exhibits.",
+      "from_antonie_list": false,
+      "cluster_code": "IKE",
+      "cluster_station": "",
+      "walk_min_from_station": null,
+      "booking_url": null,
+      "booking_window": "Check exact date and booking conditions with the operator.",
+      "booking_status": "walk_in",
+      "booking_priority": 5,
+      "source_notes": [
+        "Autumn/winter generally weekdays 10:00–18:00, weekends 09:30–18:00; last 30 min before.",
+        "Recheck exact November calendar; weekend timed reservations recommended."
+      ],
+      "filming_restrictions": [
+        "Ask the operator or venue before filming; no blanket filming permission verified."
+      ],
+      "source_urls": [
+        "https://sunshinecity.jp/en/aquarium/ticket/"
+      ],
+      "address": "Sunshine Aquarium Ikebukuro",
+      "extra": true,
+      "auto_plan": false
+    },
+    {
+      "slug": "map-camera-shinjuku",
+      "name": "Map Camera Shinjuku",
+      "area": "Shinjuku",
+      "category": "Shopping/Thrift",
+      "description": "The specialist stop for comparing used bodies and lenses; strongest camera-shopping anchor for camera shoppers.",
+      "lat": null,
+      "lng": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Map%20Camera%20Shinjuku%20Blanche%20Building%2C%201-12-5%20Nishi-Shinjuku%2C%20Shinjuku-ku%2C%20Tokyo%20160-0023%20Tokyo%20Japan",
+      "official_url": "https://www.mapcamera.com/html/worldguide/english_page.html?PC=ON",
+      "price": "Browsing free; purchases optional",
+      "wait_level": "Check current availability",
+      "reservation_needed": "n",
+      "best_time": "See opening and booking notes",
+      "hours": "11:00 AM–7:00 PM daily",
+      "notes": "The specialist stop for comparing used bodies and lenses; strongest camera-shopping anchor for camera shoppers.",
+      "from_antonie_list": false,
+      "cluster_code": "SHJ",
+      "cluster_station": "",
+      "walk_min_from_station": null,
+      "booking_url": null,
+      "booking_window": "Check the source before leaving. No booking made.",
+      "booking_status": "walk_in",
+      "booking_priority": 4,
+      "source_notes": [
+        "No blanket in-store filming permission found. Ask staff before recording, portraits or gear tests; obey signs. Stock, prices, menu language and warranty coverage must be checked on the exact item."
+      ],
+      "filming_restrictions": [
+        "No blanket in-store filming permission found. Ask staff before recording, portraits or gear tests; obey signs. Stock, prices, menu language and warranty coverage must be checked on the exact item."
+      ],
+      "source_urls": [
+        "https://www.mapcamera.com/html/worldguide/english_page.html?PC=ON",
+        "https://www.mapcamera.com/html/shopinfo/shopinfo.html?SmartPhone=ON"
+      ],
+      "address": "Blanche Building, 1-12-5 Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0023",
+      "extra": true,
+      "auto_plan": true
+    },
+    {
+      "slug": "shinjuku-kitamura-camera",
+      "name": "Shinjuku Kitamura Camera",
+      "area": "Shinjuku",
+      "category": "Shopping/Thrift",
+      "description": "Browse new gear on 2F, used stock on 4F and Leica on 6F; a good compare-and-handle second stop.",
+      "lat": null,
+      "lng": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Shinjuku%20Kitamura%20Camera%203-26-14%20Shinjuku%2C%20Shinjuku-ku%2C%20Tokyo%20160-0022%20Tokyo%20Japan",
+      "official_url": "https://www.kitamuracamera.jp/en/floorguide/",
+      "price": "Browsing free; purchases optional",
+      "wait_level": "Check current availability",
+      "reservation_needed": "n",
+      "best_time": "See opening and booking notes",
+      "hours": "10:00 AM–9:00 PM",
+      "notes": "Browse new gear on 2F, used stock on 4F and Leica on 6F; a good compare-and-handle second stop.",
+      "from_antonie_list": false,
+      "cluster_code": "SHJ",
+      "cluster_station": "",
+      "walk_min_from_station": null,
+      "booking_url": null,
+      "booking_window": "Check the source before leaving. No booking made.",
+      "booking_status": "walk_in",
+      "booking_priority": 4,
+      "source_notes": [
+        "No blanket in-store filming permission found. Ask staff before recording, portraits or gear tests; obey signs. Stock, prices, menu language and warranty coverage must be checked on the exact item.",
+        "Special PICmii studio hours are separate from the camera store and should not overwrite these hours."
+      ],
+      "filming_restrictions": [
+        "No blanket in-store filming permission found. Ask staff before recording, portraits or gear tests; obey signs. Stock, prices, menu language and warranty coverage must be checked on the exact item.",
+        "Special PICmii studio hours are separate from the camera store and should not overwrite these hours."
+      ],
+      "source_urls": [
+        "https://www.kitamuracamera.jp/en/floorguide/",
+        "https://www.kitamuracamera.jp/en/"
+      ],
+      "address": "3-26-14 Shinjuku, Shinjuku-ku, Tokyo 160-0022",
+      "extra": true,
+      "auto_plan": true
+    },
+    {
+      "slug": "yodobashi-camera-shinjuku-west",
+      "name": "Yodobashi Camera Shinjuku West Main Store",
+      "area": "Shinjuku",
+      "category": "Shopping/Thrift",
+      "description": "An early-opening first stop for new camera gear and accessories before Map Camera opens.",
+      "lat": null,
+      "lng": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Yodobashi%20Camera%20Shinjuku%20West%20Main%20Store%201-11-1%20Nishi-Shinjuku%2C%20Shinjuku-ku%2C%20Tokyo%20160-0023%20Tokyo%20Japan",
+      "official_url": "https://www.yodobashi.com/ec/store/list/en/",
+      "price": "Browsing free; purchases optional",
+      "wait_level": "Check current availability",
+      "reservation_needed": "n",
+      "best_time": "See opening and booking notes",
+      "hours": "9:30 AM–10:00 PM daily",
+      "notes": "An early-opening first stop for new camera gear and accessories before Map Camera opens.",
+      "from_antonie_list": false,
+      "cluster_code": "SHJ",
+      "cluster_station": "",
+      "walk_min_from_station": null,
+      "booking_url": null,
+      "booking_window": "Check the source before leaving. No booking made.",
+      "booking_status": "walk_in",
+      "booking_priority": 4,
+      "source_notes": [
+        "No blanket in-store filming permission found. Ask staff before recording, portraits or gear tests; obey signs. Stock, prices, menu language and warranty coverage must be checked on the exact item.",
+        "Complex has several buildings: use the Camera building rather than assuming all gear is in the main electronics hall."
+      ],
+      "filming_restrictions": [
+        "No blanket in-store filming permission found. Ask staff before recording, portraits or gear tests; obey signs. Stock, prices, menu language and warranty coverage must be checked on the exact item.",
+        "Complex has several buildings: use the Camera building rather than assuming all gear is in the main electronics hall."
+      ],
+      "source_urls": [
+        "https://www.yodobashi.com/ec/store/list/en/",
+        "https://global.yodobashi/stores/yodobashi_camera/shinjuku-nishiguchi/"
+      ],
+      "address": "1-11-1 Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0023",
+      "extra": true,
+      "auto_plan": true
+    },
+    {
+      "slug": "black-hole-shinjuku-sanchome",
+      "name": "Yakiniku Black Hole  -  Shinjuku Sanchome",
+      "area": "Shinjuku",
+      "category": "Food",
+      "description": "Choose wagyu/Japanese beef cuts from the refrigerated meat counter; grill at the table. Side dishes ordered by QR.",
+      "lat": null,
+      "lng": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Yakiniku%20Black%20Hole%20%E2%80%94%20Shinjuku%20Sanchome%208F%20Takayama%20Land%20Kaikan%2C%203-5-3%20Shinjuku%2C%20Shinjuku-ku%2C%20Tokyo%20Tokyo%20Japan",
+      "official_url": "https://iloveyakiniku.com/shop/shinjuku3/",
+      "price": "100-minute courses ¥5,478 or ¥7,678 tax included; last orders 20 minutes before end. Optional alcohol package +¥1,650, soft drinks +¥550.",
+      "wait_level": "Check current availability",
+      "reservation_needed": "y",
+      "best_time": "See opening and booking notes",
+      "hours": "11:29 AM–11:00 PM; published last order 9:00 PM. Normally daily except year-end/New Year.",
+      "notes": "Choose wagyu/Japanese beef cuts from the refrigerated meat counter; grill at the table. Side dishes ordered by QR.",
+      "from_antonie_list": false,
+      "cluster_code": "SHJ",
+      "cluster_station": "",
+      "walk_min_from_station": null,
+      "booking_url": "https://amiyakitei-group.tottokun.com/ownedmedia/ownedmedia_immediately_s/udbevq7Cfan76hq",
+      "booking_window": "Reserve one table for five via the official site link; actual Nov 11–16 availability not confirmed.",
+      "booking_status": "need_to_book",
+      "booking_priority": 3,
+      "source_notes": [
+        "Reserve one table for five via the official site link; actual Nov 11–16 availability not confirmed.",
+        "This is the all-you-can-eat Sanchome branch, not the Central Road à-la-carte branch.",
+        "Booking endpoint returned HTTP403 to research tool, so no availability claim.",
+        "Not booked; exact November availability unconfirmed."
+      ],
+      "filming_restrictions": [
+        "No explicit public filming policy verified. Ask staff before interior filming; get consent for identifiable patrons/staff, avoid flash/tripods unless authorized."
+      ],
+      "source_urls": [
+        "https://iloveyakiniku.com/shop/shinjuku3/"
+      ],
+      "address": "8F Takayama Land Kaikan, 3-5-3 Shinjuku, Shinjuku-ku, Tokyo",
+      "extra": true,
+      "auto_plan": true,
+      "closed_days": []
+    },
+    {
+      "slug": "sushi-ginza-onodera",
+      "name": "Sushi Ginza Onodera  -  main restaurant",
+      "area": "Ginza",
+      "category": "Food",
+      "description": "Chef-selected Edomae nigiri: Kaze lunch has appetizer, 12 sushi pieces, soup and dessert.",
+      "lat": null,
+      "lng": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Sushi%20Ginza%20Onodera%20%E2%80%94%20main%20restaurant%20B1F%20/%202F%20Sunlit%20Ginza%20Building%20III%2C%205-14-14%20Ginza%2C%20Chuo-ku%2C%20Tokyo%20Tokyo%20Japan",
+      "official_url": "https://onodera-group.com/sushi-ginza/",
+      "price": "Kaze lunch ¥8,800 +10% service = ¥9,680; Tsuki 15-piece lunch ¥11,000 +10% = ¥12,100. Dinner from ¥27,500 +10% = ¥30,250, before drinks.",
+      "wait_level": "Check current availability",
+      "reservation_needed": "y",
+      "best_time": "See opening and booking notes",
+      "hours": "Lunch starts 11:00 AM or 1:00 PM. Dinner starts 5:00, 5:30, 7:30 or 8:00 PM; closes 10:30 PM.",
+      "notes": "Chef-selected Edomae nigiri: Kaze lunch has appetizer, 12 sushi pieces, soup and dessert.",
+      "from_antonie_list": false,
+      "cluster_code": "GIN",
+      "cluster_station": "",
+      "walk_min_from_station": null,
+      "booking_url": "https://res-reserve.com/en/restaurants/sushi-ginza-onodera",
+      "booking_window": "Use the restaurant-linked ResReserve; counter seating must be selected to watch chefs. Five adjacent seats not confirmed. Four-seat private table does not fit five; six-seat private counter has ¥200,000 minimum, so avoid.",
+      "booking_status": "need_to_book",
+      "booking_priority": 3,
+      "source_notes": [
+        "Use the restaurant-linked ResReserve; counter seating must be selected to watch chefs. Five adjacent seats not confirmed. Four-seat private table does not fit five; six-seat private counter has ¥200,000 minimum, so avoid.",
+        "Split lunch only if the group wants; no verified non-fish omakase substitution.",
+        "Booking policy has cancellation charges and inconsistent listed seating durations; reconfirm exact slot before committing.",
+        "Lunch is much more compatible with the daily budget than dinner.",
+        "Not booked; exact November availability unconfirmed."
+      ],
+      "filming_restrictions": [
+        "No explicit public filming policy verified. Ask staff before interior filming; get consent for identifiable patrons/staff, avoid flash/tripods unless authorized."
+      ],
+      "source_urls": [
+        "https://onodera-group.com/sushi-ginza/",
+        "https://res-reserve.com/en/restaurants/sushi-ginza-onodera",
+        "https://res-reserve.com/en/restaurants/sushi-ginza-onodera/plans/3c4420c1-19ef-4fae-b421-cf382f27f338"
+      ],
+      "address": "B1F / 2F Sunlit Ginza Building III, 5-14-14 Ginza, Chuo-ku, Tokyo",
+      "extra": true,
+      "auto_plan": true,
+      "closed_days": []
+    },
+    {
+      "slug": "popinn-ginza",
+      "name": "POPINN.GINZA",
+      "area": "Ginza",
+      "category": "Bars",
+      "description": "DJs, vinyl/CD selection, cocktails, beer; darts and table games are optional. Crowd described by venue as late-20s to40s.",
+      "lat": null,
+      "lng": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=POPINN.GINZA%204F%20Hatori%20Building%2C%204-3-5%20Ginza%2C%20Chuo-ku%2C%20Tokyo%20Tokyo%20Japan",
+      "official_url": "https://www.popinn.tokyo/",
+      "price": "Heineken ¥1,100; several other beers ¥1,320; listed cocktails/whiskies around ¥1,000. No cover; 10% service on orders after midnight. Allow ¥2,500–4,000 for a few drinks.",
+      "wait_level": "Check current availability",
+      "reservation_needed": "y",
+      "best_time": "See opening and booking notes",
+      "hours": "Bar: Sunday–Thursday 7:00 PM–midnight; Friday–Saturday 7:00 PM–5:00 AM next day.",
+      "notes": "DJs, vinyl/CD selection, cocktails, beer; darts and table games are optional. Crowd described by venue as late-20s to40s.",
+      "from_antonie_list": false,
+      "cluster_code": "GIN",
+      "cluster_station": "",
+      "walk_min_from_station": null,
+      "booking_url": "https://www.popinn.tokyo/reservations",
+      "booking_window": "Reservations accepted for 3+; five fits the published policy. Online official form; Nov seats/DJ lineup unconfirmed.",
+      "booking_status": "need_to_book",
+      "booking_priority": 3,
+      "source_notes": [
+        "Reservations accepted for 3+; five fits the published policy. Online official form; Nov seats/DJ lineup unconfirmed.",
+        "Smoking allowed indoors.",
+        "Home page still features August flyers: do not present a named Nov 13/14 party as confirmed.",
+        "Not booked; exact November availability unconfirmed."
+      ],
+      "filming_restrictions": [
+        "No explicit public filming policy verified. Ask staff before interior filming; get consent for identifiable patrons/staff, avoid flash/tripods unless authorized."
+      ],
+      "source_urls": [
+        "https://www.popinn.tokyo/about-9",
+        "https://www.popinn.tokyo/question",
+        "https://www.popinn.tokyo/access",
+        "https://www.popinn.tokyo/menus",
+        "https://www.popinn.tokyo/reservation-info"
+      ],
+      "address": "4F Hatori Building, 4-3-5 Ginza, Chuo-ku, Tokyo",
+      "extra": true,
+      "auto_plan": true,
+      "closed_days": []
+    },
+    {
+      "slug": "the-kura-kinshicho",
+      "name": "The Kura Kinshicho",
+      "area": "Kinshicho",
+      "category": "Bars",
+      "description": "R&B, soul, hip-hop and reggae DJs in Japanese-inspired interiors; arose from Asakusa R&B Night.",
+      "lat": null,
+      "lng": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The%20Kura%20Kinshicho%203F%20Mikado%20Building%2C%203-6-10%20Kotobashi%2C%20Sumida-ku%2C%20Tokyo%20Tokyo%20Japan",
+      "official_url": "https://thekuratokyo.com/",
+      "price": "No verified published menu/cover found; allow ¥3,000–4,000 as a placeholder only and confirm before entering.",
+      "wait_level": "Check current availability",
+      "reservation_needed": "n",
+      "best_time": "See opening and booking notes",
+      "hours": "Tuesday/Thursday/Friday 7:00–11:00 PM; Saturday/Sunday 6:00–11:00 PM. No Wednesday/Monday hours published: do not schedule Nov 11 or16.",
+      "notes": "R&B, soul, hip-hop and reggae DJs in Japanese-inspired interiors; arose from Asakusa R&B Night.",
+      "from_antonie_list": false,
+      "cluster_code": "EXT",
+      "cluster_station": "",
+      "walk_min_from_station": null,
+      "booking_url": null,
+      "booking_window": "Official contact/Instagram exists, but no verified five-person reservation policy or Nov lineup.",
+      "booking_status": "walk_in",
+      "booking_priority": 3,
+      "source_notes": [
+        "Official contact/Instagram exists, but no verified five-person reservation policy or Nov lineup.",
+        "Closes 11:00 PM: early-evening music, not an after-midnight option.",
+        "Current official events show October, not the travel dates; DJ/programme not confirmed.",
+        "Not booked; exact November availability unconfirmed."
+      ],
+      "filming_restrictions": [
+        "No explicit public filming policy verified. Ask staff before interior filming; get consent for identifiable patrons/staff, avoid flash/tripods unless authorized."
+      ],
+      "source_urls": [
+        "https://thekuratokyo.com/",
+        "https://thekuratokyo.com/about/",
+        "https://thekuratokyo.com/contact/"
+      ],
+      "address": "3F Mikado Building, 3-6-10 Kotobashi, Sumida-ku, Tokyo",
+      "extra": true,
+      "auto_plan": false,
+      "closed_days": [
+        1,
+        3
+      ]
+    },
+    {
+      "slug": "neon-pickleball-shibuya",
+      "name": "NEON PICKLEBALL CLUB Shibuya",
+      "area": "Shibuya",
+      "category": "Activities/Sports",
+      "description": "Private indoor neon court. Five friends rotate doubles within their own group.",
+      "lat": null,
+      "lng": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=NEON%20PICKLEBALL%20CLUB%20Shibuya%203-1%20Udagawacho%2C%20Shibuya%2C%20Shibuya%20Tobu%20Hotel%20B2F%20Tokyo%20Japan",
+      "official_url": "https://shibuya-pickleball.club/",
+      "price": "¥10,000/court/hour weekday noon–6 PM; ¥12,000 evenings; ¥15,000 weekends. Four paddles + two balls included.",
+      "wait_level": "Check current availability",
+      "reservation_needed": "y",
+      "best_time": "See opening and booking notes",
+      "hours": "Weekdays 12 PM–11 PM; weekends 8 AM–11 PM",
+      "notes": "Private indoor neon court. Five friends rotate doubles within their own group.",
+      "from_antonie_list": false,
+      "cluster_code": "SBY",
+      "cluster_station": "",
+      "walk_min_from_station": null,
+      "booking_url": "https://reserva.be/shibuyapickleballclub",
+      "booking_window": "RED court Nov 12, 2026, 2–3 PM showed one slot remaining. Not booked or held.",
+      "booking_status": "need_to_book",
+      "booking_priority": 1,
+      "source_notes": [
+        "RED court Nov 12, 2026, 2–3 PM showed one slot remaining. Not booked or held.",
+        "Observed October 27, 2026 at 6:52 AM UTC. Availability can change; nothing is held.",
+        "Reserve ahead, not guaranteed walk-in",
+        "Recommended 2–8 per court; max 4 playing at once",
+        "No shoe rental, showers or lockers; bring sneakers",
+        "Bilingual official site; Japanese booking UI, staff English not confirmed"
+      ],
+      "filming_restrictions": [
+        "Ask the operator or venue before filming; no blanket filming permission verified."
+      ],
+      "source_urls": [
+        "https://shibuya-pickleball.club/"
+      ],
+      "address": "3-1 Udagawacho, Shibuya, Shibuya Tobu Hotel B2F",
+      "extra": true,
+      "auto_plan": false,
+      "requires_access_check": false
+    },
+    {
+      "slug": "seibu-fast-sports-shinagawa-pickleball",
+      "name": "SEIBU FAST SPORTS FIELD Shinagawa Pickleball",
+      "area": "Shinagawa",
+      "category": "Activities/Sports",
+      "description": "Private indoor visitor court with an English booking flow. Five can rotate within their own group; two-minute walk from Shinagawa Takanawa Exit.",
+      "lat": null,
+      "lng": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=SEIBU%20FAST%20SPORTS%20FIELD%20Shinagawa%20Pickleball%204-10-30%20Takanawa%2C%20Minato%2C%20Shinagawa%20Prince%20Hotel%20Main%20Tower%2010F%20Tokyo%20Japan",
+      "official_url": "https://www.princehotels.com/shinagawa/facilities/seibu-fast-sports-field-shinagawa-pickleball/",
+      "price": "¥8,000/court/50 min weekdays 9 AM–6 PM; ¥11,000 evenings/weekends. Paddle or indoor shoes ¥500/item/rental.",
+      "wait_level": "Check current availability",
+      "reservation_needed": "y",
+      "best_time": "See opening and booking notes",
+      "hours": "9 AM–10 PM",
+      "notes": "Private indoor visitor court with an English booking flow. Five can rotate within their own group; two-minute walk from Shinagawa Takanawa Exit.",
+      "from_antonie_list": false,
+      "cluster_code": "EXT",
+      "cluster_station": "",
+      "walk_min_from_station": null,
+      "booking_url": "https://www.tablecheck.com/en/seibu-fast-sports/reserve/message",
+      "booking_window": "Reservations open exactly 14 days before start time (JST); Nov 11–15 not yet released on Oct 27. Not sold out or confirmed available.",
+      "booking_status": "need_to_book",
+      "booking_priority": 1,
+      "source_notes": [
+        "Reservations open exactly 14 days before start time (JST); Nov 11–15 not yet released on Oct 27. Not sold out or confirmed available.",
+        "Observed October 27, 2026 at 6:57 AM UTC. Availability can change; nothing is held.",
+        "Max 8 guests; narrow 5.2 m × 13.4 m court",
+        "Use Main Tower banquet elevator",
+        "Indoor shoes only; no black soles",
+        "No membership fee; no guaranteed walk-in",
+        "Four shared paddle rentals add ¥2,000; five shoe rentals add ¥2,500 if needed",
+        "No outside food/drinks; 10 minutes late risks cancellation",
+        "For a November 12 start, booking opens October 29 at the same clock time in Japan. A later court time is safer than rushing after an 11 AM gym session."
+      ],
+      "filming_restrictions": [
+        "Ask the operator or venue before filming; no blanket filming permission verified."
+      ],
+      "source_urls": [
+        "https://www.princehotels.com/shinagawa/facilities/seibu-fast-sports-field-shinagawa-pickleball/"
+      ],
+      "address": "4-10-30 Takanawa, Minato, Shinagawa Prince Hotel Main Tower 10F",
+      "extra": true,
+      "auto_plan": false,
+      "requires_access_check": false
+    },
+    {
+      "slug": "lyft-gym-omotesando",
+      "name": "LÝFT GÝM Omotesando",
+      "area": "Harajuku / Omotesando",
+      "category": "Activities/Sports",
+      "description": "Strength-training gym in Omotesando Hills. A seven-day pass exists, but tourist eligibility must be confirmed before purchase; no unrestricted visitor day pass is verified.",
+      "lat": null,
+      "lng": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=L%C3%9DFT%20G%C3%9DM%20Omotesando%204-12-10%20Jingumae%2C%20Shibuya%2C%20Omotesando%20Hills%20B3F%20Tokyo%20Japan",
+      "official_url": "https://www.lyft-gym.com/service/about-cp",
+      "price": "WEEK PASS ¥22,000/man, no enrollment fee; ¥110,000 for five before extras. No unrestricted day pass verified.",
+      "wait_level": "Check current availability",
+      "reservation_needed": "y",
+      "best_time": "See opening and booking notes",
+      "hours": "Week-pass access 11 AM–11 PM; 7–11 AM excluded",
+      "notes": "Standalone short-term product is WEEK PASS; tourist eligibility remains unresolved in conflicting official information.",
+      "from_antonie_list": false,
+      "cluster_code": "HAR",
+      "cluster_station": "",
+      "walk_min_from_station": null,
+      "booking_url": "https://www.lyft-gym.com/service/about-cp",
+      "booking_window": "Price verified, passport-only tourist eligibility NOT confirmed. Do not purchase until clarified.",
+      "booking_status": "need_to_book",
+      "booking_priority": 3,
+      "source_notes": [
+        "Price verified, passport-only tourist eligibility NOT confirmed. Do not purchase until clarified.",
+        "Observed October 27, 2026 at 6:55 AM UTC. Availability can change; nothing is held.",
+        "Official Japanese and English FAQs list lack of residence card/permanent resident certificate as refusal condition, while also listing passport as ID",
+        "¥5,500 visitor pass requires existing-member accompaniment, max 2 guests/member; training groups max 3",
+        "Week pass nonrefundable; expires automatically",
+        "Return card by last day or possible ¥3,300 fee",
+        "Online signup and ID check; no signup performed"
+      ],
+      "filming_restrictions": [
+        "Ask the operator or venue before filming; no blanket filming permission verified."
+      ],
+      "source_urls": [
+        "https://www.lyft-gym.com/service/about-cp"
+      ],
+      "address": "4-12-10 Jingumae, Shibuya, Omotesando Hills B3F",
+      "extra": true,
+      "auto_plan": false,
+      "requires_access_check": true
+    },
+    {
+      "slug": "spo-dori-tokyo-dome",
+      "name": "Spo-Dori! Tokyo Dome City",
+      "area": "Tokyo Dome / Suidobashi",
+      "category": "Activities/Sports",
+      "description": "Indoor visitor golf and batting, useful rain backup. Golf has two visitor booths, max four per booth.",
+      "lat": null,
+      "lng": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Spo-Dori%21%20Tokyo%20Dome%20City%201-3-61%20Koraku%2C%20Bunkyo%2C%20Yellow%20Building%203F%20Tokyo%20Japan",
+      "official_url": "https://www.tokyo-dome.co.jp/en/spo-dori/golf/",
+      "price": "Golf 50 min: 1 person ¥4,000; 2 ¥7,000; 3 ¥9,000; 4 ¥10,000. Free rental clubs/shoes/gloves. Batting current price unverified.",
+      "wait_level": "Check current availability",
+      "reservation_needed": "y",
+      "best_time": "See opening and booking notes",
+      "hours": "Batting 10 AM–10 PM daily. Golf weekdays 8 AM–10 PM; weekends 9 AM–10 PM",
+      "notes": "Indoor visitor golf and batting, useful rain backup. Golf has two visitor booths, max four per booth.",
+      "from_antonie_list": false,
+      "cluster_code": "DOM",
+      "cluster_station": "",
+      "walk_min_from_station": null,
+      "booking_url": "https://www.tokyo-dome.co.jp/en/spo-dori/golf/",
+      "booking_window": "Specific date/booth availability unverified",
+      "booking_status": "need_to_book",
+      "booking_priority": 3,
+      "source_notes": [
+        "Specific date/booth availability unverified",
+        "Observed October 27, 2026 at 6:51 AM UTC. Availability can change; nothing is held.",
+        "Five need two booths or separate turns; not one five-person booth",
+        "Current official batting page returned 404; do not reuse stale batting price"
+      ],
+      "filming_restrictions": [
+        "Ask the operator or venue before filming; no blanket filming permission verified."
+      ],
+      "source_urls": [
+        "https://www.tokyo-dome.co.jp/en/spo-dori/golf/"
+      ],
+      "address": "1-3-61 Koraku, Bunkyo, Yellow Building 3F",
+      "extra": true,
+      "auto_plan": false,
+      "requires_access_check": false
+    },
+    {
+      "slug": "namco-tokyo",
+      "name": "namco TOKYO",
+      "area": "Shinjuku",
+      "category": "Activities/Sports",
+      "description": "Arcade, crane games, gashapon and optional food/drink lounge, seven minutes from JR Shinjuku East Exit.",
+      "lat": null,
+      "lng": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=namco%20TOKYO%201-29-1%20Kabukicho%2C%20Shinjuku%2C%20Tokyu%20Kabukicho%20Tower%203F%20Tokyo%20Japan",
+      "official_url": "https://bandainamco-am.co.jp/namco_tokyo/guide/en/",
+      "price": "Per-game pricing varies; no flat rate verified",
+      "wait_level": "Check current availability",
+      "reservation_needed": "n",
+      "best_time": "See opening and booking notes",
+      "hours": "Dedicated English guide: Mon–Thu 11 AM–11 PM; Fri–Sun 11 AM–1 AM next day",
+      "notes": "Arcade, crane games, gashapon and optional food/drink lounge, seven minutes from JR Shinjuku East Exit.",
+      "from_antonie_list": false,
+      "cluster_code": "SHJ",
+      "cluster_station": "",
+      "walk_min_from_station": null,
+      "booking_url": null,
+      "booking_window": "No reservation availability applicable; recheck closing hours",
+      "booking_status": "walk_in",
+      "booking_priority": 3,
+      "source_notes": [
+        "No reservation availability applicable; recheck closing hours",
+        "Observed October 27, 2026 at 6:50 AM UTC. Availability can change; nothing is held.",
+        "Generic store page says 1 AM daily, conflicting with dedicated guide; plan earlier weekday closing"
+      ],
+      "filming_restrictions": [
+        "Ask the operator or venue before filming; no blanket filming permission verified."
+      ],
+      "source_urls": [
+        "https://bandainamco-am.co.jp/namco_tokyo/guide/en/"
+      ],
+      "address": "1-29-1 Kabukicho, Shinjuku, Tokyu Kabukicho Tower 3F",
+      "extra": true,
+      "auto_plan": true,
+      "requires_access_check": false
+    },
+    {
+      "slug": "street-kart-shibuya-hs",
+      "name": "Street Kart Shibuya H-S",
+      "area": "Shibuya",
+      "category": "Activities/Sports",
+      "description": "Approximately one-hour public-road circuit through Shibuya, Harajuku and Omotesando.",
+      "lat": null,
+      "lng": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Street%20Kart%20Shibuya%20H-S%2015-3%20Maruyamacho%2C%20Shibuya-ku%2C%20Tokyo%20150-0044%20Tokyo%20Japan",
+      "official_url": "https://streetkart.com/shibuya.html",
+      "price": "Regular starting rate ¥20,000 per person, ¥100,000 for five. Exact date/slot price and conditional discounts must be checked.",
+      "wait_level": "Check current availability",
+      "reservation_needed": "y",
+      "best_time": "See opening and booking notes",
+      "hours": "Choose a confirmed departure; arrive 30 minutes before",
+      "notes": "Approximately one-hour public-road circuit through Shibuya, Harajuku and Omotesando.",
+      "from_antonie_list": false,
+      "cluster_code": "SBY",
+      "cluster_station": "",
+      "walk_min_from_station": null,
+      "booking_url": "https://streetkart.tick.et/instant/",
+      "booking_window": "Check all driver documents first, then five karts on the same departure. Published capacity is not date-specific availability.",
+      "booking_status": "need_to_book",
+      "booking_priority": 1,
+      "source_notes": [
+        "Not affiliated with Nintendo or Mario Kart; Mario costumes not supplied.",
+        "Arrive 30 minutes early.",
+        "Body-mounted action camera allowed only if it does not impede safe driving.",
+        "Single-seat vehicles; no passenger substitute for a non-driver.",
+        "Basic insurance includes ¥50,000/vehicle damage deductible; assess optional enhanced cover and travel-policy exclusions.",
+        "Five fit the published maximum of six drivers per guide; November five-kart inventory is unverified.",
+        "Each driver needs valid original documents for their license jurisdiction. US license holders: original license, 1949 Geneva IDP and passport. Confirm every driver before paying."
+      ],
+      "filming_restrictions": [
+        "No handheld filming while driving. Operator allows a body-mounted action camera only if it does not impede safe driving."
+      ],
+      "source_urls": [
+        "https://streetkart.com/shibuya.html",
+        "https://streetkart.com/en/faq_shibuya.html"
+      ],
+      "address": "15-3 Maruyamacho, Shibuya-ku, Tokyo 150-0044",
+      "extra": true,
+      "auto_plan": false
+    },
+    {
+      "slug": "chef-yoshi-ramen-gyoza-ekoda",
+      "name": "Chef Yoshi  -  Ramen & Gyoza Cooking Experience",
+      "area": "Ekoda / near Ikebukuro",
+      "category": "Activities/Sports",
+      "description": "Prepare seasoned eggs and toppings, fold five gyoza, and assemble a bowl of Chicken Tonkotsu Ramen under an English-speaking chef. Official description does not promise noodles or long-simmered broth made from scratch during the class.",
+      "lat": null,
+      "lng": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Chef%20Yoshi%20%E2%80%94%20Ramen%20%26%20Gyoza%20Cooking%20Experience%20Ekoda%20Station%20ticket%20gate%2C%201-78%20Asahigaoka%2C%20Nerima-ku%2C%20Tokyo%20176-0005.%20Operator%20spells%20station%20Ekota%3B%20railway%20uses%20Ekoda%20%28%E6%B1%9F%E5%8F%A4%E7%94%B0%29.%20Host%20wears%20a%20ramen-print%20T-shirt.%20Tokyo%20Japan",
+      "official_url": "https://jcetokyo.com/ramen-making-experience/",
+      "price": "¥13,000 per person including tax; ¥65,000 for five. Includes one bowl of ramen and five gyoza each.",
+      "wait_level": "Check current availability",
+      "reservation_needed": "y",
+      "best_time": "See opening and booking notes",
+      "hours": "Official request form offers preferred starts at 9:00 AM, 12:00 PM or 3:00 PM; these are requestable times, not verified daily departures.",
+      "notes": "Prepare seasoned eggs and toppings, fold five gyoza, and assemble a bowl of Chicken Tonkotsu Ramen under an English-speaking chef. Official description does not promise noodles or long-simmered broth made from scratch during the class.",
+      "from_antonie_list": false,
+      "cluster_code": "EXT",
+      "cluster_station": "",
+      "walk_min_from_station": null,
+      "booking_url": "https://jcetokyo.com/book-here/",
+      "booking_window": "Request preferred date/time/party size through the official form. Operator reviews the request then issues an invoice; advance Square payment finalizes it. No form submitted, contact made, invoice requested or payment initiated.",
+      "booking_status": "need_to_book",
+      "booking_priority": 4,
+      "source_notes": [
+        "2–12 participants; five is within published limits. A five-person booking is not automatically private.",
+        "English and Japanese listed; visitor class taught in English.",
+        "Five places Nov11–16 unconfirmed; website provides a request form rather than readable live availability.",
+        "From Ikebukuro take a Seibu Ikebukuro Line LOCAL train to Ekoda (SI04), then meet at the ticket gate. Do not confuse with Shin-Egota on the Oedo Line. Allow home-to-Ikebukuro/station navigation separately; no live train timing claimed.",
+        "Chicken ramen is a flavor fit, NOT a verified fish-free or pork-free recipe. Tare/dashi, chashu and dumpling filling need checking if the user wants complete avoidance. No allergy inferred from dislike of fish.",
+        "Vegetarian option and allergies must be communicated in advance; same-day requests cannot be accommodated.",
+        "Cancellation policy is to be reviewed before payment; exact refund terms were not publicly established.",
+        "No explicit filming policy found: ask host before filming the class or other guests.",
+        "Class replaces a lunch/meal stop and another substantial paid activity; do not combine it with omakase lunch or a full-day cycle tour."
+      ],
+      "filming_restrictions": [
+        "Ask the operator or venue before filming; no blanket filming permission verified."
+      ],
+      "source_urls": [
+        "https://jcetokyo.com/ramen-making-experience/",
+        "https://jcetokyo.com/book-here/",
+        "https://jcetokyo.com/location/",
+        "https://www.seiburailway.jp/en/railway/pdf/stop_station01.pdf",
+        "https://www.seiburailway.jp/railway/station/ekoda/"
+      ],
+      "address": "Ekoda Station ticket gate, 1-78 Asahigaoka, Nerima-ku, Tokyo 176-0005. Operator spells station Ekota; railway uses Ekoda (江古田). Host wears a ramen-print T-shirt.",
+      "extra": true,
+      "auto_plan": false
+    }
+  ],
+  "overrides": {
+    "ragtag-harajuku": {
+      "hours": "11:00 AM–8:00 PM",
+      "source_notes": [
+        "In-store filming permission unverified: ask staff. Resale stock changes daily."
+      ],
+      "filming_restrictions": [
+        "In-store filming permission unverified: ask staff. Resale stock changes daily."
+      ],
+      "source_urls": [
+        "https://ragtag-global.com/pages/shop-list"
+      ]
+    },
+    "berberjin": {
+      "hours": "12:00 PM–7:00 PM",
+      "source_notes": [
+        "No verified weekly closure or in-store filming policy. Ask staff and recheck notices."
+      ],
+      "filming_restrictions": [
+        "No verified weekly closure or in-store filming policy. Ask staff and recheck notices."
+      ],
+      "source_urls": [
+        "https://berberjin.theshop.jp/about"
+      ]
+    },
+    "shibuya-scramble-crossing": {
+      "hours": "Outdoor public crossing; no attraction opening hours",
+      "source_notes": [
+        "Use discreet handheld personal travel capture only where signs and staff allow; keep moving, never block crossings or entrances, and ask before identifiable close-up portraits. A location recommendation is not filming permission. Staged/commercial filming, lights or tripods require checking the relevant owner and local road-permit requirements."
+      ],
+      "filming_restrictions": [
+        "Use discreet handheld personal travel capture only where signs and staff allow; keep moving, never block crossings or entrances, and ask before identifiable close-up portraits. A location recommendation is not filming permission. Staged/commercial filming, lights or tripods require checking the relevant owner and local road-permit requirements."
+      ],
+      "source_urls": [
+        "https://www.gotokyo.org/en/spot/78/index.html",
+        "https://www.locationbox.metro.tokyo.lg.jp/english/shooting/public/"
+      ]
+    },
+    "shibuya-sky": {
+      "hours": "10:00 AM–10:30 PM; last admission 9:20 PM",
+      "source_notes": [
+        "Commercial photography, recording and interviews are prohibited under admission rules.",
+        "Rooftop cameras must fit in pocket or have neck strap; tripods, monopods and selfie sticks prohibited. Bags go in lockers. Do not assume gimbals allowed.",
+        "Wind/weather may close rooftop. No ticket purchase or availability confirmation performed."
+      ],
+      "filming_restrictions": [
+        "Commercial photography, recording and interviews are prohibited under admission rules.",
+        "Rooftop cameras must fit in pocket or have neck strap; tripods, monopods and selfie sticks prohibited. Bags go in lockers. Do not assume gimbals allowed.",
+        "Wind/weather may close rooftop. No ticket purchase or availability confirmation performed."
+      ],
+      "source_urls": [
+        "https://www.shibuya-scramble-square.com/en/",
+        "https://www.shibuya-scramble-square.com/faq/",
+        "https://shibuya-scramble-square.com/sky/ticket",
+        "https://www.shibuya-scramble-square.com/assets/pdf/about/20231121scsq.pdf"
+      ]
+    },
+    "godzilla-head-hotel-gracery": {
+      "hours": "Street-view exterior; hourly effects 12:00 PM–8:00 PM daily",
+      "source_notes": [
+        "Use discreet handheld personal travel capture only where signs and staff allow; keep moving, never block crossings or entrances, and ask before identifiable close-up portraits. A location recommendation is not filming permission. Staged/commercial filming, lights or tripods require checking the relevant owner and local road-permit requirements.",
+        "Do not promise terrace access; official Toho page explicitly says it is closed."
+      ],
+      "filming_restrictions": [
+        "Use discreet handheld personal travel capture only where signs and staff allow; keep moving, never block crossings or entrances, and ask before identifiable close-up portraits. A location recommendation is not filming permission. Staged/commercial filming, lights or tripods require checking the relevant owner and local road-permit requirements.",
+        "Do not promise terrace access; official Toho page explicitly says it is closed."
+      ],
+      "source_urls": [
+        "https://shinjuku-toho-bldg.toho.co.jp/gim/ja.html",
+        "https://www.gotokyo.org/jp/spot/1864/index.html",
+        "https://www.locationbox.metro.tokyo.lg.jp/english/shooting/public/"
+      ]
+    },
+    "omotesando-cat-street-harajuku-shibuya-walk": {
+      "hours": "Public-street walk has no shop hours; individual stores generally open later",
+      "source_notes": [
+        "Use discreet handheld personal travel capture only where signs and staff allow; keep moving, never block crossings or entrances, and ask before identifiable close-up portraits. A location recommendation is not filming permission. Staged/commercial filming, lights or tripods require checking the relevant owner and local road-permit requirements.",
+        "Do not advertise all shops as open at 9:00 AM. Route pin is a shop address, not the address of the entire street."
+      ],
+      "filming_restrictions": [
+        "Use discreet handheld personal travel capture only where signs and staff allow; keep moving, never block crossings or entrances, and ask before identifiable close-up portraits. A location recommendation is not filming permission. Staged/commercial filming, lights or tripods require checking the relevant owner and local road-permit requirements.",
+        "Do not advertise all shops as open at 9:00 AM. Route pin is a shop address, not the address of the entire street."
+      ],
+      "source_urls": [
+        "https://www.gotokyo.org/en/see-and-do/shopping/index.html",
+        "https://www.locationbox.metro.tokyo.lg.jp/english/shooting/public/"
+      ]
+    },
+    "chermside-sandwich-harajuku": {
+      "description": "Thick beef steak sandwich / Meat Box with fries; other meat sandwiches.",
+      "hours": "11:00 AM–7:30 PM daily",
+      "price": "Allow ¥3,000–4,500 per person for a meat-box meal and drink (planning estimate, not verified current menu price).",
+      "official_url": "https://tabelog.com/en/tokyo/A1306/A130601/13304985/",
+      "booking_window": "Restaurant-managed Tabelog says reservations unavailable; 20 seats. Five may wait or split seating.",
+      "source_notes": [
+        "Restaurant-managed Tabelog says reservations unavailable; 20 seats. Five may wait or split seating.",
+        "Third-party local menu page contains conflicting prices; do not publish an exact Meat Box price as verified.",
+        "Restaurant-managed Tabelog listing is the primary source for hours/address/no reservations.",
+        "Not booked; exact November availability unconfirmed."
+      ],
+      "filming_restrictions": [
+        "No explicit public filming policy verified. Ask staff before interior filming; get consent for identifiable patrons/staff, avoid flash/tripods unless authorized."
+      ],
+      "source_urls": [
+        "https://tabelog.com/en/tokyo/A1306/A130601/13304985/",
+        "https://goharajuku.com/shop/sandwich-and-cafe-chermside-sandwich-harajuku-takeshita-dori"
+      ]
+    },
+    "pizza-marumo": {
+      "description": "Margherita, spicy-salami Red Hot Chili, or Wagyu Bismarck with egg/mushroom/truffle paste. Share several pies.",
+      "hours": "11:30 AM–3:00 PM (last order 2:30 PM); 5:00–11:00 PM (last order 10:00 PM). Nov 15 is third Sunday: booking policy says close 10:00 PM.",
+      "price": "Allow ¥4,000–6,000 per person including drinks (planning estimate; official text menu did not expose prices).",
+      "official_url": "https://pizza-marumo.com/",
+      "booking_window": "TableCheck accepts tables for 2–8; five fits. Two-month booking window, card required; dinner 120 minutes when busy. More than 15 minutes late may cancel. Japanese-number verification policy needs resolving before booking.",
+      "source_notes": [
+        "TableCheck accepts tables for 2–8; five fits. Two-month booking window, card required; dinner 120 minutes when busy. More than 15 minutes late may cancel. Japanese-number verification policy needs resolving before booking.",
+        "Japanese Umami contains mackerel and bonito; do not lead with this for a lower-fish preference.",
+        "Teriyaki Boys includes bonito dashi; chicken does not imply fish-free.",
+        "Not booked; exact November availability unconfirmed."
+      ],
+      "filming_restrictions": [
+        "No explicit public filming policy verified. Ask staff before interior filming; get consent for identifiable patrons/staff, avoid flash/tripods unless authorized."
+      ],
+      "source_urls": [
+        "https://pizza-marumo.com/",
+        "https://pizza-marumo.com/menu.html",
+        "https://www.tablecheck.com/en/shops/pizza-marumo/reserve"
+      ]
+    },
+    "good-wood-terrace": {
+      "description": "Spice-marinated jerk chicken charcoal-grilled in a steel drum; rice and peas or tortilla.",
+      "hours": "11:30 AM–3:00 AM next day; food/drink last orders 2:00 AM, per official shop. Year-end/New Year closure.",
+      "price": "Allow ¥2,000–4,000 per person with drinks (planning estimate). Official festival prices are NOT the restaurant menu.",
+      "official_url": "https://goodwood.official.ec/",
+      "booking_window": "Official shop directs reservations to its LINE link. Five-person seating/Nov dates not checked; obtain a confirmed table before treating it as the group dinner.",
+      "source_notes": [
+        "Official shop directs reservations to its LINE link. Five-person seating/Nov dates not checked; obtain a confirmed table before treating it as the group dinner.",
+        "Jamaican jerk-chicken restaurant, NOT a steakhouse.",
+        "Official retail jerk seasoning contains fish sauce; preference is not an allergy but do not claim fish-free.",
+        "Not booked; exact November availability unconfirmed."
+      ],
+      "filming_restrictions": [
+        "No explicit public filming policy verified. Ask staff before interior filming; get consent for identifiable patrons/staff, avoid flash/tripods unless authorized."
+      ],
+      "source_urls": [
+        "https://goodwood.official.ec/",
+        "https://tokyotokyo-delicious-museum.jp/en/store/wood-terrace/"
+      ]
+    },
+    "jikasei-mensho-shibuya-parco": {
+      "description": "Rich chicken-paitan ramen topped with A5 wagyu roast beef; white-truffle or yuzu versions. Vegan ramen also listed.",
+      "hours": "Restaurant says 11:30 AM–11:00 PM, last order 10:00 PM; PARCO notice says 11:00 AM start. Use 11:30 AM or later and recheck day-of.",
+      "price": "Allow ¥2,000–3,500 per person (planning estimate); official signature menu says confirm price at store.",
+      "official_url": "https://mensho.com/ja/location/jikasei-mensho-shibuya/",
+      "booking_window": "No confirmed five-person reservation or seating together; use as a flexible lunch and expect queue/split seats.",
+      "source_notes": [
+        "No confirmed five-person reservation or seating together; use as a flexible lunch and expect queue/split seats.",
+        "Signature chicken/wagyu bowl explicitly lists fish and shellfish allergens. It is not a fish-free alternative.",
+        "Old menya-shono.com/parco link redirects to a DIFFERENT GACHI branch; replace it.",
+        "Not booked; exact November availability unconfirmed."
+      ],
+      "filming_restrictions": [
+        "No explicit public filming policy verified. Ask staff before interior filming; get consent for identifiable patrons/staff, avoid flash/tripods unless authorized."
+      ],
+      "source_urls": [
+        "https://mensho.com/ja/location/jikasei-mensho-shibuya/",
+        "https://mensho.com/ja/menu/signature-a5-wagyu-toripaitan-ramen-w-truffle/",
+        "https://shibuya.parco.jp/pnews/detail/?id=31304"
+      ]
+    },
+    "omoide-yokocho": {
+      "filming_restrictions": [
+        "Association rules require advance photography application/permission, at least 10 days ahead. Do not treat this as an unrestricted spontaneous filming stop. No tripods or flash."
+      ],
+      "source_urls": [
+        "https://en.shinjuku-omoide.com/shooting"
+      ]
+    },
+    "72tokyo-shibuya-golf-simulator-bar": {
+      "source_notes": [
+        "Published 3–5-person BAR TIME golf charge is ¥2,500 per person. Duration and date availability need confirming; do not assume unrestricted daytime group drop-in.",
+        "Daytime 6 AM–8 PM is self-service/membership practice. BAR TIME starts 8 PM and can include karaoke; skip that part if unwanted."
+      ],
+      "source_urls": [
+        "https://72tokyo-shibuya.com/price/"
+      ]
+    },
+    "round1-stadium-divercity-tokyo-plaza": {
+      "source_notes": [
+        "Use the arcade, batting, bowling or other sports you want. Karaoke is available at the complex but is not part of these recommendations."
+      ]
+    },
+    "fuunji": {
+      "source_notes": [
+        "Its tsukemen uses chicken-and-fish broth. Do not treat it as a fish-free default."
+      ]
+    }
+  },
+  "highlights": [
+    "neon-pickleball-shibuya",
+    "seibu-fast-sports-shinagawa-pickleball",
+    "dig-west-side",
+    "street-kart-shibuya-hs",
+    "map-camera-shinjuku",
+    "lyft-gym-omotesando",
+    "popinn-ginza"
+  ],
+  "planning_note": "2–3 main daytime anchors, plus optional evening drinks. Budget examples are planning estimates, not spending authorization or confirmed bookings.",
+  "excluded_slugs": [
+    "teamlab-planets"
+  ]
+}

@@ -1,4 +1,5 @@
 import type {Place,Booking,Plan,ClusterData} from '../types';
+import {isSuggested} from './curation';
 export const DAYS=Array.from({length:6},(_,i)=>`2026-11-${11+i}`);
 export const LABELS=['WED 11','THU 12','FRI 13','SAT 14','SUN 15','MON 16'];
 export function formatTimeText(value:unknown):string{return String(value??'').replace(/(?<![\d:])([01]?\d|2[0-4]):([0-5]\d)(?::([0-5]\d))?(?![\d:])(?:\s*(AM|PM))?/gi,(match,h,m,seconds,meridiem)=>{if(meridiem)return `${Number(h)}:${m}${seconds?':'+seconds:''} ${meridiem.toUpperCase()}`;const hour=Number(h);if(hour===24&&m!=='00')return match;return `${hour%12||12}:${m}${seconds?':'+seconds:''} ${hour>=12&&hour<24?'PM':'AM'}`;});}
@@ -12,12 +13,12 @@ export function autoPlan(stars:string[],places:Place[],bookings:Booking[],data:C
  const result:Plan={};const fixed=new Set<string>();
  for(const b of bookings){if(b.booking_status==='booked'&&DAYS.includes(b.confirmation?.date||'')){result[b.slug]=b.confirmation!.date!;fixed.add(b.slug);}}
  const options=(p:Place)=>DAYS.filter((d,i)=>i!==2&&!dayConflicts(p,d).length&&!(i===0&&(p.cluster_code==='OFF'||(data.matrix.SBY?.[p.cluster_code]??60)>5))&&!(i===5&&p.cluster_code==='OFF')).length;
- const selected=places.filter(p=>stars.includes(p.slug)&&!fixed.has(p.slug)&&!isClosed(p)).sort((a,b)=>options(a)-options(b)||a.cluster_code.localeCompare(b.cluster_code));
+ const selected=places.filter(p=>stars.includes(p.slug)&&!fixed.has(p.slug)&&!isClosed(p)&&isSuggested(p)&&p.auto_plan!==false).sort((a,b)=>options(a)-options(b)||a.cluster_code.localeCompare(b.cluster_code));
  for(const p of selected){
   const scores=DAYS.map((d,i)=>{
    const peers=places.filter(q=>result[q.slug]===d);const areas=[...new Set([...peers.map(q=>q.cluster_code),p.cluster_code])];
    // Friday stays free for the unplanned afternoon. Manually assigned or booked events can override.
-   if(i===2||dayConflicts(p,d).length||peers.length>=(i===0||i===5?2:5))return {d,score:Infinity};
+   if(i===2||dayConflicts(p,d).length||peers.length>=(i===0||i===5?2:3))return {d,score:Infinity};
    if(i===0&&(p.cluster_code==='OFF'||(data.matrix.SBY?.[p.cluster_code]??60)>5))return {d,score:Infinity};
    if(i===5&&p.cluster_code==='OFF')return {d,score:Infinity};
    if(areas.length>2||areas.some(a=>areas.some(b=>a!==b&&(data.matrix[a]?.[b]??60)>15)))return {d,score:Infinity};
@@ -34,7 +35,7 @@ export function autoPlan(stars:string[],places:Place[],bookings:Booking[],data:C
  }
  return result;
 }
-export function planWarnings(p:Place,date:string,plan:Plan,places:Place[],data:ClusterData):string[]{const r=dayConflicts(p,date);const far=places.some(q=>q.slug!==p.slug&&plan[q.slug]===date&&(data.matrix[p.cluster_code]?.[q.cluster_code]??0)>=40);if(far)r.push('40+ MIN FROM REST OF DAY');const time=p.confirmation?.time;if(time&&places.some(q=>q.slug!==p.slug&&plan[q.slug]===date&&q.confirmation?.time&&Math.abs(minutes(q.confirmation.time)-minutes(time))<90))r.push('FIXED BOOKINGS MAY OVERLAP');return r;}
+export function planWarnings(p:Place,date:string,plan:Plan,places:Place[],data:ClusterData):string[]{const r=dayConflicts(p,date);if(!isSuggested(p))r.push('ARCHIVED CHOICE. NOT A CURRENT RECOMMENDATION');if(p.auto_plan===false)r.push('CONFIRM LIVE TRAVEL AND AVAILABILITY');if(places.filter(q=>plan[q.slug]===date&&isSuggested(q)).length>3)r.push('MORE THAN 3 STOPS. CONSIDER A LIGHTER DAY');const far=places.some(q=>q.slug!==p.slug&&plan[q.slug]===date&&(data.matrix[p.cluster_code]?.[q.cluster_code]??0)>=40);if(far)r.push('40+ MIN FROM REST OF DAY');const time=p.confirmation?.time;if(time&&places.some(q=>q.slug!==p.slug&&plan[q.slug]===date&&q.confirmation?.time&&Math.abs(minutes(q.confirmation.time)-minutes(time))<90))r.push('FIXED BOOKINGS MAY OVERLAP');return r;}
 function minutes(t:string){const [h,m]=t.split(':').map(Number);return h*60+m;}
 export function distanceMinutes(a:{lat:number;lng:number},b:{lat:number;lng:number}){const R=6371000,r=Math.PI/180,dLat=(b.lat-a.lat)*r,dLng=(b.lng-a.lng)*r;const v=Math.sin(dLat/2)**2+Math.cos(a.lat*r)*Math.cos(b.lat*r)*Math.sin(dLng/2)**2;return Math.round((2*R*Math.atan2(Math.sqrt(v),Math.sqrt(1-v))*1.3)/80);}
 export function jstNow(date=new Date()){return new Date(date.toLocaleString('en-US',{timeZone:'Asia/Tokyo'}));}
