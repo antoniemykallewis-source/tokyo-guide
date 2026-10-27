@@ -1,4 +1,44 @@
 {
+  "72tokyo-shibuya-golf-simulator-bar": {
+    "src": "shots/72tokyo-shibuya-golf-simulator-bar-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://72tokyo-shibuya.com/price/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T04:59:53.236Z",
+    "alt": "72TOKYO Shibuya (golf simulator + bar) source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "alvark-tokyo-b-league-at-toyota-arena-tokyo": {
+    "src": "shots/alvark-tokyo-b-league-at-toyota-arena-tokyo-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.alvark-tokyo.jp/schedule/list/?month=11&scheduledate=upcoming&year=2026",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:00:04.214Z",
+    "alt": "Alvark Tokyo (B.League) at TOYOTA ARENA TOKYO source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "andaz-tokyo-rooftop-bar": {
+    "src": "shots/andaz-tokyo-rooftop-bar-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.andaztokyo.jp/restaurants/en/special/operationhours",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T04:59:18.294Z",
+    "alt": "Andaz Tokyo Rooftop Bar source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "asakusa-sumo-club": {
+    "src": "shots/asakusa-sumo-club-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://asakusa-sumo.com/reserve/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:00:12.549Z",
+    "alt": "Asakusa Sumo Club source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
   "bar-benfiddich": {
     "src": "shots/bar-benfiddich-site.webp",
     "kind": "Official site screenshot",
@@ -16,6 +56,16 @@
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T04:55:24.261Z",
     "alt": "Bar Martha source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "bar-trench": {
+    "src": "shots/bar-trench-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://small-axe.net/bar-trench/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:07:03.004Z",
+    "alt": "Bar TRENCH source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
     "verified_visual": true
   },
@@ -49,6 +99,16 @@
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
     "verified_visual": true
   },
+  "chermside-sandwich-harajuku": {
+    "src": "shots/chermside-sandwich-harajuku-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://goharajuku.com/jp/shop/sandwich-and-cafe-chermside-sandwich-harajuku-takeshita-dori",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:07:14.286Z",
+    "alt": "CHERMSIDE SANDWICH Harajuku source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
   "chicago-shimokitazawa": {
     "src": "shots/chicago-shimokitazawa-site.webp",
     "kind": "Official site screenshot",
@@ -56,6 +116,16 @@
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T04:54:48.205Z",
     "alt": "Chicago Shimokitazawa source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "daikanyama-t-site": {
+    "src": "shots/daikanyama-t-site-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://store.tsite.jp/daikanyama/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:06:08.155Z",
+    "alt": "Daikanyama T-SITE source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
     "verified_visual": true
   },
@@ -79,6 +149,16 @@
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
     "verified_visual": true
   },
+  "gigo-akihabara-arcades": {
+    "src": "shots/gigo-akihabara-arcades-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.gigo.co.jp/shops/akihabara3",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:02:45.406Z",
+    "alt": "GiGO Akihabara arcades source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
   "ginza-kagari-main": {
     "src": "shots/ginza-kagari-main-site.webp",
     "kind": "Source-page screenshot",
@@ -86,6 +166,16 @@
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T04:56:35.828Z",
     "alt": "Ginza Kagari (main) source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "gold-s-gym-harajuku-tokyo": {
+    "src": "shots/gold-s-gym-harajuku-tokyo-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.goldsgym.jp/shop/harajuku-tokyo/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:00:24.058Z",
+    "alt": "Gold's Gym Harajuku Tokyo source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
     "verified_visual": true
   },
@@ -99,6 +189,66 @@
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
     "verified_visual": true
   },
+  "good-wood-terrace": {
+    "src": "shots/good-wood-terrace-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://tokyotokyo-delicious-museum.jp/en/store/wood-terrace/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:01:23.750Z",
+    "alt": "Good Wood Terrace source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "grandfather-s": {
+    "src": "shots/grandfather-s-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://fineonline.jp/culture/post-15560/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:03:06.457Z",
+    "alt": "Grandfather's source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "hachiko-statue": {
+    "src": "shots/hachiko-statue-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.gotokyo.org/en/spot/86/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:01:05.809Z",
+    "alt": "Hachiko Statue source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "hanayaka-kimono-tea-ceremony": {
+    "src": "shots/hanayaka-kimono-tea-ceremony-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://hanayakakimono.com/en/kimono-english-support-en/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T04:58:21.872Z",
+    "alt": "HANAYAKA kimono + tea ceremony source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "harajuku-gyoza-ro": {
+    "src": "shots/harajuku-gyoza-ro-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://trulytokyo.com/gyozaro/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:02:12.414Z",
+    "alt": "Harajuku Gyoza Ro source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "hareruya2-akihabara-tower": {
+    "src": "shots/hareruya2-akihabara-tower-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.hareruya2.com/en/pages/store_tower-en",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T04:58:52.880Z",
+    "alt": "Hareruya2 Akihabara Tower source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
   "hikiniku-to-kome-shibuya": {
     "src": "shots/hikiniku-to-kome-shibuya-site.webp",
     "kind": "Official site screenshot",
@@ -106,6 +256,16 @@
     "checked": "2026-10-27",
     "capturedAt": "2026-10-27T04:51:24.819Z",
     "alt": "Hikiniku to Kome (Shibuya) source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "jbs-jazz-blues-soul": {
+    "src": "shots/jbs-jazz-blues-soul-site.webp",
+    "kind": "Source-page screenshot",
+    "source": "https://www.timeout.com/tokyo/music/jbs",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:07:18.089Z",
+    "alt": "JBS (Jazz Blues Soul) source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
     "verified_visual": true
   },
@@ -139,22 +299,253 @@
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
     "verified_visual": true
   },
-  "shibuya-scramble-crossing": {
-    "src": "shots/shibuya-scramble-crossing-site.webp",
-    "kind": "Official tourism screenshot",
-    "source": "https://www.gotokyo.org/en/spot/78/index.html",
+  "kitsuneya": {
+    "src": "shots/kitsuneya-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.tsukiji.or.jp/english/shoplist/cat-d/cat-14/046/",
     "checked": "2026-10-27",
-    "capturedAt": "2026-10-27T04:50:58Z",
-    "alt": "Shibuya Crossing official GO TOKYO page screenshot",
+    "capturedAt": "2026-10-27T04:57:16.086Z",
+    "alt": "Kitsuneya source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
     "verified_visual": true
   },
-  "supreme-shibuya": {
-    "src": "shots/supreme-shibuya-site.webp",
+  "koenji-look-street-pal-arcade": {
+    "src": "shots/koenji-look-street-pal-arcade-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.gotokyo.org/en/destinations/western-tokyo/koenji/index.html",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:05:22.196Z",
+    "alt": "Koenji Look Street / Pal arcade source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "luis-jdm-experience-daikoku-pa-night-tour": {
+    "src": "shots/luis-jdm-experience-daikoku-pa-night-tour-site.webp",
+    "kind": "Source-page screenshot",
+    "source": "https://www.getyourguide.com/tokyo-l193/daikoku-pa-jdm-tour-fast-furious-t1136242/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T04:59:24.179Z",
+    "alt": "Luis JDM Experience (Daikoku PA night tour) source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "mandarake-complex": {
+    "src": "shots/mandarake-complex-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.mandarake.co.jp/dir/cmp/index-en.html#googtrans(ja|en)",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:02:43.773Z",
+    "alt": "Mandarake Complex source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "meiji-jingu-gaien-batting-golf-range": {
+    "src": "shots/meiji-jingu-gaien-batting-golf-range-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.meijijingugaien.jp/english/golf.html",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T04:59:48.181Z",
+    "alt": "Meiji Jingu Gaien Batting + Golf Range source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "minami-aoyama-shimizuyu-sento": {
+    "src": "shots/minami-aoyama-shimizuyu-sento-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://shimizuyu.jp/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:00:34.432Z",
+    "alt": "Minami-Aoyama Shimizuyu (sento) source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "nakamise-dori": {
+    "src": "shots/nakamise-dori-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.asakusa-nakamise.jp/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T04:57:32.830Z",
+    "alt": "Nakamise-dori source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "nihonbashi-philly-eagles-bar": {
+    "src": "shots/nihonbashi-philly-eagles-bar-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://nihonbashiphilly.com/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T04:56:50.199Z",
+    "alt": "Nihonbashi Philly (Eagles bar) source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "omoide-yokocho": {
+    "src": "shots/omoide-yokocho-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://shinjuku-omoide.com/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:05:37.804Z",
+    "alt": "Omoide Yokocho source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "omotesando-cat-street-harajuku-shibuya-walk": {
+    "src": "shots/omotesando-cat-street-harajuku-shibuya-walk-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.japan.travel/en/spot/2174/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:01:10.644Z",
+    "alt": "Omotesando > Cat Street > Harajuku > Shibuya walk source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "pizza-marumo": {
+    "src": "shots/pizza-marumo-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://pizza-marumo.com/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T04:55:14.785Z",
+    "alt": "Pizza Marumo source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "radio-kaikan": {
+    "src": "shots/radio-kaikan-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://akihabara-radiokaikan.co.jp/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T04:58:43.416Z",
+    "alt": "Radio Kaikan source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "ramen-afro-beats": {
+    "src": "shots/ramen-afro-beats-site.webp",
+    "kind": "Source-page screenshot",
+    "source": "https://tabelog.com/en/tokyo/A1304/A130402/13282860/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T04:55:53.504Z",
+    "alt": "Ramen Afro Beats source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "recoco-shibuya-record-cafe": {
+    "src": "shots/recoco-shibuya-record-cafe-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://recoco.cafe/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:05:01.209Z",
+    "alt": "RECOCO Shibuya (record cafe) source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "round1-stadium-divercity-tokyo-plaza": {
+    "src": "shots/round1-stadium-divercity-tokyo-plaza-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://mitsui-shopping-park.com/divercity-tokyo/shopguide/700016.html",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:04:28.318Z",
+    "alt": "Round1 Stadium DiverCity Tokyo Plaza source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "senso-ji-kaminarimon": {
+    "src": "shots/senso-ji-kaminarimon-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.senso-ji.jp/english/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T04:57:28.012Z",
+    "alt": "Senso-ji & Kaminarimon source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "shibuya-center-gai": {
+    "src": "shots/shibuya-center-gai-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.gotokyo.org/en/spot/88/index.html",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:01:06.667Z",
+    "alt": "Shibuya Center-Gai source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "shibuya-parco": {
+    "src": "shots/shibuya-parco-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://shibuya.parco.jp/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:05:09.698Z",
+    "alt": "Shibuya PARCO source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "shibuya-sky": {
+    "src": "shots/shibuya-sky-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.shibuya-scramble-square.com/sky/about/?page=1",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:04:22.472Z",
+    "alt": "Shibuya Sky source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "shinjuku-batting-center": {
+    "src": "shots/shinjuku-batting-center-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.battingcenter.com/tokyo/3838/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T04:59:39.085Z",
+    "alt": "Shinjuku Batting Center source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "shinjuku-sumo-club": {
+    "src": "shots/shinjuku-sumo-club-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://prtimes.jp/main/html/rd/p/000000014.000181480.html",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:03:16.035Z",
+    "alt": "Shinjuku Sumo Club source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "spa-laqua-tokyo-dome": {
+    "src": "shots/spa-laqua-tokyo-dome-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.tokyo-dome.co.jp/en/spa/schedule-price",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:00:45.801Z",
+    "alt": "Spa LaQua (Tokyo Dome) source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "starbucks-reserve-roastery-tokyo": {
+    "src": "shots/starbucks-reserve-roastery-tokyo-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.starbucksreserve.com/locations/tokyo-roastery",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:02:20.430Z",
+    "alt": "Starbucks Reserve Roastery Tokyo source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "street-kart-akihabara": {
+    "src": "shots/street-kart-akihabara-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://streetkart.tokyo/en/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T04:59:33.150Z",
+    "alt": "STREET KART Akihabara source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "supreme-daikanyama": {
+    "src": "shots/supreme-daikanyama-site.webp",
     "kind": "Official site screenshot",
     "source": "https://supreme.com/stores",
     "checked": "2026-10-27",
-    "capturedAt": "2026-10-27T04:52:33.415Z",
-    "alt": "Supreme Shibuya source website screenshot",
+    "capturedAt": "2026-10-27T04:52:33.416Z",
+    "alt": "Supreme Daikanyama source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
     "verified_visual": true
   },
@@ -168,14 +559,163 @@
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
     "verified_visual": true
   },
-  "supreme-daikanyama": {
-    "src": "shots/supreme-daikanyama-site.webp",
+  "supreme-shibuya": {
+    "src": "shots/supreme-shibuya-site.webp",
     "kind": "Official site screenshot",
     "source": "https://supreme.com/stores",
     "checked": "2026-10-27",
-    "capturedAt": "2026-10-27T04:52:33.416Z",
-    "alt": "Supreme Daikanyama source website screenshot",
+    "capturedAt": "2026-10-27T04:52:33.415Z",
+    "alt": "Supreme Shibuya source website screenshot",
     "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "sushi-itadori-bekkan": {
+    "src": "shots/sushi-itadori-bekkan-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.tsukiji.or.jp/english/shoplist/cat-d/cat-12/425/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T04:57:14.230Z",
+    "alt": "Sushi Itadori Bekkan source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "teamlab-planets": {
+    "src": "shots/teamlab-planets-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.teamlab.art/e/planets/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:05:51.534Z",
+    "alt": "teamLab Planets source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "the-bellwood": {
+    "src": "shots/the-bellwood-site.webp",
+    "kind": "Source-page screenshot",
+    "source": "https://tabelog.com/en/tokyo/A1303/A130301/13247129/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:00:54.354Z",
+    "alt": "The Bellwood source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "the-sg-club": {
+    "src": "shots/the-sg-club-site.webp",
+    "kind": "Source-page screenshot",
+    "source": "https://www.tablecheck.com/en/shops/the-sg-club/reserve",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T04:52:57.880Z",
+    "alt": "The SG Club source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "tokyo-skytree": {
+    "src": "shots/tokyo-skytree-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://en.tokyo-skytree.jp/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T04:58:28.846Z",
+    "alt": "Tokyo Skytree source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "tokyo-toyosu-manyo-club-onsen": {
+    "src": "shots/tokyo-toyosu-manyo-club-onsen-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://tokyo-toyosu.manyo.co.jp/languages/en/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:00:42.372Z",
+    "alt": "Tokyo Toyosu Manyo Club (onsen) source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "toyosu-market-tuna-auction": {
+    "src": "shots/toyosu-market-tuna-auction-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.gotokyo.org/en/spot/1743/index.html",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:01:17.527Z",
+    "alt": "Toyosu Market tuna auction source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "tsukiji-outer-market": {
+    "src": "shots/tsukiji-outer-market-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.tsukiji.or.jp/english/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T04:56:56.822Z",
+    "alt": "Tsukiji Outer Market source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "tsukiji-yamacho-tamagoyaki": {
+    "src": "shots/tsukiji-yamacho-tamagoyaki-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.tsukiji.or.jp/english/shoplist/cat-c/cat-10/466/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T04:57:13.448Z",
+    "alt": "Tsukiji Yamacho (tamagoyaki) source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "two-rooms-grill-bar": {
+    "src": "shots/two-rooms-grill-bar-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://ghs.inc/en/media/two-rooms-reopens-april-2-with-a-bold-new-concept/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:01:58.935Z",
+    "alt": "TWO ROOMS Grill | Bar source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "uniqlo-ginza-12-floors-uniqlo-tokyo": {
+    "src": "shots/uniqlo-ginza-12-floors-uniqlo-tokyo-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.ginza.jp/en/landmark/9743",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:02:08.331Z",
+    "alt": "UNIQLO GINZA (12 floors) / UNIQLO TOKYO source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "uniqlo-harajuku-ut": {
+    "src": "shots/uniqlo-harajuku-ut-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://www.fastretailing.com/eng/group/news/2005281000.html",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:02:02.724Z",
+    "alt": "UNIQLO Harajuku / UT source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "whistler-koenji": {
+    "src": "shots/whistler-koenji-site.webp",
+    "kind": "Official site screenshot",
+    "source": "https://experience-suginami.tokyo/2017/10/whistler/",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T05:01:16.849Z",
+    "alt": "Whistler Koenji source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "yoroniku": {
+    "src": "shots/yoroniku-site.webp",
+    "kind": "Source-page screenshot",
+    "source": "https://omakase.in/en/r/xd706837",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T04:53:39.595Z",
+    "alt": "Yoroniku source website screenshot",
+    "attribution": "Screenshot of linked source. Copyright remains with original publisher.",
+    "verified_visual": true
+  },
+  "shibuya-scramble-crossing": {
+    "src": "shots/shibuya-scramble-crossing-site.webp",
+    "kind": "Official tourism screenshot",
+    "source": "https://www.gotokyo.org/en/spot/78/index.html",
+    "checked": "2026-10-27",
+    "capturedAt": "2026-10-27T04:50:58Z",
+    "alt": "Shibuya Crossing official GO TOKYO page screenshot",
     "verified_visual": true
   }
 }
