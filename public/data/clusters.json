@@ -1,0 +1,978 @@
+{
+  "clusters": [
+    {
+      "code": "SBY",
+      "name": "Shibuya",
+      "station": "Shibuya Sta",
+      "description": "Home base energy. Crossing, Hachiko, Center-Gai, PARCO, Miyashita Park all within 5-8 min of each other. Dogenzaka hill (Hikiniku, Good Wood, Uobei, JBS, Street Kart) is west, Nonbei Yokocho and Grandfather's are east.",
+      "good_day": "Any day. Morning (before 10) for a clean Crossing and Hachiko shot, 15:30-16:00 for Shibuya Sky sunset (~16:35), night for Center-Gai, Nonbei, bars. Hikiniku CLOSED WED. Grandfather's CLOSED MON. Street Kart needs the IDP.",
+      "pairs": [
+        {
+          "code": "HAR",
+          "name": "Harajuku / Omotesando / Aoyama",
+          "minutes": 3,
+          "description": "20 min walk up Cat Street, or 2 min JR",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "EBI",
+          "name": "Ebisu",
+          "minutes": 2,
+          "description": "2 min JR",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "NAK",
+          "name": "Nakameguro / Daikanyama",
+          "minutes": 3,
+          "description": "3 min Toyoko line, or 15 min walk",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "SHM",
+          "name": "Shimokitazawa",
+          "minutes": 5,
+          "description": "5 min Keio Inokashira express",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        }
+      ],
+      "place_slugs": [
+        "shibuya-sky",
+        "hachiko-statue",
+        "shibuya-scramble-crossing",
+        "nonbei-yokocho",
+        "c-la-vi-tokyo",
+        "shibuya-center-gai",
+        "hikiniku-to-kome-shibuya",
+        "uobei-shibuya-dogenzaka",
+        "grandfather-s",
+        "recoco-shibuya-record-cafe",
+        "kith-tokyo",
+        "jbs-jazz-blues-soul",
+        "72tokyo-shibuya-golf-simulator-bar",
+        "good-wood-terrace",
+        "shibuya-parco",
+        "jikasei-mensho-shibuya-parco",
+        "hub-shibuya-british-pub-sports",
+        "street-kart-shibuya-annex-mario-kart-style",
+        "supreme-shibuya",
+        "the-sg-club",
+        "the-bellwood"
+      ],
+      "center": {
+        "lat": 35.660122,
+        "lng": 139.699235
+      },
+      "center_basis": "Mean of supplied place coordinates, not station position",
+      "count": 21
+    },
+    {
+      "code": "HAR",
+      "name": "Harajuku / Omotesando / Aoyama",
+      "station": "Harajuku / Meiji-jingumae Sta",
+      "description": "Streetwear central. Takeshita-dori chaos, Cat Street boutiques and thrift, Omotesando flagships, Aoyama for Maisen, Shimizuyu sento.",
+      "good_day": "Weekday late morning (11:00-ish) before crowds; stores open ~11-12. Meiji Jingu early morning. Weekends Takeshita-dori is a wall of people. Shimizuyu CLOSED FRI. Gold's Gym closed 3rd Mon (Nov 16 is the 3rd Monday). Jingu Gaien golf and batting facilities are closed.",
+      "pairs": [
+        {
+          "code": "SBY",
+          "name": "Shibuya",
+          "minutes": 3,
+          "description": "20 min walk down Cat Street",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "SHJ",
+          "name": "Shinjuku",
+          "minutes": 4,
+          "description": "4 min JR",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "EBI",
+          "name": "Ebisu",
+          "minutes": 6,
+          "description": "6 min JR",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        }
+      ],
+      "place_slugs": [
+        "uniqlo-harajuku-ut",
+        "chermside-sandwich-harajuku",
+        "kindal-harajuku",
+        "gold-s-gym-harajuku-tokyo",
+        "supreme-harajuku",
+        "domicile-tokyo-pleasures-stockist",
+        "harajuku-gyoza-ro",
+        "afuri-harajuku",
+        "2nd-street-harajuku",
+        "omotesando-cat-street-harajuku-shibuya-walk",
+        "ragtag-harajuku",
+        "berberjin",
+        "meiji-jingu",
+        "tonkatsu-maisen-aoyama",
+        "two-rooms-grill-bar",
+        "minami-aoyama-shimizuyu-sento",
+        "meiji-jingu-gaien-batting-golf-range",
+        "yoroniku"
+      ],
+      "center": {
+        "lat": 35.669098,
+        "lng": 139.707662
+      },
+      "center_basis": "Mean of supplied place coordinates, not station position",
+      "count": 18
+    },
+    {
+      "code": "EBI",
+      "name": "Ebisu",
+      "station": "Ebisu Sta",
+      "description": "Grown-up, low-key. Ebisu Yokocho, Bar Martha, Bar Trench, Pizza Marumo. Best bar neighborhood for chill nights.",
+      "good_day": "Evenings. Dinner at Marumo then Trench and Martha. Ebisu Yokocho gets packed Fri/Sat after 20:00, go earlier.",
+      "pairs": [
+        {
+          "code": "SBY",
+          "name": "Shibuya",
+          "minutes": 2,
+          "description": "2 min JR",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "NAK",
+          "name": "Nakameguro / Daikanyama",
+          "minutes": 3,
+          "description": "3 min Hibiya line or 12 min walk",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "TOR",
+          "name": "Roppongi / Toranomon",
+          "minutes": 8,
+          "description": "8 min Hibiya line",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        }
+      ],
+      "place_slugs": [
+        "pizza-marumo",
+        "ebisu-yokocho",
+        "bar-trench",
+        "bar-martha"
+      ],
+      "center": {
+        "lat": 35.6475,
+        "lng": 139.708625
+      },
+      "center_basis": "Mean of supplied place coordinates, not station position",
+      "count": 4
+    },
+    {
+      "code": "NAK",
+      "name": "Nakameguro / Daikanyama",
+      "station": "Daikanyama Sta",
+      "description": "Slow, pretty, design-y. Meguro River walk, Starbucks Reserve Roastery, Daikanyama T-Site and boutiques.",
+      "good_day": "Late morning to afternoon, weekdays calmer. Good Mon Nov 16 pre-flight slow morning.",
+      "pairs": [
+        {
+          "code": "SBY",
+          "name": "Shibuya",
+          "minutes": 3,
+          "description": "3 min Toyoko line",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "EBI",
+          "name": "Ebisu",
+          "minutes": 3,
+          "description": "3 min Hibiya line",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        }
+      ],
+      "place_slugs": [
+        "daikanyama-t-site",
+        "supreme-daikanyama",
+        "meguro-river-walk",
+        "starbucks-reserve-roastery-tokyo"
+      ],
+      "center": {
+        "lat": 35.64815,
+        "lng": 139.698575
+      },
+      "center_basis": "Mean of supplied place coordinates, not station position",
+      "count": 4
+    },
+    {
+      "code": "SHM",
+      "name": "Shimokitazawa",
+      "station": "Shimokitazawa Sta",
+      "description": "Thrift capital. Flamingo, New York Joe, vintage alleys, Reload, cafes. Everything inside 10 min of the station.",
+      "good_day": "Stores open ~11-12, don't come early. Weekday afternoons are easiest. Pairs with Koenji for a full thrift day.",
+      "pairs": [
+        {
+          "code": "SBY",
+          "name": "Shibuya",
+          "minutes": 5,
+          "description": "5 min Keio Inokashira",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "SHJ",
+          "name": "Shinjuku",
+          "minutes": 8,
+          "description": "8 min Odakyu",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "KOE",
+          "name": "Koenji",
+          "minutes": 20,
+          "description": "20 min via Shinjuku or Kichijoji",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        }
+      ],
+      "place_slugs": [
+        "recoco-shimokitazawa",
+        "flamingo-shimokitazawa",
+        "chicago-shimokitazawa",
+        "new-york-joe-exchange"
+      ],
+      "center": {
+        "lat": 35.661744,
+        "lng": 139.668259
+      },
+      "center_basis": "Mean of supplied place coordinates, not station position",
+      "count": 4
+    },
+    {
+      "code": "SHJ",
+      "name": "Shinjuku",
+      "station": "Shinjuku Sta (East exit)",
+      "description": "Night mode. Golden Gai, Omoide Yokocho, Kabukicho batting cages, Shinjuku Sumo Club, Park Hyatt New York Bar, Fuunji tsukemen.",
+      "good_day": "Night. Golden Gai bars open ~19-20, many cover charges. Batting center open to 04:00. Sumo show 17:30 or 20:00 slots lead nicely into Golden Gai.",
+      "pairs": [
+        {
+          "code": "KOE",
+          "name": "Koenji",
+          "minutes": 6,
+          "description": "6 min JR Chuo",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "HAR",
+          "name": "Harajuku / Omotesando / Aoyama",
+          "minutes": 4,
+          "description": "4 min JR",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "SBY",
+          "name": "Shibuya",
+          "minutes": 7,
+          "description": "7 min JR",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        }
+      ],
+      "place_slugs": [
+        "omoide-yokocho",
+        "bar-benfiddich",
+        "cafe-aaliya",
+        "golden-gai",
+        "godzilla-head-hotel-gracery",
+        "fuunji",
+        "shinjuku-batting-center",
+        "new-york-bar-park-hyatt-tokyo",
+        "shinjuku-sumo-club",
+        "ramen-afro-beats"
+      ],
+      "center": {
+        "lat": 35.69211,
+        "lng": 139.70204
+      },
+      "center_basis": "Mean of supplied place coordinates, not station position",
+      "count": 10
+    },
+    {
+      "code": "KOE",
+      "name": "Koenji",
+      "station": "Koenji Sta",
+      "description": "Rawer, cheaper thrift than Shimokita. Many vintage shops on the Look and Pal shotengai, plus izakaya.",
+      "good_day": "Afternoon (shops open noon-ish). JR Chuo rapid trains skip Koenji on weekends, take the local Chuo-Sobu line Sat/Sun.",
+      "pairs": [
+        {
+          "code": "SHJ",
+          "name": "Shinjuku",
+          "minutes": 6,
+          "description": "6 min JR Chuo",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "SHM",
+          "name": "Shimokitazawa",
+          "minutes": 20,
+          "description": "20 min",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        }
+      ],
+      "place_slugs": [
+        "whistler-koenji",
+        "safari-koenji",
+        "koenji-look-street-pal-arcade"
+      ],
+      "center": {
+        "lat": 35.7033,
+        "lng": 139.6499
+      },
+      "center_basis": "Mean of supplied place coordinates, not station position",
+      "count": 3
+    },
+    {
+      "code": "GIN",
+      "name": "Ginza / Nihonbashi",
+      "station": "Ginza Sta",
+      "description": "Polished. Ginza Kagari ramen, Uniqlo flagship, Dover Street Market, A&F, Hirakuza sumo dinner show, Nihonbashi Philly.",
+      "good_day": "Kagari: in line by 10:30 for 11:00, or 15:00-16:00. Nihonbashi Philly Mon-Fri 18:00-21:00 only (Wed 11, Thu 12, Fri 13, Mon 16). Hirakuza showtimes vary by date. Check calendar.",
+      "pairs": [
+        {
+          "code": "TSU",
+          "name": "Tsukiji",
+          "minutes": 3,
+          "description": "3 min Hibiya line or 12 min walk",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "TOR",
+          "name": "Roppongi / Toranomon",
+          "minutes": 6,
+          "description": "6 min Hibiya line",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "AKI",
+          "name": "Akihabara",
+          "minutes": 12,
+          "description": "12 min Hibiya line",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        }
+      ],
+      "place_slugs": [
+        "uniqlo-ginza-12-floors-uniqlo-tokyo",
+        "abercrombie-fitch-ginza",
+        "dover-street-market-ginza",
+        "ginza-kagari-main",
+        "hirakuza-ginza-sumo-live-restaurant",
+        "nihonbashi-philly-eagles-bar"
+      ],
+      "center": {
+        "lat": 35.673083,
+        "lng": 139.765683
+      },
+      "center_basis": "Mean of supplied place coordinates, not station position",
+      "count": 6
+    },
+    {
+      "code": "TSU",
+      "name": "Tsukiji",
+      "station": "Tsukiji / Tsukiji-shijo Sta",
+      "description": "Outer market grazing: tamagoyaki, tuna, oysters, Kitsuneya beef bowl.",
+      "good_day": "8:00-9:00, Thu Nov 12 or Fri Nov 13 best. Many stalls closed SUN and some WED (Nov 11 is a Wed, check the market calendar). Kitsuneya closed Sundays.",
+      "pairs": [
+        {
+          "code": "GIN",
+          "name": "Ginza / Nihonbashi",
+          "minutes": 3,
+          "description": "3 min Hibiya line or 12 min walk",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "TOY",
+          "name": "Toyosu",
+          "minutes": 15,
+          "description": "~15 min taxi",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        }
+      ],
+      "place_slugs": [
+        "tsukiji-outer-market",
+        "sushi-itadori-bekkan",
+        "kitsuneya",
+        "tsukiji-yamacho-tamagoyaki"
+      ],
+      "center": {
+        "lat": 35.665275,
+        "lng": 139.7706
+      },
+      "center_basis": "Mean of supplied place coordinates, not station position",
+      "count": 4
+    },
+    {
+      "code": "TOY",
+      "name": "Toyosu",
+      "station": "Shin-Toyosu / Shijo-mae Sta",
+      "description": "The new fish market, teamLab Planets, Manyo Club onsen, Senkyaku Banrai food hall.",
+      "good_day": "Market 5:30-6:30 for the auction walkway, closed SUN, holidays and most WED. teamLab evenings. Manyo Club is 24 hrs so it works after anything.",
+      "pairs": [
+        {
+          "code": "ODA",
+          "name": "Odaiba",
+          "minutes": 12,
+          "description": "12 min Yurikamome",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "TSU",
+          "name": "Tsukiji",
+          "minutes": 15,
+          "description": "~15 min taxi",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "GIN",
+          "name": "Ginza / Nihonbashi",
+          "minutes": 15,
+          "description": "15 min",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        }
+      ],
+      "place_slugs": [
+        "toyosu-market-tuna-auction",
+        "teamlab-planets",
+        "tokyo-toyosu-manyo-club-onsen"
+      ],
+      "center": {
+        "lat": 35.647033,
+        "lng": 139.786033
+      },
+      "center_basis": "Mean of supplied place coordinates, not station position",
+      "count": 3
+    },
+    {
+      "code": "ODA",
+      "name": "Odaiba",
+      "station": "Tokyo Teleport / Aomi Sta",
+      "description": "Bay side. Toyota Arena Tokyo (Alvark Tokyo basketball), Round1 DiverCity (bowling, Spo-cha), Gundam statue.",
+      "good_day": "Game nights: Wed Nov 11 19:05, SAT NOV 14 17:05, Mon Nov 16 19:05. Round1 open late (Sat 24 hrs) for after the game.",
+      "pairs": [
+        {
+          "code": "TOY",
+          "name": "Toyosu",
+          "minutes": 12,
+          "description": "12 min Yurikamome",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "SBY",
+          "name": "Shibuya",
+          "minutes": 25,
+          "description": "~25 min Saikyo/Rinkai through train to Tokyo Teleport",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "SHJ",
+          "name": "Shinjuku",
+          "minutes": 25,
+          "description": "~25 min Saikyo/Rinkai",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        }
+      ],
+      "place_slugs": [
+        "alvark-tokyo-b-league-at-toyota-arena-tokyo",
+        "round1-stadium-divercity-tokyo-plaza"
+      ],
+      "center": {
+        "lat": 35.62475,
+        "lng": 139.77725
+      },
+      "center_basis": "Mean of supplied place coordinates, not station position",
+      "count": 2
+    },
+    {
+      "code": "ASA",
+      "name": "Asakusa",
+      "station": "Asakusa Sta",
+      "description": "Old Tokyo. Senso-ji, Nakamise snacks, kimono + tea, Asakusa Sumo Club, Skytree across the river.",
+      "good_day": "Senso-ji at 7:00-8:30 before tour groups (grounds always open, main hall from 6:30 Oct-Mar). Nakamise shops ~10:00-17:00. Sumo Club 12:00 slot after a morning at Senso-ji.",
+      "pairs": [
+        {
+          "code": "AKI",
+          "name": "Akihabara",
+          "minutes": 15,
+          "description": "~15 min",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "GIN",
+          "name": "Ginza / Nihonbashi",
+          "minutes": 18,
+          "description": "18 min Ginza line",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        }
+      ],
+      "place_slugs": [
+        "nakamise-dori",
+        "hanayaka-kimono-tea-ceremony",
+        "senso-ji-kaminarimon",
+        "asakusa-sumo-club",
+        "tokyo-skytree"
+      ],
+      "center": {
+        "lat": 35.71304,
+        "lng": 139.79868
+      },
+      "center_basis": "Mean of supplied place coordinates, not station position",
+      "count": 5
+    },
+    {
+      "code": "AKI",
+      "name": "Akihabara",
+      "station": "Akihabara Sta",
+      "description": "Arcades (GiGO), retro games, anime. Street Kart Akihabara loop goes past Tokyo Station and Ginza.",
+      "good_day": "Afternoon into night. Shops open ~10-11. Street Kart in the evening for neon.",
+      "pairs": [
+        {
+          "code": "DOM",
+          "name": "Tokyo Dome / Suidobashi",
+          "minutes": 6,
+          "description": "6 min JR Chuo-Sobu",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "ASA",
+          "name": "Asakusa",
+          "minutes": 15,
+          "description": "~15 min",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "GIN",
+          "name": "Ginza / Nihonbashi",
+          "minutes": 12,
+          "description": "12 min Hibiya line",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        }
+      ],
+      "place_slugs": [
+        "radio-kaikan",
+        "gigo-akihabara-arcades",
+        "super-potato-akihabara",
+        "mandarake-complex",
+        "street-kart-akihabara",
+        "hareruya2-akihabara-tower"
+      ],
+      "center": {
+        "lat": 35.699217,
+        "lng": 139.771583
+      },
+      "center_basis": "Mean of supplied place coordinates, not station position",
+      "count": 6
+    },
+    {
+      "code": "DOM",
+      "name": "Tokyo Dome / Suidobashi",
+      "station": "Suidobashi / Korakuen Sta",
+      "description": "Fight night + spa. Korakuen Hall (wrestling/kickboxing) and Spa LaQua in the same Tokyo Dome City complex.",
+      "good_day": "Fri Nov 13 18:30 FREEDOMS, Sat Nov 14 18:00 NEXUS MANIA, Sun Nov 15 All Japan Pro Wrestling. Spa LaQua after (night rate after 19:00, open to 09:00).",
+      "pairs": [
+        {
+          "code": "AKI",
+          "name": "Akihabara",
+          "minutes": 6,
+          "description": "6 min JR Chuo-Sobu",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "SHJ",
+          "name": "Shinjuku",
+          "minutes": 15,
+          "description": "15 min JR Chuo-Sobu",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "KOE",
+          "name": "Koenji",
+          "minutes": 17,
+          "description": "17 min",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        }
+      ],
+      "place_slugs": [
+        "korakuen-hall-boxing-pro-wrestling",
+        "spa-laqua-tokyo-dome"
+      ],
+      "center": {
+        "lat": 35.70625,
+        "lng": 139.753
+      },
+      "center_basis": "Mean of supplied place coordinates, not station position",
+      "count": 2
+    },
+    {
+      "code": "TOR",
+      "name": "Roppongi / Toranomon",
+      "station": "Toranomon Hills Sta",
+      "description": "Andaz Tokyo rooftop bar, skyline views.",
+      "good_day": "Sunset to late. One-stop add-on to a Ginza or Ebisu night.",
+      "pairs": [
+        {
+          "code": "GIN",
+          "name": "Ginza / Nihonbashi",
+          "minutes": 6,
+          "description": "6 min Hibiya line",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        },
+        {
+          "code": "EBI",
+          "name": "Ebisu",
+          "minutes": 8,
+          "description": "8 min Hibiya line",
+          "source_note": "Pair text may quote a different route from matrix. Times are estimates."
+        }
+      ],
+      "place_slugs": [
+        "andaz-tokyo-rooftop-bar"
+      ],
+      "center": {
+        "lat": 35.6668,
+        "lng": 139.7496
+      },
+      "center_basis": "Mean of supplied place coordinates, not station position",
+      "count": 1
+    }
+  ],
+  "codes": [
+    "SBY",
+    "HAR",
+    "EBI",
+    "NAK",
+    "SHM",
+    "SHJ",
+    "KOE",
+    "GIN",
+    "TSU",
+    "TOY",
+    "ODA",
+    "ASA",
+    "AKI",
+    "DOM",
+    "TOR"
+  ],
+  "matrix": {
+    "SBY": {
+      "SBY": 0,
+      "HAR": 3,
+      "EBI": 2,
+      "NAK": 3,
+      "SHM": 5,
+      "SHJ": 7,
+      "KOE": 15,
+      "GIN": 16,
+      "TSU": 25,
+      "TOY": 35,
+      "ODA": 25,
+      "ASA": 32,
+      "AKI": 25,
+      "DOM": 25,
+      "TOR": 15
+    },
+    "HAR": {
+      "SBY": 3,
+      "HAR": 0,
+      "EBI": 6,
+      "NAK": 12,
+      "SHM": 15,
+      "SHJ": 4,
+      "KOE": 15,
+      "GIN": 12,
+      "TSU": 22,
+      "TOY": 35,
+      "ODA": 32,
+      "ASA": 30,
+      "AKI": 25,
+      "DOM": 22,
+      "TOR": 12
+    },
+    "EBI": {
+      "SBY": 2,
+      "HAR": 6,
+      "EBI": 0,
+      "NAK": 3,
+      "SHM": 10,
+      "SHJ": 10,
+      "KOE": 20,
+      "GIN": 13,
+      "TSU": 15,
+      "TOY": 30,
+      "ODA": 20,
+      "ASA": 35,
+      "AKI": 22,
+      "DOM": 25,
+      "TOR": 8
+    },
+    "NAK": {
+      "SBY": 3,
+      "HAR": 12,
+      "EBI": 3,
+      "NAK": 0,
+      "SHM": 15,
+      "SHJ": 15,
+      "KOE": 30,
+      "GIN": 15,
+      "TSU": 17,
+      "TOY": 35,
+      "ODA": 30,
+      "ASA": 40,
+      "AKI": 25,
+      "DOM": 30,
+      "TOR": 10
+    },
+    "SHM": {
+      "SBY": 5,
+      "HAR": 15,
+      "EBI": 10,
+      "NAK": 15,
+      "SHM": 0,
+      "SHJ": 8,
+      "KOE": 20,
+      "GIN": 30,
+      "TSU": 35,
+      "TOY": 45,
+      "ODA": 40,
+      "ASA": 45,
+      "AKI": 35,
+      "DOM": 30,
+      "TOR": 25
+    },
+    "SHJ": {
+      "SBY": 7,
+      "HAR": 4,
+      "EBI": 10,
+      "NAK": 15,
+      "SHM": 8,
+      "SHJ": 0,
+      "KOE": 6,
+      "GIN": 18,
+      "TSU": 25,
+      "TOY": 35,
+      "ODA": 25,
+      "ASA": 30,
+      "AKI": 18,
+      "DOM": 15,
+      "TOR": 20
+    },
+    "KOE": {
+      "SBY": 15,
+      "HAR": 15,
+      "EBI": 20,
+      "NAK": 30,
+      "SHM": 20,
+      "SHJ": 6,
+      "KOE": 0,
+      "GIN": 30,
+      "TSU": 35,
+      "TOY": 45,
+      "ODA": 45,
+      "ASA": 40,
+      "AKI": 20,
+      "DOM": 17,
+      "TOR": 30
+    },
+    "GIN": {
+      "SBY": 16,
+      "HAR": 12,
+      "EBI": 13,
+      "NAK": 15,
+      "SHM": 30,
+      "SHJ": 18,
+      "KOE": 30,
+      "GIN": 0,
+      "TSU": 3,
+      "TOY": 15,
+      "ODA": 22,
+      "ASA": 18,
+      "AKI": 12,
+      "DOM": 15,
+      "TOR": 6
+    },
+    "TSU": {
+      "SBY": 25,
+      "HAR": 22,
+      "EBI": 15,
+      "NAK": 17,
+      "SHM": 35,
+      "SHJ": 25,
+      "KOE": 35,
+      "GIN": 3,
+      "TSU": 0,
+      "TOY": 15,
+      "ODA": 25,
+      "ASA": 25,
+      "AKI": 12,
+      "DOM": 20,
+      "TOR": 8
+    },
+    "TOY": {
+      "SBY": 35,
+      "HAR": 35,
+      "EBI": 30,
+      "NAK": 35,
+      "SHM": 45,
+      "SHJ": 35,
+      "KOE": 45,
+      "GIN": 15,
+      "TSU": 15,
+      "TOY": 0,
+      "ODA": 12,
+      "ASA": 35,
+      "AKI": 30,
+      "DOM": 30,
+      "TOR": 25
+    },
+    "ODA": {
+      "SBY": 25,
+      "HAR": 32,
+      "EBI": 20,
+      "NAK": 30,
+      "SHM": 40,
+      "SHJ": 25,
+      "KOE": 45,
+      "GIN": 22,
+      "TSU": 25,
+      "TOY": 12,
+      "ODA": 0,
+      "ASA": 40,
+      "AKI": 35,
+      "DOM": 35,
+      "TOR": 30
+    },
+    "ASA": {
+      "SBY": 32,
+      "HAR": 30,
+      "EBI": 35,
+      "NAK": 40,
+      "SHM": 45,
+      "SHJ": 30,
+      "KOE": 40,
+      "GIN": 18,
+      "TSU": 25,
+      "TOY": 35,
+      "ODA": 40,
+      "ASA": 0,
+      "AKI": 15,
+      "DOM": 22,
+      "TOR": 30
+    },
+    "AKI": {
+      "SBY": 25,
+      "HAR": 25,
+      "EBI": 22,
+      "NAK": 25,
+      "SHM": 35,
+      "SHJ": 18,
+      "KOE": 20,
+      "GIN": 12,
+      "TSU": 12,
+      "TOY": 30,
+      "ODA": 35,
+      "ASA": 15,
+      "AKI": 0,
+      "DOM": 6,
+      "TOR": 20
+    },
+    "DOM": {
+      "SBY": 25,
+      "HAR": 22,
+      "EBI": 25,
+      "NAK": 30,
+      "SHM": 30,
+      "SHJ": 15,
+      "KOE": 17,
+      "GIN": 15,
+      "TSU": 20,
+      "TOY": 30,
+      "ODA": 35,
+      "ASA": 22,
+      "AKI": 6,
+      "DOM": 0,
+      "TOR": 25
+    },
+    "TOR": {
+      "SBY": 15,
+      "HAR": 12,
+      "EBI": 8,
+      "NAK": 10,
+      "SHM": 25,
+      "SHJ": 20,
+      "KOE": 30,
+      "GIN": 6,
+      "TSU": 8,
+      "TOY": 25,
+      "ODA": 30,
+      "ASA": 30,
+      "AKI": 20,
+      "DOM": 25,
+      "TOR": 0
+    }
+  },
+  "matrix_note": "Typical source estimates, not live routes. Add 5-10 minutes for platforms and walking. Tsukiji-Toyosu source pair uses taxi, not train. Confirm in Google Maps.",
+  "trip_days": [
+    {
+      "date": "2026-11-11",
+      "weekday": "Wed",
+      "label": "Light arrival day",
+      "morning_only": false,
+      "light_day": true
+    },
+    {
+      "date": "2026-11-12",
+      "weekday": "Thu",
+      "label": "One anchor area + one neighbor",
+      "morning_only": false,
+      "light_day": false
+    },
+    {
+      "date": "2026-11-13",
+      "weekday": "Fri",
+      "label": "One anchor area + one neighbor",
+      "morning_only": false,
+      "light_day": false
+    },
+    {
+      "date": "2026-11-14",
+      "weekday": "Sat",
+      "label": "One anchor area + one neighbor",
+      "morning_only": false,
+      "light_day": false
+    },
+    {
+      "date": "2026-11-15",
+      "weekday": "Sun",
+      "label": "One anchor area + one neighbor",
+      "morning_only": false,
+      "light_day": false
+    },
+    {
+      "date": "2026-11-16",
+      "weekday": "Mon",
+      "label": "Morning only. Departure day",
+      "morning_only": true,
+      "light_day": false
+    }
+  ],
+  "off_map": {
+    "code": "OFF",
+    "name": "Day trip / night tour",
+    "station": "Pickup varies",
+    "description": "Daikoku PA JDM night tour (pickup near Shibuya Crossing).",
+    "good_day": "Fri or Sat night is the busiest car meet energy. Car scene is weather and police dependent.",
+    "pairs": [],
+    "place_slugs": [
+      "luis-jdm-experience-daikoku-pa-night-tour"
+    ],
+    "center": {
+      "lat": 35.463,
+      "lng": 139.678
+    },
+    "center_basis": "Mean of supplied place coordinates, not station position",
+    "count": 1
+  },
+  "source": "sections.md, supplied 2026-10-26",
+  "verified_on": "2026-10-27",
+  "verification_scope": "Structural validation only. Travel times are supplied estimates."
+}

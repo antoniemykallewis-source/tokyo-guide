@@ -1,0 +1,578 @@
+{
+  "updated": "2026-10-27",
+  "timezone_note": "Times in confirmation are JST. Windows note PT where relevant.",
+  "items": [
+    {
+      "slug": "international-driving-permit",
+      "name": "International Driving Permit (AAA) for Street Kart",
+      "area": "Before you fly",
+      "category": "Prerequisite",
+      "booking_url": "https://www.aaa.com/vacation/idpf.html",
+      "booking_window": "DO FIRST for US-license holders. Obtain a paper 1949 Geneva IDP through AAA before travel. Bring the original IDP, home license and passport. Other license countries have different document routes. Confirm with the operator before paying.",
+      "booking_status": "need_to_book",
+      "booking_priority": 0,
+      "official_url": "https://www.aaa.com/vacation/idpf.html",
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "OFF",
+      "events": [],
+      "verification_source": "https://streetkart.com/en/agreement_akihabara2.html"
+    },
+    {
+      "slug": "shibuya-sky",
+      "name": "Shibuya Sky",
+      "area": "Shibuya",
+      "category": "Sights",
+      "booking_url": "https://www.shibuya-scramble-square.com/sky/ticket/",
+      "booking_window": "Online tickets open 00:00 JST exactly 2 weeks before. Nov 13 slot opens Oct 30 00:00 JST = Oct 29 8:00 AM PT. Nov 14 slot = Oct 30 8:00 AM PT. Nov 15 = Oct 31 8:00 AM PT.",
+      "booking_status": "need_to_book",
+      "booking_priority": 1,
+      "official_url": "https://www.shibuya-scramble-square.com/sky/",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=SHIBUYA%20SKY%20Shibuya%20Scramble%20Square",
+      "hours": "10:00-22:30",
+      "booking_url_check": 200,
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "SBY",
+      "events": [],
+      "release_windows": [
+        {
+          "visit_date": "2026-11-11",
+          "opens_at": "2026-10-28T00:00:00+09:00"
+        },
+        {
+          "visit_date": "2026-11-12",
+          "opens_at": "2026-10-29T00:00:00+09:00"
+        },
+        {
+          "visit_date": "2026-11-13",
+          "opens_at": "2026-10-30T00:00:00+09:00"
+        },
+        {
+          "visit_date": "2026-11-14",
+          "opens_at": "2026-10-31T00:00:00+09:00"
+        },
+        {
+          "visit_date": "2026-11-15",
+          "opens_at": "2026-11-01T00:00:00+09:00"
+        },
+        {
+          "visit_date": "2026-11-16",
+          "opens_at": "2026-11-02T00:00:00+09:00"
+        }
+      ],
+      "release_note": "Exact midnight release time is source-provided. Official page confirms the two-week sales window. Confirm live ticketing."
+    },
+    {
+      "slug": "hikiniku-to-kome-shibuya",
+      "name": "Hikiniku to Kome (Shibuya)",
+      "area": "Shibuya",
+      "category": "Food",
+      "booking_url": "https://hikinikutocome.com/en/visit/shibuya/",
+      "booking_window": "Advance Priority Ticket (JPY 1,000/seat) bookable 8 days to 2 months ahead: open now for Nov 12-16. Closed Wed.",
+      "booking_status": "need_to_book",
+      "booking_priority": 2,
+      "official_url": "https://hikinikutocome.com/en/visit/shibuya/",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%8C%BD%E8%82%89%E3%81%A8%E7%B1%B3%20%E6%B8%8B%E8%B0%B7%20%E9%81%93%E7%8E%84%E5%9D%822-28-1",
+      "hours": "11:00-15:00, 17:00-21:00; closed Wed",
+      "booking_url_check": 200,
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "SBY",
+      "events": []
+    },
+    {
+      "slug": "street-kart-shibuya-annex-mario-kart-style",
+      "name": "STREET KART Shibuya Annex (Mario Kart style)",
+      "area": "Shibuya",
+      "category": "Activities/Sports",
+      "booking_url": "https://akihabara.streetkart.com/en/booking_shibuya2.html",
+      "booking_window": "Open now. Book once IDP is in hand (get from AAA before flying).",
+      "booking_status": "need_to_book",
+      "booking_priority": 3,
+      "official_url": "https://akihabara.streetkart.com/en/booking_shibuya2.html",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=STREET%20KART%20Shibuya%20Annex%20%E5%86%86%E5%B1%B1%E7%94%BA10-11",
+      "hours": "",
+      "booking_url_check": 200,
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "SBY",
+      "events": []
+    },
+    {
+      "slug": "street-kart-akihabara",
+      "name": "STREET KART Akihabara",
+      "area": "Akihabara",
+      "category": "Activities/Sports",
+      "booking_url": "https://streetkart.tokyo/en/",
+      "booking_window": "Open now. IDP required.",
+      "booking_status": "need_to_book",
+      "booking_priority": 3,
+      "official_url": "https://streetkart.tokyo/en/",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=STREET%20KART%20Akihabara%201",
+      "hours": "10:00-22:00",
+      "booking_url_check": 200,
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "AKI",
+      "events": []
+    },
+    {
+      "slug": "yoroniku",
+      "name": "Yoroniku",
+      "area": "Harajuku / Omotesando / Aoyama",
+      "category": "Food",
+      "booking_url": "https://omakase.in/en/r/xd706837",
+      "booking_window": "OMAKASE lists dates through Dec 31 2026; seats scarce, check daily for cancellations.",
+      "booking_status": "need_to_book",
+      "booking_priority": 4,
+      "official_url": "https://omakase.in/en/r/xd706837",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Yoroniku%20Minami%20Aoyama",
+      "hours": "",
+      "booking_url_check": 403,
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "HAR",
+      "events": []
+    },
+    {
+      "slug": "pizza-marumo",
+      "name": "Pizza Marumo",
+      "area": "Ebisu",
+      "category": "Food",
+      "booking_url": "https://www.tablecheck.com/ja/shops/pizza-marumo/reserve",
+      "booking_window": "TableCheck, up to 2 months ahead: open now.",
+      "booking_status": "need_to_book",
+      "booking_priority": 4,
+      "official_url": "https://pizza-marumo.com/",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=pizza%20marumo%20%E6%81%B5%E6%AF%94%E5%AF%BF%E5%8D%971-11-13",
+      "hours": "11:30-15:00, 17:00-23:00",
+      "booking_url_check": 200,
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "EBI",
+      "events": []
+    },
+    {
+      "slug": "bar-benfiddich",
+      "name": "Bar BenFiddich",
+      "area": "Shinjuku",
+      "category": "Bars",
+      "booking_url": "https://benfiddich.tokyo/",
+      "booking_window": "November bookings opened Oct 20 via TableCheck (19:00/21:00/23:00 slots). Check now.",
+      "booking_status": "need_to_book",
+      "booking_priority": 5,
+      "official_url": "https://benfiddich.tokyo/",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=BenFiddich%20Nishi-Shinjuku",
+      "hours": "",
+      "booking_url_check": 200,
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "SHJ",
+      "events": []
+    },
+    {
+      "slug": "luis-jdm-experience-daikoku-pa-night-tour",
+      "name": "Luis JDM Experience (Daikoku PA night tour)",
+      "area": "Day trip / night tour",
+      "category": "Activities/Sports",
+      "booking_url": "https://www.getyourguide.com/tokyo-l193/daikoku-pa-jdm-tour-fast-furious-t1136242/",
+      "booking_window": "Open now. Weekend nights fill first.",
+      "booking_status": "need_to_book",
+      "booking_priority": 5,
+      "official_url": "https://www.getyourguide.com/tokyo-l193/daikoku-pa-jdm-tour-fast-furious-t1136242/",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Daikoku%20Parking%20Area",
+      "hours": "",
+      "booking_url_check": 200,
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "OFF",
+      "events": []
+    },
+    {
+      "slug": "alvark-tokyo-b-league-at-toyota-arena-tokyo",
+      "name": "Alvark Tokyo (B.League) at TOYOTA ARENA TOKYO",
+      "area": "Odaiba",
+      "category": "Activities/Sports",
+      "booking_url": "https://www.alvark-tokyo.jp/schedule/list/?month=11&scheduledate=upcoming&year=2026",
+      "booking_window": "Tickets on sale now (Nov 11, 14, 16 home games).",
+      "booking_status": "need_to_book",
+      "booking_priority": 5,
+      "official_url": "https://www.alvark-tokyo.jp/schedule/list/?month=11&scheduledate=upcoming&year=2026",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=TOYOTA%20ARENA%20TOKYO%20%E9%9D%92%E6%B5%B71-3-1",
+      "hours": "",
+      "booking_url_check": 200,
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "ODA",
+      "events": [
+        {
+          "date": "2026-11-11",
+          "time": "19:05",
+          "name": "Alvark vs Nagasaki",
+          "source": "https://www.alvark-tokyo.jp/?lang=en"
+        },
+        {
+          "date": "2026-11-14",
+          "time": "17:05",
+          "name": "Alvark vs Hiroshima",
+          "source": "https://www.alvark-tokyo.jp/?lang=en"
+        },
+        {
+          "date": "2026-11-16",
+          "time": "19:05",
+          "name": "Alvark vs Kobe",
+          "source": "https://www.alvark-tokyo.jp/?lang=en"
+        }
+      ]
+    },
+    {
+      "slug": "the-sg-club",
+      "name": "The SG Club",
+      "area": "Shibuya",
+      "category": "Bars",
+      "booking_url": "https://www.tablecheck.com/en/shops/the-sg-club/reserve",
+      "booking_window": "TableCheck for Sip (18:00 / 19:30). Open now.",
+      "booking_status": "need_to_book",
+      "booking_priority": 6,
+      "official_url": "https://www.tablecheck.com/en/shops/the-sg-club/reserve",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=The%20SG%20Club%20Shibuya",
+      "hours": "18:00-01:00",
+      "booking_url_check": 200,
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "SBY",
+      "events": []
+    },
+    {
+      "slug": "teamlab-planets",
+      "name": "teamLab Planets",
+      "area": "Toyosu",
+      "category": "Activities/Sports",
+      "booking_url": "https://www.teamlab.art/e/planets/",
+      "booking_window": "Online only, dated tickets. Open now; evenings sell first on weekends.",
+      "booking_status": "need_to_book",
+      "booking_priority": 6,
+      "official_url": "https://www.teamlab.art/e/planets/",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=teamLab%20Planets%20TOKYO",
+      "hours": "",
+      "booking_url_check": 200,
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "TOY",
+      "events": []
+    },
+    {
+      "slug": "asakusa-sumo-club",
+      "name": "Asakusa Sumo Club",
+      "area": "Asakusa",
+      "category": "Activities/Sports",
+      "booking_url": "https://asakusa-sumo.com/reserve/",
+      "booking_window": "Open now.",
+      "booking_status": "need_to_book",
+      "booking_priority": 6,
+      "official_url": "https://asakusa-sumo.com/reserve/",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Asakusa%20Sumo%20Club%20%E6%B5%85%E8%8D%892-10-12",
+      "hours": "",
+      "booking_url_check": 200,
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "ASA",
+      "events": []
+    },
+    {
+      "slug": "hirakuza-ginza-sumo-live-restaurant",
+      "name": "HIRAKUZA Ginza (sumo live restaurant)",
+      "area": "Ginza / Nihonbashi",
+      "category": "Activities/Sports",
+      "booking_url": "https://ars-hirakuzat.triplabo.com/home?lang=en",
+      "booking_window": "Book only when sure. Cancellation is 50% at 7-20 days before the show, 100% at 6 days or less. Confirm the dated show calendar.",
+      "booking_status": "need_to_book",
+      "booking_priority": 6,
+      "official_url": "https://hirakuza.net/tokyo/",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=HIRAKUZA%20GINZA%20%E9%8A%80%E5%BA%A71-9-13",
+      "hours": "",
+      "booking_url_check": 200,
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "GIN",
+      "events": [],
+      "cancellation_policy": {
+        "free_days_before": 21,
+        "half_fee_days_before": [
+          7,
+          20
+        ],
+        "full_fee_days_before": [
+          0,
+          6
+        ],
+        "source": "https://hirakuza.net/sumolp2/assets/pdf/hirakuza_GINZA_terms_of_use_en.pdf"
+      }
+    },
+    {
+      "slug": "chermside-sandwich-harajuku",
+      "name": "CHERMSIDE SANDWICH Harajuku",
+      "area": "Harajuku / Omotesando / Aoyama",
+      "category": "Food",
+      "booking_url": "https://www.tablecheck.com/he/chermside-sandwich-harajuku-2nd/reserve/message",
+      "booking_window": "2nd store on TableCheck. Open now.",
+      "booking_status": "need_to_book",
+      "booking_priority": 7,
+      "official_url": "https://goharajuku.com/jp/shop/sandwich-and-cafe-chermside-sandwich-harajuku-takeshita-dori",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=CHERMSIDE%20SANDWICH%20Harajuku%20%E7%A5%9E%E5%AE%AE%E5%89%8D1-6-8",
+      "hours": "11:00-19:30",
+      "booking_url_check": 200,
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "HAR",
+      "events": []
+    },
+    {
+      "slug": "hanayaka-kimono-tea-ceremony",
+      "name": "HANAYAKA kimono + tea ceremony",
+      "area": "Asakusa",
+      "category": "Activities/Sports",
+      "booking_url": "http://hanayaka.shop/en/plan/",
+      "booking_window": "Open now.",
+      "booking_status": "need_to_book",
+      "booking_priority": 7,
+      "official_url": "https://hanayakakimono.com/en/kimono-english-support-en/",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Kimono%20rental%20HANAYAKA%20Asakusa",
+      "hours": "",
+      "booking_url_check": "ERR TimeoutError",
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "ASA",
+      "events": []
+    },
+    {
+      "slug": "shinjuku-sumo-club",
+      "name": "Shinjuku Sumo Club",
+      "area": "Shinjuku",
+      "category": "Activities/Sports",
+      "booking_url": "https://www.klook.com/en-US/activity/174180-tokyo-shinjuku-sumo-show-with-drinks-and-photo/",
+      "booking_window": "Open now, free cancel 24 hrs.",
+      "booking_status": "need_to_book",
+      "booking_priority": 7,
+      "official_url": "https://www.klook.com/en-US/activity/174180-tokyo-shinjuku-sumo-show-with-drinks-and-photo/",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Shinjuku%20Sumo%20Club%20%E5%A4%A7%E4%B9%85%E4%BF%9D2-5-22",
+      "hours": "",
+      "booking_url_check": 403,
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "SHJ",
+      "events": []
+    },
+    {
+      "slug": "72tokyo-shibuya-golf-simulator-bar",
+      "name": "72TOKYO Shibuya (golf simulator + bar)",
+      "area": "Shibuya",
+      "category": "Activities/Sports",
+      "booking_url": "https://72tokyo-shibuya.com/price/",
+      "booking_window": "Book via their LINE.",
+      "booking_status": "need_to_book",
+      "booking_priority": 8,
+      "official_url": "https://72tokyo-shibuya.com/price/",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=72TOKYO%20SHIBUYA%20%E5%AE%87%E7%94%B0%E5%B7%9D%E7%94%BA11-2",
+      "hours": "",
+      "booking_url_check": 200,
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "SBY",
+      "events": []
+    },
+    {
+      "slug": "korakuen-hall-boxing-pro-wrestling",
+      "name": "Korakuen Hall (boxing / pro wrestling)",
+      "area": "Tokyo Dome / Suidobashi",
+      "category": "Activities/Sports",
+      "booking_url": "https://www.tokyo-dome.co.jp/hall/",
+      "booking_window": "Each organizer sells its own tickets. FREEDOMS: Nov 13 18:30. NEXUS MANIA: Nov 14 18:00. All Japan: Nov 15 11:30. Check availability.",
+      "booking_status": "need_to_book",
+      "booking_priority": 8,
+      "official_url": "https://www.tokyo-dome.co.jp/hall/",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Korakuen%20Hall",
+      "hours": "",
+      "booking_url_check": 200,
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "DOM",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "time": "18:30",
+          "name": "FREEDOMS",
+          "source": "https://www.pw-freedoms.co.jp/ticket_list.php"
+        },
+        {
+          "date": "2026-11-14",
+          "time": "18:00",
+          "name": "NEXUS MANIA",
+          "source": "https://fighting-nexus.net/schedule.php"
+        },
+        {
+          "date": "2026-11-15",
+          "time": "11:30",
+          "name": "All Japan Pro Wrestling",
+          "source": "https://www.all-japan.co.jp/events/9597/"
+        }
+      ]
+    }
+  ],
+  "optional_reservations": [
+    {
+      "slug": "c-la-vi-tokyo",
+      "name": "CÉ LA VI Tokyo",
+      "area": "Shibuya",
+      "booking_url": "https://www.celavi.com/en/tokyo/",
+      "booking_window": "Optional.",
+      "booking_status": "walk_in",
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "SBY",
+      "events": []
+    },
+    {
+      "slug": "tonkatsu-maisen-aoyama",
+      "name": "Tonkatsu Maisen Aoyama",
+      "area": "Harajuku / Omotesando / Aoyama",
+      "booking_url": "https://mai-sen.com/restaurant/",
+      "booking_window": "Weekday online reservations.",
+      "booking_status": "walk_in",
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "HAR",
+      "events": []
+    },
+    {
+      "slug": "new-york-bar-park-hyatt-tokyo",
+      "name": "New York Bar (Park Hyatt Tokyo)",
+      "area": "Shinjuku",
+      "booking_url": "https://restaurants.tokyo.park.hyatt.co.jp/en/",
+      "booking_window": "Optional; book a window table for sunset.",
+      "booking_status": "walk_in",
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "SHJ",
+      "events": []
+    },
+    {
+      "slug": "toyosu-market-tuna-auction",
+      "name": "Toyosu Market tuna auction",
+      "area": "Toyosu",
+      "booking_url": "https://toyosu.jcdlotterysite.jp/?lng=2",
+      "booking_window": "Deck lottery runs the month before; November window has likely closed. Free 2F walkway needs no booking.",
+      "booking_status": "walk_in",
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "TOY",
+      "events": []
+    },
+    {
+      "slug": "tokyo-skytree",
+      "name": "Tokyo Skytree",
+      "area": "Asakusa",
+      "booking_url": "https://www.tokyo-skytree.jp/en/",
+      "booking_window": "Optional dated ticket.",
+      "booking_status": "walk_in",
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "ASA",
+      "events": []
+    },
+    {
+      "slug": "andaz-tokyo-rooftop-bar",
+      "name": "Andaz Tokyo Rooftop Bar",
+      "area": "Roppongi / Toranomon",
+      "booking_url": "https://www.andaztokyo.jp/restaurants/en/special/operationhours",
+      "booking_window": "Optional via TableCheck.",
+      "booking_status": "walk_in",
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "TOR",
+      "events": []
+    },
+    {
+      "slug": "gold-s-gym-harajuku-tokyo",
+      "name": "Gold's Gym Harajuku Tokyo",
+      "area": "Harajuku / Omotesando / Aoyama",
+      "booking_url": "https://www.goldsgym.jp/shop/harajuku-tokyo/",
+      "booking_window": "Visitor approval needed; contact gym.",
+      "booking_status": "walk_in",
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "HAR",
+      "events": []
+    },
+    {
+      "slug": "the-bellwood",
+      "name": "The Bellwood",
+      "area": "Shibuya",
+      "booking_url": "https://tabelog.com/en/tokyo/A1303/A130301/13247129/",
+      "booking_window": "Optional, phone 03-6452-5077.",
+      "booking_status": "walk_in",
+      "confirmation": {
+        "date": "",
+        "time": ""
+      },
+      "cluster_code": "SBY",
+      "events": []
+    }
+  ],
+  "privacy_note": "Public data only. Never add confirmation numbers, party details, contact information or private booking notes to this repository.",
+  "source_updated": "2026-10-26",
+  "verification_note": "Source-provided shortlist with targeted checks. Not every price, hour or booking link has been independently reverified."
+}
